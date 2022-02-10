@@ -3892,8 +3892,8 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 .review-bg-red-border{
     position: relative;
 }
-    text-align: center;
 .red-border{
+    text-align: center;
     border: 7px solid #FBDDDD;
     border-radius: 25px;
     padding: 50px;
