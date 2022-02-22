@@ -1,23 +1,24 @@
 <?php
-    $phone = '8 (961) 326-11-57';
+    $phone = '8 (961) 326-11-89';
     $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
 ?>
 <?php include_once(__DIR__ . '/multi-regionality.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8/">
+    <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="yandex-verification" content="71149ceae4e3a8a8/">
-    <title>Займ под залог ПТС автомобиля <?=$in_city ?></title>
-    <meta name="description" content="Займ под залог ПТС автомобиля круглосуточно и без выходных <?=$in_city ?>"/>
+    <meta name="yandex-verification" content="71149ceae4e3a8a8"/>
+    <title>Автоломбард под залог ПТС в Ростове</title>
+    <meta name="description" content="Автоломбард под залог ПТС в Ростове"/>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
           integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <meta property="og:type" content="website/">
     <meta property="og:url" content=""/>
-    <meta property="og:locale" content="ru/">
+    <meta property="og:locale" content="ru"/>
     <link rel="stylesheet" href="css-web/common.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,296 +27,249 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Roboto+Condensed:wght@300;400;700&display=swap"
           rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.png"/>
-<script type="text/javascript" >
-   (function(m,e,t,r,i,k,a){m[i]=m[i]function(){(m[i].a=m[i].a[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(87391196, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/87391196" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <link rel="shortcut icon" href="images/icon/favicon.png"/>
 </head>
 <body>
+
 <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"></i></a>
 
-<div class="bgImageAvto">
-    <header class="header header-transparent">
+<div title="взять кредит в залог автомобиля" class="bgImageAvto">
+
+    <header class="header header-transparent ">
         <div class="header-top">
             <div class="container">
                 <div class="inner-header">
                     <a class="inner-brand" href="/">
-                        <img style="margin-top: -92px" src="./images/13.png" alt="logo">
+                        <img class="img-logo-top-onWhite " style="margin-top: -88px" src="./images/bg/moskovBg.png"
+                             alt="logo">
                     </a>
                 </div>
 
                 <div class="inner-navigation visible-on-wade">
                     <div class="inner-nav">
                         <div class="inner-block">
-                            <div class="city-wrapper city-wrapper-main">
-                                <div class="city-text">Выбрать регион</div>
-
-                            </div>
-
                             <div class="header-phone"><a href="tel:<?=$tel ?>"><?=$phone ?></a><br/></div>
 
-                            <button type="button" class="btn btn-line-red" data-toggle="modal"
-                                    data-target="#CallPhone-ver-2">Обратный звонок
+                            <button type="button" class="btn btn-line-red" data-toggle="modal" data-target="#CallPhone-ver-2"
+                            >
+                                Обратный звонок
                             </button>
 
-                            <button type="button" class="btn btn-danger" data-toggle="modal"
-                                    data-target="#CallPhone-ver-4">Оформить займ
+                            <button type="button" class="btn btn-danger" 
+                                    data-toggle="modal" data-target="#CallPhone-ver-4">Оформить займ
                             </button>
                         </div>
                     </div>
                 </div>
                 <div class="extra-nav">
                     <ul>
-                        <li class="icon-phone"><a href="tel:<?=$tel ?>"><span class="icon-item-span"></span></a>
-                        </li>
+                        <li class="icon-phone"><a href="tel:<?=$tel ?>"><span class="icon-item-span"></span></a></li>
                         <li>
-                            <a class="off-canvas-open" href="#"><span></span><span class="menu-item-span"></span></a>
+                            <a class="off-canvas-open" href="#"><span></span><span  class="menu-item-span"></span></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
-
     <main>
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="content-on-figure">
-                            <h1 class="h1"><span class="h1-span">Кредиты под залог ПТС </span><?=$in_city ?></h1>
+        <section class="overlay-background" style="background-image: url(images/p4298/bgmazda.pn);">
+        <div class="container responceHide">
+            <div class="row">
+                <div class="col-md-6 col-sm-7">
+                    <div class="header-form-block">
+                        <h1 class="h1"><span class="h1-span">Автоломбард под залог ПТС</span>в Ростове</h1>
 
-                            <ul class="list-ul-thin">
-                                <li>Ставка от 2% в мес.</li>
-                                <li>Сумма от 50 000 руб.</li>
-                                <li>Срок до 60 мес.</li>
-                                <li>Без комиссий</li>
-                                <li>Без кредитной истории</li>
-                            </ul>
-
-                            <button type="button" class="btn btn-danger" data-toggle="modal"
-                                    data-target="#CallPhone-ver-4">Оформить заявку
-                            </button>
+                        <div class="row">
+                            <div class="col-md-4 introduction">
+                                <div class="introduction-image">
+                                    <img style="width: 44px;" src="images/icon/p4298/icon_15.png" alt="icon" />
+                                </div>
+                                Ставка <span>от 2% в мес.</span>
+                            </div>
+                            <div class="col-md-4 introduction">
+                                <div class="introduction-image">
+                                    <img style="width: 44px;" src="images/icon/p4298/money-bag.png" alt="icon" />
+                                </div>
+                                Сумма <span>от 50 000 руб.</span>
+                            </div>
+                            <div class="col-md-4 introduction">
+                                <div class="introduction-image">
+                                    <img style="width: 44px;" src="images/icon/p4298/calendarRed.png" alt="icon" />
+                                </div>
+                                Срок займа <span>до 60 мес.</span>
+                            </div>
+                            <div class="col-md-4 introduction">
+                                <div class="introduction-image">
+                                    <img style="width: 44px;" src="images/icon/p4298/icon_40.png" alt="icon" />
+                                </div>
+                                Без кредитной истории
+                            </div>
+                            <div class="col-md-4 introduction">
+                                <div class="introduction-image">
+                                    <img style="width: 44px;" src="images/icon/p4298/icon_19.png" alt="icon" />
+                                </div>
+                                Без комиссий
+                            </div>
                         </div>
+
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">Оформить займ</button>
                     </div>
                 </div>
-            </div>
-        </section>
-</div>
-<section id="advantages-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-9 col-sm-7 bank">
-                <h3 class="h1"><span class="h1-span-red">Мы лояльнее </span>банков</h3>
-            </div>
-
-            <div class="col-xl-9 push-xl-2">
-                <div class="visible-on-wade visible-on-tablet">
-                    <ul class="get-list style-3">
-                        <li>
-                            <div class="get-item">
-                                <img class="get-item-img" src="images/p3897/electric-car (1).png"
-                                     alt="Автоломбард под залог ПТС">
-                                <p class="get-item-title">Автомобиль остается у Вас</p>
-                                <p class="get-item-text">После заключения договора, вы без ограничений продолжаете
-                                    использовать авто</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="get-item">
-                                <img class="get-item-img" src="images/p3897/icon_31.png"
-                                     alt="Автоломбард под залог ПТС">
-                                <p class="get-item-title">Кредитная история не имеет значения</p>
-                                <p class="get-item-text">Ваши долги не имеют значения, без поручителей и без справок о
-                                    доходах</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="get-item">
-                                <img class="get-item-img" src="images/p3897/icon_32.png"
-                                     alt="Автоломбард под залог ПТС">
-                                <p class="get-item-title">Требуется всего 3 документа</p>
-                                <p class="get-item-text">Для получения займа, вам понадобится только паспорт РФ, ПТС и
-                                    СТРС</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="get-item">
-                                <img class="get-item-img" src="images/p3897/icon_19.png"
-                                     alt="Автоломбард под залог ПТС">
-                                <p class="get-item-title">Нет комиссии при досрочном погашении</p>
-                                <p class="get-item-text">При досрочном погашении вы не платите никаких дополнительных
-                                    процентов</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="get-item">
-                                <img class="get-item-img" src="images/p3897/spravkiRed.png"
-                                     alt="Автоломбард под залог ПТС">
-                                <p class="get-item-title">Без записей в ПТС</p>
-                                <p class="get-item-text">При заключении договора займа и залога никаких записей в ПТС не
-                                    производится</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="visible-on-mobile">
-                    <div class="owl-carousel owl-theme advantages-1">
-                        <div class="get-item">
-                            <img class="get-item-img" src="images/p3897/electric-car (1).png"
-                                 alt="Автоломбард под залог ПТС">
-                            <p class="get-item-title">Автомобиль остается у Вас</p>
-                            <p class="get-item-text">После заключения договора, вы без ограничений продолжаете
-                                использовать авто</p>
-                        </div>
-                        <div class="get-item">
-                            <img class="get-item-img" src="images/p3897/icon_31.png" alt="Автоломбард под залог ПТС">
-                            <p class="get-item-title">Кредитная история не имеет значения</p>
-                            <p class="get-item-text">Ваши долги не имеют значения, без поручителей и без справок о
-                                доходах</p>
-                        </div>
-                        <div class="get-item">
-                            <img class="get-item-img" src="images/p3897/icon_32.png" alt="Автоломбард под залог ПТС">
-                            <p class="get-item-title">Требуется всего 3 документа</p>
-                            <p class="get-item-text">Для получения займа, вам понадобится только паспорт РФ, ПТС и
-                                СТРС</p>
-                        </div>
-                        <div class="get-item">
-                            <img class="get-item-img" src="images/p3897/icon_19.png" alt="Автоломбард под залог ПТС">
-                            <p class="get-item-title">Нет комиссии при досрочном погашении</p>
-                            <p class="get-item-text">При досрочном погашении вы не платите никаких дополнительных
-                                процентов</p>
-                        </div>
-                        <div class="get-item">
-                            <img class="get-item-img" src="images/p3897/spravkiRed.png" alt="Автоломбард под залог ПТС">
-                            <p class="get-item-title">Без записей в ПТС</p>
-                            <p class="get-item-text">При заключении договора займа и залога никаких записей в ПТС не
-                                производится</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="link-button"><a href="#" data-toggle="modal" data-target="#CallPhone-ver-4">Подать заявку
-                    <span class="arrow"></span></a></div>
 
             </div>
         </div>
-        <figure class="get-image"><img src="images/5000.png" alt="Автоломбард под залог ПТС"></figure>
-    </div>
+    </section>
+</div>
+
+ <section id="products">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <h3 class="h1"><span class="h1-span">Принимаем в залог любые </span>транспортные средства</h3>
+
+                        <div class="visible-on-wade visible-on-tablet">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="product-template-bg">
+                                        <div class="element-img grey" style="background-image: url(images/product/sedan.png);"></div>
+                                        <div class="element-title"><a href="#">Легковые авто</a></div>
+                                        <div class="element-text">Отечественные авто, иномарки</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="product-template-bg">
+                                        <div class="element-img grey" style="background-image: url(images/product/truck.png);"></div>
+                                        <div class="element-title"><a href="#">Грузовые авто</a></div>
+                                        <div class="element-text">Газели, тягачи, фуры</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="product-template-bg">
+                                        <div class="element-img grey" style="background-image: url(images/product/tractor.png);"></div>
+                                        <div class="element-title"><a href="#">Спецтехника</a></div>
+                                        <div class="element-text">Трактора, бульдозеры, погрузчики, краны</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                    <div class="product-template-bg">
+                                        <div class="element-img grey" style="background-image: url(images/product/motorbike.png);"></div>
+                                        <div class="element-title"><a href="#">Мототехника</a></div>
+                                        <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="visible-on-mobile">
+                            <div class="owl-carousel owl-theme product">
+                                <div class="product-template-bg">
+                                    <div class="element-img grey" style="background-image: url(images/product/sedan.png);"></div>
+                                    <div class="element-title"><a href="#">Легковые авто</a></div>
+                                    <div class="element-text">Отечественные авто, иномарки</div>
+                                </div>
+                                <div class="product-template-bg">
+                                    <div class="element-img grey" style="background-image: url(images/product/truck.png);"></div>
+                                    <div class="element-title"><a href="#">Грузовые авто</a></div>
+                                    <div class="element-text">Газели, тягачи, фуры</div>
+                                </div>
+                                <div class="product-template-bg">
+                                    <div class="element-img grey" style="background-image: url(images/product/tractor.png);"></div>
+                                    <div class="element-title"><a href="#">Спецтехника</a></div>
+                                    <div class="element-text">Трактора, бульдозеры, погрузчики, краны</div>
+                                </div>
+                                <div class="product-template-bg">
+                                    <div class="element-img grey" style="background-image: url(images/product/motorbike.png);"></div>
+                                    <div class="element-title"><a href="#">Мототехника</a></div>
+                                    <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
 </section>
-<section id="calculate-3-2-2">
+<section id="calculate-2-3-1">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="background-grey">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3 class="h1">
-                                <span class="h1-span">Калькулятор кредита</span>
-                            </h3>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="calculate-item">
-                                <h6>Необходимая сумма</h6>
-                                <div class="calculate-steps">
-                                    <div class="">
-                                        <span class="amount-value" id="amount-thousands-3"></span>
-                                        <span>₽</span>
-                                    </div>
-                                </div>
-                                <div class="calculate-steps">
-                                    <div class="steps-left for-thousands">30</div>
-                                    <div class="steps-right for-thousands">3000</div>
-                                </div>
-                                <div id="slider-range-thousands-3">
-                                    <span id="current-thousands-3"></span>
+                <h3 class="h1">
+                    <span class="h1-span">Калькулятор займа</span>
+                </h3>
+            </div>
+
+            <div id="calculator" class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="calculate-item">
+                            <h6>Необходимая сумма</h6>
+                            <div class="calculate-steps">
+                                <div class="">
+                                    <span class="amount-value" id="amount-thousands"></span>
+                                    <span>₽</span>
+                                    <span>тысяч</span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="calculate-item">
-                                <h6>Срок займа</h6>
-                                <div class="calculate-steps">
-                                    <div class="">
-                                        <span class="amount-value" id="amount-months-3"></span>
-                                        <span>мес.</span>
-                                    </div>
-                                </div>
-                                <div class="calculate-steps">
-                                    <div class="steps-left">2</div>
-                                    <div class="steps-right">60</div>
-                                </div>
-                                <div id="slider-range-months-3"></div>
+                            <div class="calculate-steps">
+                                <div class="steps-left for-thousands">30</div>
+                                <div class="steps-right for-thousands">3000</div>
+                            </div>
+                            <div id="slider-range-thousands">
+                                <span id="current-thousands">1000</span>
                             </div>
                         </div>
 
-                        <div class="col-md-4 col-sm-6">
-                            <div class="result-container">
-                                <h6>Ежемесячный платеж</h6>
-                                <form action="thanks.php" method="POST">
-
-                                    <input id="revenue-3" type="text"
-                                           class="form-control calculate-bottom-text-prices revenue"
-                                           name="Ежемесечный платеж" value="">
-
+                        <div class="calculate-item">
+                            <h6>Срок займа</h6>
+                            <div class="calculate-steps">
+                                <div class="">
+                                    <span class="amount-value" id="amount-months"></span>
+                                    <span>месяцев</span>
+                                </div>
                             </div>
+                            <div class="calculate-steps">
+                                <div class="steps-left">2</div>
+                                <div class="steps-right">60</div>
+                            </div>
+                            <div id="slider-range-months"></div>
                         </div>
-                        <div class="col-md-12 m-t-30">
-                            <h3>Контактные данные клиента</h3>
 
+                        <div class="result-container form-group">
+                            <h6>Ежемесячный платеж</h6>
+                            <input id="revenue" type="text" class="form-control calculate-bottom-text-prices revenue"
+                                   name="revenue" value="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <h3>Контактные данные клиента</h3>
+                        <form class="ajax_form" method="post" action="#/" onsubmit="">
                             <input type="hidden" name="_token" value=>
-                            <input type="hidden" value="" name="_token">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="form-group">
-                                        <label for="CalcName1">Ваше имя</label>
-                                        <span class="error"></span>
-                                        <input id="CalcName1" required type="text" class="form-control" name="Name"
-                                               placeholder="Как вас зовут">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="form-group">
-                                        <label for="CalcNumber">Телефон</label>
-                                        <span class="error"></span>
-                                        <input type="text" required class="form-control type-phone" id="CalcNumber1"
-                                               name="Phone" placeholder="+7 (ХХХ) ХХХ - ХХ - ХХ">
-                                    </div>
-                                </div>
-                                <div class="col-md-4 col-sm-6">
-                                    <div class="form-group">
-                                        <label for="CalcLive">Где Вы живёте</label>
-                                        <span class="error"></span>
-                                        <input type="text" required class="form-control" id="CalcNumber1" name="City"
-                                               placeholder="Местонахождениe">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <div class="calc-bottom">
-                                            <button type="submit" class="btn btn-danger">Подать заявку</button>
-                                        </div>
-                                    </div>
+                            <input type="hidden" value="" name=>
 
-                                    <div class="personal-data calc-bottom">Нажимая на кнопку, вы даёте своё согласие на
-                                        обработку ваших <a target="_blank" href="privacy-policy.pdf">персональных
-                                            данных</a>
-                                    </div>
-                                </div>
+                            <div class="form-group">
+                                <label for="CalcName">Ваше имя</label>
+                                <span class="error"></span>
+                                <input id="CalcName" required type="text" class="form-control" name="name"
+                                       placeholder="Как Вас зовут">
                             </div>
-                            </form>
-                        </div>
+                            <div class="form-group">
+                                <label for="CalcNumber">Телефон</label>
+                                <span class="error"></span>
+                                <input type="text" required class="form-control type-phone" id="CalcNumber" name="phone"
+                                       placeholder="+7 (ХХХ) ХХХ - ХХ - ХХ">
+                            </div>
+                            <div class="form-group">
+                                <label for="CalcNumber">Местонахождение</label>
+                                <span class="error"></span>
+                                <input type="text" required class="form-control " id="CalcNumber" name="city"
+                                       placeholder="Где Вы живёте">
+                            </div>
+                            <div class="personal-data">Нажимая на кнопку, вы даёте своё согласие на обработку ваших <a
+                                    target="_blank" href="#/storage/uploads/Lf/tw/Lftwg5FibcjG2gcSyPjlHarE.pdf">персональных
+                                данных</a>
+                            </div>
+                            <button type="submit" class="btn btn-danger">Подать заявку</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -328,38 +282,37 @@
             <div class="col-md-4 col-sm-12">
                 <div class="row">
                     <div class="col-md-12 col-sm-6">
-                        <h3 class="h1 m-t-image"><span class="h1-span"><span class="h1-span-red">Получение денег </span></span>под
+                        <h3 class="h1 m-t-image"><span class="h1-span"><span class="h1-span-red">Получение займа </span></span>под
                             залог ПТС</h3>
                     </div>
                     <div class="col-md-12 col-sm-6">
-                        <img class="m-t-image" src="images/p3897/bgkCar.png"
-                             alt="Автоломбард под залог ПТС  в Нижнем Новгороде"/>
+                        <img class="m-t-image" src="images/p4298/audi_1.png" alt="Автоломбард под залог ПТС"/>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-8 col-sm-12">
-                <ul class="switcher-3 gorizontal-pieces" id="switcher-loan-3">
+                <ul class="switcher gorizontal-pieces" id="switcher-loan-1">
                     <li class="for_opening_view selected" data-modal-id="paymentsGrafModal" id="express"
-                        data-show-3="one">
+                        data-show="one">
                         <div class="title-switch">Как получить займ</div>
                     </li>
-                    <li class="for_opening_view" data-modal-id="paymentsInfo" id="detailed" data-show-3="two">
+                    <li class="for_opening_view" data-modal-id="paymentsInfo" id="detailed" data-show="two">
                         <div class="title-switch">Что нужно для оформления займа</div>
                     </li>
-                    <li class="for_opening_view" data-modal-id="paymentsInfo" id="detailed" data-show-3="three">
+                    <li class="for_opening_view" data-modal-id="paymentsInfo" id="detailed" data-show="three">
                         <div class="title-switch">Оставьте заявку</div>
                     </li>
                 </ul>
 
-                <div class="switch-js-3">
-                    <div class="opening_view" data-switch-3="one">
+                <div class="switch-js">
+                    <div class="opening_view" data-switch="one">
                         <div class="visible-on-wade visible-on-tablet">
                             <div class="row">
                                 <div class="col-md-4 col-sm-4">
                                     <div class="list-icon-grey-item">
                                         <div class="list-icon-grey-item-img arrow-right"
-                                             style="background-image: url(images/p3897/icon_32.png);background-size: 50px"></div>
+                                             style="background-image: url(images/p4298/icon_41.png)"></div>
                                         <div class="list-icon-grey-item-title text">Оставьте заявку и получите одобрение
                                             по телефону
                                         </div>
@@ -368,7 +321,7 @@
                                 <div class="col-md-4 col-sm-4">
                                     <div class="list-icon-grey-item">
                                         <div class="list-icon-grey-item-img arrow-right"
-                                             style="background-image: url(images/p3897/icon_35.png);background-size: 50px"></div>
+                                             style="background-image: url(images/icon/icon_34.png);background-size:50px;"></div>
                                         <div class="list-icon-grey-item-title text">Приезжаете в офис для оценки авто и
                                             заключения договора
                                         </div>
@@ -377,7 +330,7 @@
                                 <div class="col-md-4 col-sm-4">
                                     <div class="list-icon-grey-item">
                                         <div class="list-icon-grey-item-img"
-                                             style="background-image: url(images/p3897/icon_23.png);background-size: 50px"></div>
+                                             style="background-image: url(images/p4298/moneyRedb.png);background-size:50px;"></div>
                                         <div class="list-icon-grey-item-title text">Получаете деньги и продолжаете
                                             пользоваться своим авто
                                         </div>
@@ -390,7 +343,7 @@
                                 <div class="col-md-4 col-sm-4">
                                     <div class="list-icon-grey-item">
                                         <div class="list-icon-grey-item-img arrow-right"
-                                             style="background-image: url(images/p3897/icon_32.png);background-size: 50px"></div>
+                                             style="background-image: url(images/p4298/icon_41.png)"></div>
                                         <div class="list-icon-grey-item-title text">Оставьте заявку и получите одобрение
                                             по телефону
                                         </div>
@@ -399,7 +352,7 @@
                                 <div class="col-md-4 col-sm-4">
                                     <div class="list-icon-grey-item">
                                         <div class="list-icon-grey-item-img arrow-right"
-                                             style="background-image: url(images/p3897/icon_35.png);background-size: 50px"></div>
+                                             style="background-image: url(images/p4298/icon_26.png);background-size:50px;"></div>
                                         <div class="list-icon-grey-item-title text">Приезжаете в офис для оценки авто и
                                             заключения договора
                                         </div>
@@ -408,7 +361,7 @@
                                 <div class="col-md-4 col-sm-4">
                                     <div class="list-icon-grey-item">
                                         <div class="list-icon-grey-item-img"
-                                             style="background-image: url(images/p3897/icon_23.png);background-size: 50px"></div>
+                                             style="background-image: url(images/p4298/icon_19.png);background-size:50px;"></div>
                                         <div class="list-icon-grey-item-title text">Получаете деньги и продолжаете
                                             пользоваться своим авто
                                         </div>
@@ -418,7 +371,7 @@
                         </div>
                     </div>
 
-                    <div class="opening_view" data-switch-3="two">
+                    <div class="opening_view" data-switch="two">
                         <ul class="list-number">
                             <li>Паспорт гражданина РФ</li>
                             <li>ПТС (Паспорт транспортного средства)</li>
@@ -426,11 +379,11 @@
                         </ul>
                     </div>
 
-                    <div class="opening_view" data-switch-3="three">
+                    <div class="opening_view" data-switch="three">
                         <div class="background-grey">
                             <form class="ajax_form" method="post" action="#/" onsubmit="">
                                 <input type="hidden" name="_token" value=>
-                                <input type="hidden" value="" name="_token">
+                                <input type="hidden" value="" name=>
 
                                 <div class="row">
                                     <div class="col-md-6 col-sm-6">
@@ -459,505 +412,437 @@
                 </div>
             </div>
         </div>
+
     </div>
 </section>
-<section id="requirements">
+<section id=interlayer-7>
     <div class="container">
-        <div class="row">
-            <div class="col-md-11 col-sm-12">
-                <div class="visible-on-mobile">
-                    <div class="image-max-height" style="background-image: url(images/p3897/women.jpg);"></div>
-                </div>
-
-                <h3 class="h1"><span class="h1-span">Требования для получения </span>займа под ПТС в Москве</h3>
-
-                <div class="row m-b-30">
-                    <div class="col-md-4 col-sm-4">
-                        <h2>Необходимые документы</h2>
-                        <ul class="list-ul">
-                            <li>Паспорт гражданина РФ</li>
-                            <li>Паспорт транспортного средства ПТС</li>
-                            <li>Свидетельство о регистрации (СТС)</li>
-                        </ul>
-                        <h3><span class="text-blue">Справка о доходах не нужна</span></h3>
+        <div class="interlayer-loan">
+            <div class="visible-on-wade visible-on-tablet">
+                <div class="row z-index">
+                    <div class="col-md-3 col-sm-6 interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>1.</div>
+                        <div class=interlayer-loan-item-title>Займ под залог ПТС</div>
+                        <div class=interlayer-loan-item-text>Для этого необходимо посетить один из офисов лично или воспользоваться онлайн-заявкой</div>
                     </div>
-                    <div class="col-md-4 col-sm-4 visible-on-wade visible-on-tablet">
-                        <div class="image-max-height"
-                             style="background-image: url(images/p3897/women.jpg); background-repeat:no-repeat; background-size: cover;"></div>
+                    <div class="col-md-3 col-sm-6 interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>2.</div>
+                        <div class=interlayer-loan-item-title>Займ под залог спецтехники</div>
+                        <div class=interlayer-loan-item-text>Вам следует подготовить личные документы: паспорт, СТС, ПТС или ПСМ (паспорт самоходной машины)</div>
                     </div>
-                    <div class="col-md-4 col-sm-4">
-                        <h2>Требования к клиенту</h2>
-                        <ul class="list-ul">
-                            <li>Гражданство РФ</li>
-                            <li>Возраст от 18 лет</li>
-                            <li>Наличие регистрации РФ</li>
-                        </ul>
-                        <h3><span class="text-blue">Кредитная история не имеет значение</span></h3>
+                    <div class="col-md-3 col-sm-6 interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>3.</div>
+                        <div class=interlayer-loan-item-title>Займ под залог мототехники</div>
+                        <div class=interlayer-loan-item-text>Компания принимает в качестве залога мототехнику разных марок и моделей</div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>4.</div>
+                        <div class=interlayer-loan-item-title>Автоломбард</div>
+                        <div class=interlayer-loan-item-text>Заключая сделку с нами, вы эксплуатируете транспорт в прежнем режиме</div>
                     </div>
                 </div>
-                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">Оформить
-                    займ
-                </button>
+            </div>
+
+            <div class="visible-on-mobile z-index">
+                <div class="owl-carousel owl-theme interlayer-7">
+                    <div class="interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>1.</div>
+                        <div class=interlayer-loan-item-title>Займ под залог ПТС</div>
+                        <div class=interlayer-loan-item-text>Для этого необходимо посетить один из офисов лично или воспользоваться онлайн-заявкой</div>
+                    </div>
+                    <div class="interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>2.</div>
+                        <div class=interlayer-loan-item-title>Займ под залог спецтехники</div>
+                        <div class=interlayer-loan-item-text>Вам следует подготовить личные документы: паспорт, СТС, ПТС или ПСМ (паспорт самоходной машины)</div>
+                    </div>
+                    <div class="interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>3.</div>
+                        <div class=interlayer-loan-item-title>Займ под залог мототехники</div>
+                        <div class=interlayer-loan-item-text>Компания принимает в качестве залога мототехнику разных марок и моделей</div>
+                    </div>
+                    <div class="interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>4.</div>
+                        <div class=interlayer-loan-item-title>Автоломбард</div>
+                        <div class=interlayer-loan-item-text>Заключая сделку с нами, вы эксплуатируете транспорт в прежнем режиме</div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<section id="repay-a-loan">
+<section id=advantages-2>
     <div class="container">
         <div class="row">
-            <div class="col-md-5 col-sm-12">
-                <div class="bg-grey-man">
-                    <h3 class="h1">Погашение автокредита</h3>
-                    <img src="images/p3897/Cars.png" alt="Автоломбард под залог ПТС"/>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="thank-answer-block">
-                    <h2>Погашение автокредита может быть:</h2>
-                    <div class="thank-answer">
-                        <div class="thank-answer-img"><img src="images/p3897/moneyRed.png"
-                                                           alt="Автоломбард под залог ПТС"/></div>
-                        <div class="thank-answer-text">
-                            <h3>Наличными средствами</h3>
-                            В кассах компании, офисах или магазинах
-                        </div>
-                    </div>
-                    <div class="thank-answer">
-                        <div class="thank-answer-img"><img src="images/p3897/icon_19.png"
-                                                           alt="Автоломбард под залог ПТС"/></div>
-                        <div class="thank-answer-text">
-                            <h3>Электронными кошельками</h3>
-                            Через платежные сервисы наших партнеров
-                        </div>
-                    </div>
-                    <div class="thank-answer">
-                        <div class="thank-answer-img"><img src="images/p3897/icon_39.png"
-                                                           alt="Автоломбард под залог ПТС"/></div>
-                        <div class="thank-answer-text">
-                            <h3>Банковской картой</h3>
-                            Безналичный перевод в личном кабинете клиента
-                        </div>
-                    </div>
-                    <div class="thank-answer">
-                        <div class="thank-answer-img"><img src="images/p3897/icon_40.png"
-                                                           alt="Автоломбард под залог ПТС"/></div>
-                        <div class="thank-answer-text">
-                            <h3>Через терминалы</h3>
-                            Мы сотрудничаем с многими банками
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="col-md-11">
+                <h3 class="h1"><span class="h1-span">Лучшее обслуживание </span>для каждого клиента</h3>
 
-        </div>
-    </div>
-</section>
-<section id="transports">
-    <div class="container">
-        <div class="row">
+                <p>Деньги под залог авто помогут решить временные финансовые трудности, клиенты продолжают пользоваться своим транспортным средством</p>
+            </div>
             <div class="col-md-12">
-                <h3 class="h1">Последние оценки</h3>
-            </div>
-            <div class="col-md-9">
                 <div class="visible-on-wade visible-on-tablet">
-                    <table class="table table-striped">
-                        <tbody>
-                        <tr>
-                            <td>20:46</td>
-                            <td>Мария Е., Санкт-Петербург</td>
-                            <td>Nissan Qashqai, 2010</td>
-                            <td><span class="sum">620 000 ₽</span></td>
-                            <td>на рассмотрении</td>
-                        </tr>
-                        <tr>
-                            <td>20:42</td>
-                            <td>Ася О., Москва</td>
-                            <td>Suzuki SX4, 2007</td>
-                            <td><span class="sum">320 000 ₽</span></td>
-                            <td>проверка документов</td>
-                        </tr>
-                        <tr>
-                            <td>20:36</td>
-                            <td>Филипп Ю., Екатеринбург</td>
-                            <td>Mazda CX-7, 2008</td>
-                            <td><span class="sum">440 000 ₽</span></td>
-                            <td>полная заявка</td>
-                        </tr>
-                        <tr>
-                            <td>20:31</td>
-                            <td>Любовь Я., Ставрополь</td>
-                            <td>ВАЗ 2114, 2009</td>
-                            <td><span class="sum">53 000 ₽</span></td>
-                            <td>на рассмотрении</td>
-                        </tr>
-                        <tr>
-                            <td>20:46</td>
-                            <td>Мария Е., Санкт-Петербург</td>
-                            <td>Nissan Qashqai, 2010</td>
-                            <td><span class="sum">620 000 ₽</span></td>
-                            <td>на рассмотрении</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="visible-on-mobile request-history">
-                    <div class="panel request-history-item">
-                        <div class="panel-body">
-                            <div class="float-right">20:46</div>
-                            <div class="text-bold">Nissan Qashqai, 2010 г.</div>
-                            <div class="text-bold">620 000 ₽</div>
-                            <div>Мария Е., Санкт-Петербург</div>
-                            <div class="status badge badge-primary"> на рассмотрении</div>
-                        </div>
-                    </div>
-
-                    <div class="panel request-history-item">
-                        <div class="panel-body">
-                            <div class="float-right">20:42</div>
-                            <div class="text-bold">Suzuki SX4, 2007 г.</div>
-                            <div class="text-bold">320 000 ₽</div>
-                            <div>Ася О., Москва</div>
-                            <div class="status badge badge-primary">проверка документов</div>
-                        </div>
-                    </div>
-
-                    <div class="panel request-history-item">
-                        <div class="panel-body">
-                            <div class="float-right">20:36</div>
-                            <div class="text-bold">Mazda CX-7, 2008 г.</div>
-                            <div class="text-bold">440 000 ₽</div>
-                            <div>Филипп Ю., Екатеринбург</div>
-                            <div class="status badge badge-primary">полная заявка</div>
-                        </div>
-                    </div>
-
-                    <div class="panel request-history-item">
-                        <div class="panel-body">
-                            <div class="float-right">20:31</div>
-                            <div class="text-bold">ВАЗ 2114, 2009 г.</div>
-                            <div class="text-bold">53 000 ₽</div>
-                            <div>Любовь Я., Ставрополь</div>
-                            <div class="status badge badge-primary">на рассмотрении</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="bg-grey-none-radius">
-                    <h3>Подайте заявку на получение денежных средств</h3>
-                    <p>Время заполения заявки 5 минут!</p>
-                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-2">
-                        Подать заявку
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="example-loan-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <h3 class="h1"><span class="h1-span">Примеры выданных </span>займов</h3>
-
-                <div class="owl-carousel owl-theme example-loan">
-                    <div class="example-car left">
-                        <div class="example-car-content">
-                            <h2>Mazda CX5, 2019</h2>
-                            <div class="example-car-text">
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Рыночная стоимость</span></div>
-                                    <div class="param-right text-bold"><span>2 700 000 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Одобренная сумма</span></div>
-                                    <div class="param-right text-bold"><span>1 598 000 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Платеж в месяц</span></div>
-                                    <div class="param-right text-bold"><span>36 086 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Срок займа</span></div>
-                                    <div class="param-right text-bold"><span>36 мес</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Ставка в месяц</span></div>
-                                    <div class="param-right text-bold"><span>2.5%</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="example-car-img" style="background-image: url(images/p3897/car.png);"></div>
-                    </div>
-
-                    <div class="example-car left">
-                        <div class="example-car-content">
-                            <h2>Audi Q8, 2019</h2>
-                            <div class="example-car-text">
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Рыночная стоимость</span></div>
-                                    <div class="param-right text-bold"><span>2 700 000 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Одобренная сумма</span></div>
-                                    <div class="param-right text-bold"><span>1 598 000 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Платеж в месяц</span></div>
-                                    <div class="param-right text-bold"><span>36 086 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Срок займа</span></div>
-                                    <div class="param-right text-bold"><span>36 мес</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Ставка в месяц</span></div>
-                                    <div class="param-right text-bold"><span>2.5%</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="example-car-img"
-                             style="background-image: url(images/example-loan/audi_1.png);"></div>
-                    </div>
-
-                    <div class="example-car left">
-                        <div class="example-car-content">
-                            <h2>Hyundai Solaris, 2019</h2>
-                            <div class="example-car-text">
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Рыночная стоимость</span></div>
-                                    <div class="param-right text-bold"><span>2 700 000 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Одобренная сумма</span></div>
-                                    <div class="param-right text-bold"><span>1 598 000 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Платеж в месяц</span></div>
-                                    <div class="param-right text-bold"><span>36 086 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Срок займа</span></div>
-                                    <div class="param-right text-bold"><span>36 мес</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Ставка в месяц</span></div>
-                                    <div class="param-right text-bold"><span>2.5%</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="example-car-img"
-                             style="background-image: url(images/example-loan/hyundai_1.png);"></div>
-                    </div>
-
-                    <div class="example-car left">
-                        <div class="example-car-content">
-                            <h2>Mercedes-Benz S-Класс, 2019</h2>
-                            <div class="example-car-text">
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Рыночная стоимость</span></div>
-                                    <div class="param-right text-bold"><span>2 700 000 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Одобренная сумма</span></div>
-                                    <div class="param-right text-bold"><span>1 598 000 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Платеж в месяц</span></div>
-                                    <div class="param-right text-bold"><span>36 086 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Срок займа</span></div>
-                                    <div class="param-right text-bold"><span>36 мес</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Ставка в месяц</span></div>
-                                    <div class="param-right text-bold"><span>2.5%</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="example-car-img"
-                             style="background-image: url(images/example-loan/mercedes_1.png);"></div>
-                    </div>
-
-                    <div class="example-car left">
-                        <div class="example-car-content">
-                            <h2>Renault Duster, 2019</h2>
-                            <div class="example-car-text">
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Рыночная стоимость</span></div>
-                                    <div class="param-right text-bold"><span>2 700 000 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Одобренная сумма</span></div>
-                                    <div class="param-right text-bold"><span>1 598 000 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Платеж в месяц</span></div>
-                                    <div class="param-right text-bold"><span>36 086 ₽</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Срок займа</span></div>
-                                    <div class="param-right text-bold"><span>36 мес</span></div>
-                                </div>
-                                <div class="example-car-text-param">
-                                    <div class="param-left"><span>Ставка в месяц</span></div>
-                                    <div class="param-right text-bold"><span>2.5%</span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="example-car-img"
-                             style="background-image: url(images/example-loan/renault_1.png);"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="faq">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-11 col-sm-12">
-                <h3 class="h1"><span class="h1-span">Ответы на часто </span>задаваемые вопросы</h3>
-
-                <div class="accordion" id="accordion-requirments">
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<script type="text/babel">
-    let data = [
-        [{question: 'Как получить кредит под залог ПТС в автоломбарде?'},
-            {answer: 'Для получения кредита под залог автомобиля необходимо подать заявку на сайте. Менеджер свяжется с Вами по телефону, Вы должны передать необходимые данные. Как только решение будет принято, мы свяжемся с Вами.'},
-            {numId: '0'},
-            {numIdText: 'Zero'}],
-
-        [{question: 'Кредит выдается наличными или на карту?'},
-            {answer: 'Кредит в залог ПТС выдается по наличному и безналичному расчету. Для безналичного расчета необходимо передать данные банковской карты при отправке заявки. Деньги поступают сразу после оформления.'},
-            {numId: '1'},
-            {numIdText: 'One'}],
-
-        [{question: 'Автомобиль останется у меня?'},
-            {answer: 'Кредит под залог авто в Москве выдается под ПТС. То есть автомобиль остается у Вас, мы не накладываем никаких ограничений. Мы забираем только паспорт транспортного средства и отдаем после выплаты всей суммы.'},
-            {numId: '2'},
-            {numIdText: 'Two'}],
-
-        [{question: 'Можно ли взять кредит в автоломбарде по генеральной доверенности?'},
-            {answer: 'В нашем автоломбарде Вы можете взять кредит под залог автомобиля по генеральной договоренности. Также мы работаем по договорам купли-продажи. Кредит доступен не только собственникам, но и доверенным лицам.'},
-            {numId: '3'},
-            {numIdText: 'Three'}],
-
-        [{question: 'Что нужно для получения кредита под ПТС автомобиля?'},
-            {answer: 'Кредит наличными залог автомобиля выдается при предъявлении паспорта, ПТС и СТС. После подачи заявки менеджер свяжется с Вами и попросит передать информацию. Мы гарантируем конфиденциальность и безопасность.'},
-            {numId: '4'},
-            {numIdText: 'Four'}],
-    ]
-    ReactDOM.render(
-        <div>
-            {data.map((el) => {
-                return (
-                    <div className="card item">
-                        <a className="collapser" href="#" data-toggle="collapse"
-                           data-target={`#collapse-requirments-${el[2].numId}`} aria-expanded="false"
-                           aria-controls={`collapse${el[3].numIdText}`}>
-                            <div className="card-header question" id={`heading${el[3].numIdText}`}>
-                                <div className="quation-item">{el[0].question}</div>
-                                <div className="arrow down-arrow"></div>
-                            </div>
-                        </a>
-                        <div id={`collapse-requirments-${el[2].numId}`} className="collapse answer"
-                             aria-labelledby={`heading${el[3].numIdText}`}
-                             data-parent="#accordion-requirments">
-                            <div className="card-body">
-                                <p>{el[1].answer}</p>
-                            </div>
-                        </div>
-                    </div>
-                )
-            })}
-        </div>
-        ,
-        document.getElementById('accordion-requirments')
-    )
-</script>
-<section id="interlayer-4">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <div class="interlayer-4-grey">
                     <div class="row">
-                        <div class="col-md-7 col-sm-6">
-                            <div class="questions-remain">
-                                <h3 class="h1">Остались вопросы?</h3>
-                                <p>Звоните! Наши менеджеры ответят на все Ваши вопросы</p>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="list-icon-grey-item">
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/withoutPeniRed.png); background-size: 50px 50px"></div>
+                                <div class="list-icon-grey-item-title">Выгода</div>
+                                <div class="list-icon-grey-item-text">Наличные под залог авто. Выдача до 95%</div>
                             </div>
-                            <div class="interlayer-phone"><a itemrop="telephone" href="tel:<?=$tel ?>"><?=$phone ?></a>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="list-icon-grey-item">
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_24.png); background-size: 50px 50px"></div>
+                                <div class="list-icon-grey-item-title">Скорость</div>
+                                <div class="list-icon-grey-item-text">Работаем 24/7. Выдача за пол часа</div>
                             </div>
-                            <button type="button" class="btn btn-danger" data-toggle="modal"
-                                    data-target="#onlajn-zayavka-callback">Обратный звонок
-                            </button>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="list-icon-grey-item">
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/calendarRed.png); background-size: 50px 50px"></div>
+                                <div class="list-icon-grey-item-title">Сроки</div>
+                                <div class="list-icon-grey-item-text">Займы на любые сроки</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="list-icon-grey-item">
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_26.png); background-size: 50px 50px"></div>
+                                <div class="list-icon-grey-item-title">Безопасность</div>
+                                <div class="list-icon-grey-item-text">Охраняемая автостоянка</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="list-icon-grey-item">
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_27.png); background-size: 50px 50px"></div>
+                                <div class="list-icon-grey-item-title">Удобство</div>
+                                <div class="list-icon-grey-item-text">Принимаем любую технику</div>
+                            </div>
                         </div>
                     </div>
+                </div>
+
+                <div class="visible-on-mobile">
+                    <div class="owl-carousel owl-theme advantages-2">
+                        <div class="list-icon-grey-item">
+                            <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_23.png)"></div>
+                            <div class="list-icon-grey-item-title">Выгода</div>
+                            <div class="list-icon-grey-item-text">Наличные под залог авто. Выдача до 95%</div>
+                        </div>
+                        <div class="list-icon-grey-item">
+                            <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_24.png)"></div>
+                            <div class="list-icon-grey-item-title">Скорость</div>
+                            <div class="list-icon-grey-item-text">Работаем 24/7. Выдача за пол часа</div>
+                        </div>
+                        <div class="list-icon-grey-item">
+                            <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_25.png)"></div>
+                            <div class="list-icon-grey-item-title">Сроки</div>
+                            <div class="list-icon-grey-item-text">Займы на любые сроки</div>
+                        </div>
+                        <div class="list-icon-grey-item">
+                            <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_26.png)"></div>
+                            <div class="list-icon-grey-item-title">Безопасность</div>
+                            <div class="list-icon-grey-item-text">Охраняемая автостоянка</div>
+                        </div>
+                        <div class="list-icon-grey-item">
+                            <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_27.png)"></div>
+                            <div class="list-icon-grey-item-title">Удобство</div>
+                            <div class="list-icon-grey-item-text">Принимаем любую технику</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="link-button">
+                    <a href="#" data-toggle="modal" data-target="#CallPhone-ver-4">Подать заявку   <span class="arrow"></span></a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section id="reviews-3">
+<section id=requirements-3>
+        <div class=container>
+            <div class="row">
+                <div class="col-md-3 col-sm-4">
+                    <div class=image-max-height style="background-image: url(images/bgLight.png);    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;"></div>
+                </div>
+
+                <div class="col-md-9 col-sm-8">
+                    <h3 class=h1><span class=h1-span>Требования для получения </span>займа под ПТС <span class="titleFirst3"></span></h3>
+
+                    <ul class="switcher-3 gorizontal-pieces" id=switcher-loan-3>
+                        <li class="for_opening_view selected" data-modal-id=paymentsGrafModal id=addClick2 data-show-3=one>
+                            <div class=title-switch>К автомобилю</div>
+                        </li>
+                        <li class="for_opening_view" data-modal-id=paymentsInfo id=detailed data-show-3=two>
+                            <div class=title-switch>К заемщику</div>
+                        </li>
+                        <li class="for_opening_view" data-modal-id=paymentsInfo id=detailed data-show-3=three>
+                            <div class=title-switch>К документам</div>
+                        </li>
+                    </ul>
+                    <div class=switch-js-3>
+                        <div class=opening_view data-switch-3=one>
+                            <ul class="list-ul">
+                                <li>Авто в исправном техническом состоянии</li>
+                                <li>Состоит на учете в ГИБДД</li>
+                                <li>Не находится в залоге</li>
+                            </ul>
+                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4" >Оформить займ</button>
+                        </div>
+
+                        <div class=opening_view data-switch-3=two>
+                            <ul class="list-ul">
+                                <li>Гражданство РФ и постоянная регистрация в регионе присутствия компании</li>
+                                <li>От 18 до 65 полных лет на момент заключения договора</li>
+                                <li>Кредитная история не требуется</li>
+                                <li>Можно без трудоустройства</li>
+                            </ul>
+                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4" id="ClickListeter1">Оформить займ</button>
+                        </div>
+
+                        <div class=opening_view data-switch-3=three>
+                            <ul class="list-ul">
+                                <li>Паспорт гражданина РФ</li>
+                                <li>Паспорт технического средства (ПТС)</li>
+                                <li>Свидетельство о регистрации транспортного средства (СРТС)</li>
+                            </ul>
+                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">Оформить займ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<section id="documents-1">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <h3 class="h1">Что говорят о нас</h3>
+            <div class="col-md-6 col-sm-12">
+                <h3 class="h1">Нам доверяют тысячи клиентов</h3>
 
-                <div class="owl-carousel owl-theme reviews-3">
-                    <article class="review-bg-red-border">
-                        <div class="red-border">
-                            <div class="review-text">Брал кредит в залог автомобиля в Москве, процент в компании более чем выгодный, условия понравились. Оформляют все быстро, не приходится долго ждать. В целом сотрудничеством остался доволен.</div>
+                <div class="visible-on-wade visible-on-tablet">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="list-icon-grey-item">
+                                <div class="list-icon-grey-item-img"
+                                     style="background-image: url(images/icon/icon_20.png); background-size: 60px"></div>
+                                <div class="list-icon-grey-item-title">Статус</div>
+                                <div class="list-icon-grey-item-text">Участник лиги автоломбардов</div>
+                            </div>
                         </div>
-                        <div class="review-person">
-                            <div class="review-name">Константин</div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="list-icon-grey-item">
+                                <div class="list-icon-grey-item-img"
+                                     style="background-image: url(images/icon/icon_21.png); background-size: 60px"></div>
+                                <div class="list-icon-grey-item-title">Опыт</div>
+                                <div class="list-icon-grey-item-text">10 лет успешной работы</div>
+                            </div>
                         </div>
-                    </article>
-                    <article class="review-bg-red-border">
-                        <div class="red-border">
-                            <div class="review-text">Недавно пришлось взять кредит в залог машины. Долго искал компанию, которая может предоставить надежные услуги. Друг порекомендовал именно эту. Остался полностью доволен — выгодный процент и предоставление всех гарантий, возможность досрочного погашения. Все устроило в сотрудничестве, спасибо.</div>
+                        <div class="col-md-4 col-sm-4">
+                            <div class="list-icon-grey-item">
+                                <div class="list-icon-grey-item-img"
+                                     style="opacity: 0.77; background-image: url(images/icon/icon_22.png); background-size: 60px"></div>
+                                <div class="list-icon-grey-item-title">Закон</div>
+                                <div class="list-icon-grey-item-text">Соответствуем законодательству РФ</div>
+                            </div>
                         </div>
-                        <div class="review-person">
-                            <div class="review-name">Евгений</div>
+                    </div>
+                </div>
+
+                <div class="visible-on-mobile">
+                    <div class="owl-carousel owl-theme documents-1">
+                        <div class="list-icon-grey-item">
+                            <div class="list-icon-grey-item-img"
+                                 style="background-image: url(images/icon/icon_20.png); background-size: 60px"></div>
+                            <div class="list-icon-grey-item-title">Статус</div>
+                            <div class="list-icon-grey-item-text">Участник лиги автоломбардов</div>
                         </div>
-                    </article>
-                    <article class="review-bg-red-border">
-                        <div class="red-border">
-                            <div class="review-text">Брал кредит под залог авто наличными. Все оформили очень быстро, не нужно предоставлять кучу документов, только паспорт и бумаги на авто. Здесь реально одни из лучших условий и в этом я убедился на личном опыте. Если срочно нужны деньги, то это реально оптимальный вариант — спасибо, выручили в сложной ситуации.</div>
+                        <div class="list-icon-grey-item">
+                            <div class="list-icon-grey-item-img"
+                                 style="background-image: url(images/icon/icon_21.png); background-size: 60px"></div>
+                            <div class="list-icon-grey-item-title">Опыт</div>
+                            <div class="list-icon-grey-item-text">10 лет успешной работы</div>
                         </div>
-                        <div class="review-person">
-                            <div class="review-name">Александр</div>
+                        <div class="list-icon-grey-item">
+                            <div class="list-icon-grey-item-img"
+                                 style="background-image: url(images/icon/icon_22.png); background-size: 60px"></div>
+                            <div class="list-icon-grey-item-title">Закон</div>
+                            <div class="list-icon-grey-item-text">Соответствуем законодательству РФ</div>
                         </div>
-                    </article>
-                    <article class="review-bg-red-border">
-                        <div class="red-border">
-                            <div class="review-text">Пришлось недавно взять кредит в залог автомобиля. Порекомендовали эту компанию — все очень быстро и минимум документов. Переплата реально минимальная. Оценивают автомобиль быстро и по рыночной стоимости, никакого обмана. Полностью осталась довольна, долг выплатила и машину уже вернула!</div>
-                        </div>
-                        <div class="review-person">
-                            <div class="review-name">Инна</div>
-                        </div>
-                    </article>
-                    <article class="review-bg-red-border">
-                        <div class="red-border">
-                            <div class="review-text">Срочно нужны были деньги, кредит в банке оформлять не стала, так как это очень долго. Пришлось взять кредит под залог машины, но ни разу не пожалела. Оценивают по реальной стоимости, оформляют быстро, при этом не нужно собирать кучу документов. Подписали договор и все, сразу выдали деньги. Скоро уже выплачу все, но буду обращаться снова, если понадобится.</div>
-                        </div>
-                        <div class="review-person">
-                            <div class="review-name">Александра</div>
-                        </div>
-                    </article>
+                    </div>
+                </div>
+
+                <div class="link-button m-b-30">
+                    <a href="#" data-toggle="modal" data-target="#CallPhone-ver-4">Подать заявку <span
+                            class="arrow"></span></a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div class="bg-grey">
+                    <h3 class="h1">Работаем в рамках закона</h3>
+                    <ol class="list-ul">
+                        <li>Широкая сеть более 100 регионов присутствия</li>
+                        <li>Осуществляем деятельность в рамках ФЗ 353</li>
+                        <li>Процентная ставка регулируется ЦБ РФ</li>
+                    </ol>
                 </div>
             </div>
         </div>
     </div>
+</section>
+<section id=reviews-4>
+        <div class=container>
+            <div class=row>
+                <div class="col-md-12 col-sm-12">
+                    <h3 class=h1>Что говорят о нас</h3>
+
+                    <div class="visible-on-wade visible-on-tablet">
+                        <div class=row>
+                            <div class="col-md-4">
+                                <article class="review-bg-grey">
+                                    <div class="review-text">text
+                                    </div>
+                                    <div class="review-person">
+                                        <div class="review-name">name</div>
+                                    </div>
+                                </article>
+                                <article class="review-bg-grey">
+                                    <div class="review-text">text </div>
+                                    <div class="review-person">
+                                        <div class="review-name">name</div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article class="review-bg-grey">
+                                    <div class="review-text">text
+                                    </div>
+                                    <div class="review-person">
+                                        <div class="review-name">name</div>
+                                    </div>
+                                </article>
+                                <article class="review-bg-grey">
+                                    <div class="review-text">text
+                                    </div>
+                                    <div class="review-person">
+                                        <div class="review-name">name</div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-4">
+                                <article class="review-bg-grey">
+                                    <div class="review-text">text</div>
+                                    <div class="review-person">
+                                        <div class="review-name">name</div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="visible-on-mobile">
+                        <div class="owl-carousel owl-theme reviews-4">
+                            <article class="review-bg-grey">
+                                <div class="review-text">text
+                                </div>
+                                <div class="review-person">
+                                    <div class="review-name">name</div>
+                                </div>
+                            </article>
+                            <article class="review-bg-grey">
+                                <div class="review-text">text</div>
+                                <div class="review-person">
+                                    <div class="review-name">name</div>
+                                </div>
+                            </article>
+                            <article class="review-bg-grey">
+                                <div class="review-text">text
+                                </div>
+                                <div class="review-person">
+                                    <div class="review-name">name</div>
+                                </div>
+                            </article>
+                            <article class="review-bg-grey">
+                                <div class="review-text">text
+                                </div>
+                                <div class="review-person">
+                                    <div class="review-name">name</div>
+                                </div>
+                            </article>
+                            <article class="review-bg-grey">
+                                <div class="review-text">text </div>
+                                <div class="review-person">
+                                    <div class="review-name">name</div>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<section id=questions-1>
+        <div class=container>
+            <div class=row>
+                <div class="col-md-11 col-sm-12">
+                    <h3 class=h1><span class=h1-span>Ответы на ваши </span> вопросы</h3>
+
+                    <div class="owl-carousel owl-theme questions-block-1">
+                        <div class=question-answer>
+                            <div class=row>
+                                <div class="col-md-4">
+                                    <div class=question>question</div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class=answer>answer </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=question-answer>
+                            <div class=row>
+                                <div class="col-md-4">
+                                    <div class=question>question</div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class=answer>answer </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=question-answer>
+                            <div class=row>
+                                <div class="col-md-4">
+                                    <div class=question>question</div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class=answer>answer </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=question-answer>
+                            <div class=row>
+                                <div class="col-md-4">
+                                    <div class=question>question</div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class=answer>answer</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=question-answer>
+                            <div class=row>
+                                <div class="col-md-4">
+                                    <div class=question>question</div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class=answer>answer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 </section>
 <section id="section-map">
     <div class="container">
@@ -965,1437 +850,1461 @@
             <div class="col-md-12 col-sm-12">
                 <h3 class="h1">Адреса и контакты</h3>
 
-                <div id="map" class="ofices visible-on-wade visible-on-tablet">
-                    <form class="map_filter visible-on-wade visible-on-tablet" action="#">
-                        <div id="addresses" class="mapOptions__addresses gradient" itemscope
-                             itemtype="http://schema.org/PostalAddress">
+                <div class="visible-on-wade visible-on-tablet">
+                    <div class="map_filter adresses-left">
+                        <div id="addresses" class="mapOptions__addresses gradient" itemscope itemtype="http://schema.org/PostalAddress">
                             <div class="map-text">
                                 <a href="tel:<?=$tel ?>"><?=$phone ?></a><br>
-                            </div>
-                            <div id="rootMap">
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                  <script type="text/babel">
-                            const dateMap = [{
-                                "undefined": "Астрахань Богдана Хмельницкого ул, д. 36",
-                                "Longitude": "46.335739",
-                                "Latitude": "48.0233103",
-                                "Index": "414024",
-                                "Город": "Астрахань",
-                                "Адреса": "Богдана Хмельницкого ул, д. 36"
-                            },
-                                {
-                                    "undefined": "Белгород Михайловское ш, д. 31",
-                                    "Longitude": "50.5825967",
-                                    "Latitude": "36.6423653",
-                                    "Index": "308013",
-                                    "Город": "Белгород",
-                                    "Адреса": "Михайловское ш, д. 31"
-                                },
-                                {
-                                    "undefined": "Старый Оскол Солнечный мкр, д. 36",
-                                    "Longitude": "51.3117225",
-                                    "Latitude": "37.8981075",
-                                    "Index": "309502",
-                                    "Город": "Старый Оскол",
-                                    "Адреса": "Солнечный мкр, д. 36"
-                                },
-                                {
-                                    "undefined": "Брянск Литейная ул, д. 68",
-                                    "Longitude": "53.3317173",
-                                    "Latitude": "34.2889528",
-                                    "Index": "241014",
-                                    "Город": "Брянск",
-                                    "Адреса": "Литейная ул, д. 68"
-                                },
-                                {
-                                    "undefined": "Волгоград Чехова ул, д. 18",
-                                    "Longitude": "48.59373",
-                                    "Latitude": "44.413441",
-                                    "Index": "400023",
-                                    "Город": "Волгоград",
-                                    "Адреса": "Чехова ул, д. 18"
-                                },
-                                {
-                                    "undefined": "Волжский просп. Ленина, 326 Г",
-                                    "Longitude": "48.7516107",
-                                    "Latitude": "44.7981116",
-                                    "Index": "404133",
-                                    "Город": "Волжский",
-                                    "Адреса": "просп. Ленина, 326 Г"
-                                },
-                                {
-                                    "undefined": "Владимир Горького ул, д. 65",
-                                    "Longitude": "56.140629",
-                                    "Latitude": "40.394392",
-                                    "Index": "600017",
-                                    "Город": "Владимир",
-                                    "Адреса": "Горького ул, д. 65"
-                                },
-                                {
-                                    "undefined": "Владимир Горького ул, д. 65",
-                                    "Longitude": "56.140629",
-                                    "Latitude": "40.394392",
-                                    "Index": "600017",
-                                    "Город": "Великий Новгород",
-                                    "Адреса": "Стратилатовская ул, д. 5"
-                                },
-                                {
-                                    "undefined": "Воронеж Фридриха Энгельса ул, д. 25б",
-                                    "Longitude": "51.6688449",
-                                    "Latitude": "39.2048469",
-                                    "Index": "394036",
-                                    "Город": "Воронеж",
-                                    "Адреса": "Фридриха Энгельса ул, д. 25б"
-                                },
-                                {
-                                    "undefined": "Вологда Чехова ул, д. 18",
-                                    "Longitude": "59.211288",
-                                    "Latitude": "39.88535",
-                                    "Index": "160009",
-                                    "Город": "Вологда",
-                                    "Адреса": "Чехова ул, д. 18"
-                                },
-                                {
-                                    "undefined": "Череповец пер. Ухтомского, 5",
-                                    "Longitude": "59.118364",
-                                    "Latitude": "37.9143089",
-                                    "Index": "162602",
-                                    "Город": "Череповец",
-                                    "Адреса": "пер. Ухтомского, 5"
-                                },
-                                {
-                                    "undefined": "Дзержинск Красноармейская ул, д. 21",
-                                    "Longitude": "56.2480479",
-                                    "Latitude": "43.4192534",
-                                    "Index": "606015",
-                                    "Город": "Дзержинск",
-                                    "Адреса": "Красноармейская ул, д. 21"
-                                },
-                                {
-                                    "undefined": "Нижний Новгород ул.Рождественская, 13, 2 этаж, 3 офис",
-                                    "Longitude": "56.330243",
-                                    "Latitude": "43.9961776",
-                                    "Index": "603001",
-                                    "Город": "Нижний Новгород",
-                                    "Адреса": "ул.Рождественская, 13, 2 этаж, 3 офис"
-                                },
-                                {
-                                    "undefined": "Кемерово ул. Пирогова, 32",
-                                    "Longitude": "55.3443282",
-                                    "Latitude": "86.0620865",
-                                    "Index": "600017",
-                                    "Город": "Кемерово",
-                                    "Адреса": "ул. Пирогова, 32"
-                                },
-                                {
-                                    "undefined": "Новокузнецк Ленина пр-кт, д. 7",
-                                    "Longitude": "53.76919",
-                                    "Latitude": "87.186149",
-                                    "Index": "654034",
-                                    "Город": "Новокузнецк",
-                                    "Адреса": "Ленина пр-кт, д. 7"
-                                },
-                                {
-                                    "undefined": "Прокопьевск Ноградская ул., 28-а",
-                                    "Longitude": "53.8744939",
-                                    "Latitude": "86.6397549",
-                                    "Index": "653045",
-                                    "Город": "Прокопьевск",
-                                    "Адреса": "Ноградская ул., 28-а"
-                                },
-                                {
-                                    "undefined": "Краснодар Северная, 490, БЦ Кутузовский, 1 этаж",
-                                    "Longitude": "45.0367027",
-                                    "Latitude": "38.9964005",
-                                    "Index": "350002",
-                                    "Город": "Краснодар",
-                                    "Адреса": "Северная, 490, БЦ Кутузовский, 1 этаж"
-                                },
-                                {
-                                    "undefined": "Сочи Кубанская ул, д. 15",
-                                    "Longitude": "43.5782004",
-                                    "Latitude": "39.7306993",
-                                    "Index": "354000",
-                                    "Город": "Сочи",
-                                    "Адреса": "Кубанская ул, д. 15"
-                                },
-                                {
-                                    "undefined": "Армавир Мира ул, д. 24",
-                                    "Longitude": "44.9969711",
-                                    "Latitude": "41.1287957",
-                                    "Index": "352900",
-                                    "Город": "Армавир",
-                                    "Адреса": "Мира ул, д. 24"
-                                },
-                                {
-                                    "undefined": "Новороссийск Пр-кт Дзержинского 183 (вход со стороны ул. Дзержинского)",
-                                    "Longitude": "44.692561",
-                                    "Latitude": "37.7794749",
-                                    "Index": "353910",
-                                    "Город": "Новороссийск",
-                                    "Адреса": "Пр-кт Дзержинского 183 (вход со стороны ул. Дзержинского)"
-                                },
-                                {
-                                    "undefined": "Курск Кулакова пр-кт, д. 24",
-                                    "Longitude": "51.66474",
-                                    "Latitude": "36.135793",
-                                    "Index": "305018",
-                                    "Город": "Курск",
-                                    "Адреса": "Кулакова пр-кт, д. 24"
-                                },
-                                {
-                                    "undefined": "Ставрополь Ул. Доваторцев 49Б (на 2 этаже над сбербанком)",
-                                    "Longitude": "45.010461",
-                                    "Latitude": "41.9286377",
-                                    "Index": "355042",
-                                    "Город": "Ставрополь",
-                                    "Адреса": "Ул. Доваторцев 49Б (на 2 этаже над сбербанком)"
-                                },
-                                {
-                                    "undefined": "Курган Машиностроителей пр-кт, д. 3в",
-                                    "Longitude": "55.452769",
-                                    "Latitude": "65.3397179",
-                                    "Index": "150055",
-                                    "Город": "Курган",
-                                    "Адреса": "Машиностроителей пр-кт, д. 3в"
-                                },
-                                {
-                                    "undefined": "Чита ул. Мостовая, 3",
-                                    "Longitude": "52.0393778",
-                                    "Latitude": "113.4778132",
-                                    "Index": "672000",
-                                    "Город": "Чита",
-                                    "Адреса": "ул. Мостовая, 3"
-                                },
-                                {
-                                    "undefined": "Красноярск Вильского ул, д. 22",
-                                    "Longitude": "56.0208545",
-                                    "Latitude": "92.7641713",
-                                    "Index": "660113",
-                                    "Город": "Красноярск",
-                                    "Адреса": "Вильского ул, д. 22"
-                                },
-                                {
-                                    "undefined": "Норильск Молодежный проезд, д. 3",
-                                    "Longitude": "69.3549366",
-                                    "Latitude": "88.1745093",
-                                    "Index": "663319",
-                                    "Город": "Норильск",
-                                    "Адреса": "Молодежный проезд, д. 3"
-                                },
-                                {
-                                    "undefined": "Кострома Калиновская ул, д. 56",
-                                    "Longitude": "57.7741475",
-                                    "Latitude": "40.9453862",
-                                    "Index": "156013",
-                                    "Город": "Кострома",
-                                    "Адреса": "Калиновская ул, д. 56"
-                                },
-                                {
-                                    "undefined": "Киров Комсомольская ул, д. 50",
-                                    "Longitude": "58.5749849",
-                                    "Latitude": "49.6383498",
-                                    "Index": "610035",
-                                    "Город": "Киров",
-                                    "Адреса": "Комсомольская ул, д. 50"
-                                },
-                                {
-                                    "undefined": "Чебоксары ул. Энгельса, 28",
-                                    "Longitude": "56.120672",
-                                    "Latitude": "47.2582459",
-                                    "Index": "428003",
-                                    "Город": "Чебоксары",
-                                    "Адреса": "ул. Энгельса, 28"
-                                },
-                                {
-                                    "undefined": "Москва улица Ленинская Слобода, 19, 3 этаж, офис 3,034 (БЦ Омега Плаза)",
-                                    "Longitude": "55.7084315",
-                                    "Latitude": "37.6527952",
-                                    "Index": "115280",
-                                    "Город": "Москва",
-                                    "Адреса": "улица Ленинская Слобода, 19, 3 этаж, офис 3,034 (БЦ Омега Плаза)"
-                                },
-                                {
-                                    "undefined": "Балашиха Фадеева ул, д. 5",
-                                    "Longitude": "55.7946111",
-                                    "Latitude": "37.9720841",
-                                    "Index": "143900",
-                                    "Город": "Балашиха",
-                                    "Адреса": "Фадеева ул, д. 5"
-                                },
-                                {
-                                    "undefined": "Электросталь Красная ул, д. 30б",
-                                    "Longitude": "55.7864157",
-                                    "Latitude": "38.4508797",
-                                    "Index": "144000",
-                                    "Город": "Электросталь",
-                                    "Адреса": "Красная ул, д. 30б"
-                                },
-                                {
-                                    "undefined": "Химки Московская ул, д. 3",
-                                    "Longitude": "55.8933055",
-                                    "Latitude": "37.4498698",
-                                    "Index": "141402",
-                                    "Город": "Химки",
-                                    "Адреса": "Московская ул, д. 3"
-                                },
-                                {
-                                    "undefined": "Красногорск Железнодорожный пер, д. 3",
-                                    "Longitude": "55.816076",
-                                    "Latitude": "37.340669",
-                                    "Index": "143402",
-                                    "Город": "Красногорск",
-                                    "Адреса": "Железнодорожный пер, д. 3"
-                                },
-                                {
-                                    "undefined": "Мытищи Осташковское ш, д. 1",
-                                    "Longitude": "55.8974247",
-                                    "Latitude": "37.6661978",
-                                    "Index": "141014",
-                                    "Город": "Мытищи",
-                                    "Адреса": "Осташковское ш, д. 1"
-                                },
-                                {
-                                    "undefined": "Королёв Карла Маркса ул, д. 3",
-                                    "Longitude": "55.9247363",
-                                    "Latitude": "37.8200547",
-                                    "Index": "141070",
-                                    "Город": "Королёв",
-                                    "Адреса": "Карла Маркса ул, д. 3"
-                                },
-                                {
-                                    "undefined": "Подольск Большая Серпуховская ул, д. 30",
-                                    "Longitude": "55.420307",
-                                    "Latitude": "37.5462621",
-                                    "Index": "142104",
-                                    "Город": "Подольск",
-                                    "Адреса": "Большая Серпуховская ул, д. 30"
-                                },
-                                {
-                                    "undefined": "Люберцы Волковская ул, д. 11",
-                                    "Longitude": "55.681033",
-                                    "Latitude": "37.8961048",
-                                    "Index": "140000",
-                                    "Город": "Люберцы",
-                                    "Адреса": "Волковская ул, д. 11"
-                                },
-                                {
-                                    "undefined": "Саратов Симбирская ул, д. 154",
-                                    "Longitude": "51.5561227",
-                                    "Latitude": "46.0449237",
-                                    "Index": "410003",
-                                    "Город": "Саратов",
-                                    "Адреса": "Симбирская ул, д. 154"
-                                },
-                                {
-                                    "undefined": "Балаково ул. Минская, д.56",
-                                    "Longitude": "52.0099811",
-                                    "Latitude": "47.7976955",
-                                    "Index": "413841",
-                                    "Город": "Балаково",
-                                    "Адреса": "ул. Минская, д.56"
-                                },
-                                {
-                                    "undefined": "Энгельс Петровская ул, д. 63",
-                                    "Longitude": "51.4978144",
-                                    "Latitude": "46.1169468",
-                                    "Index": "413100",
-                                    "Город": "Энгельс",
-                                    "Адреса": "Петровская ул, д. 63"
-                                },
-                                {
-                                    "undefined": "Южно-Сахалинск пр. Мира, 239",
-                                    "Longitude": "46.9404898",
-                                    "Latitude": "142.744537",
-                                    "Index": "693013",
-                                    "Город": "Южно-Сахалинск",
-                                    "Адреса": "пр. Мира, 239"
-                                },
-                                {
-                                    "undefined": "Якутск Вилюйский тракт, 1",
-                                    "Longitude": "62.0347618",
-                                    "Latitude": "129.6673826",
-                                    "Index": "677000",
-                                    "Город": "Якутск",
-                                    "Адреса": "Вилюйский тракт, 1"
-                                },
-                                {
-                                    "undefined": "Санкт-Петербург Пр-кт Маршала Блюхера 12 корпус 7, офис 1.1. (станция метро Лесная)",
-                                    "Longitude": "59.981865",
-                                    "Latitude": "30.375452",
-                                    "Index": "195197",
-                                    "Город": "Санкт-Петербург",
-                                    "Адреса": "Пр-кт Маршала Блюхера 12 корпус 7, офис 1.1. (станция метро Лесная)"
-                                },
-                                {
-                                    "undefined": "Сыктывкар Интернациональная ул, д. 157",
-                                    "Longitude": "61.6672081",
-                                    "Latitude": "50.8331468",
-                                    "Index": "167000",
-                                    "Город": "Сыктывкар",
-                                    "Адреса": "Интернациональная ул, д. 157"
-                                },
-                                {
-                                    "undefined": "Томск Фрунзе пр-кт, д. 124",
-                                    "Longitude": "56.4763824",
-                                    "Latitude": "84.9872164",
-                                    "Index": "634021",
-                                    "Город": "Томск",
-                                    "Адреса": "Фрунзе пр-кт, д. 124"
-                                },
-                                {
-                                    "undefined": "Ульяновск Краснопролетарская ул, д. 16",
-                                    "Longitude": "54.3309807",
-                                    "Latitude": "48.4849081",
-                                    "Index": "432007",
-                                    "Город": "Ульяновск",
-                                    "Адреса": "Краснопролетарская ул, д. 16"
-                                },
-                                {
-                                    "undefined": "Улан-Удэ 34, ул. Бабушкина",
-                                    "Longitude": "51.809399",
-                                    "Latitude": "107.5969129",
-                                    "Index": "670031",
-                                    "Город": "Улан-Удэ",
-                                    "Адреса": "34, ул. Бабушкина"
-                                },
-                                {
-                                    "undefined": "Тюмень Локомотивная ул, д. 116/2",
-                                    "Longitude": "57.1494188",
-                                    "Latitude": "65.484614",
-                                    "Index": "625025",
-                                    "Город": "Тюмень",
-                                    "Адреса": "Локомотивная ул, д. 116/2"
-                                },
-                                {
-                                    "undefined": "Тула Красноармейский пр-кт, д. 11а",
-                                    "Longitude": "54.1965713",
-                                    "Latitude": "37.6019082",
-                                    "Index": "300041",
-                                    "Город": "Тула",
-                                    "Адреса": "Красноармейский пр-кт, д. 11а"
-                                },
-                                {
-                                    "undefined": "Самара Лазо ул, д. 14",
-                                    "Longitude": "53.3469497",
-                                    "Latitude": "50.2141895",
-                                    "Index": "443026",
-                                    "Город": "Самара",
-                                    "Адреса": "Лазо ул, д. 14"
-                                },
-                                {
-                                    "undefined": "Сызрань Ул. Гагарина 104 (жилой дом офис рядом с нотариусом)",
-                                    "Longitude": "53.1257042",
-                                    "Latitude": "48.4138342",
-                                    "Index": "446028",
-                                    "Город": "Сызрань",
-                                    "Адреса": "Ул. Гагарина 104 (жилой дом офис рядом с нотариусом)"
-                                },
-                                {
-                                    "undefined": "Тольятти Революционная ул, д. 18а",
-                                    "Longitude": "53.531511",
-                                    "Latitude": "49.276121",
-                                    "Index": "445032",
-                                    "Город": "Тольятти",
-                                    "Адреса": "Революционная ул, д. 18а"
-                                },
-                                {
-                                    "undefined": "Салават Монтажников б-р, д. 48/2",
-                                    "Longitude": "53.3719789",
-                                    "Latitude": "55.9452123",
-                                    "Index": "453252",
-                                    "Город": "Салават",
-                                    "Адреса": "Монтажников б-р, д. 48/2"
-                                },
-                                {
-                                    "undefined": "Стерлитамак Коммунистическая ул, д. 84",
-                                    "Longitude": "53.6199323",
-                                    "Latitude": "55.9066724",
-                                    "Index": "453120",
-                                    "Город": "Стерлитамак",
-                                    "Адреса": "Коммунистическая ул, д. 84"
-                                },
-                                {
-                                    "undefined": "Уфа ул Бакалинская 25",
-                                    "Longitude": "54.7189242",
-                                    "Latitude": "55.9870381",
-                                    "Index": "450073",
-                                    "Город": "Уфа",
-                                    "Адреса": "ул Бакалинская 25"
-                                },
-                                {
-                                    "undefined": "Саранск Веселовского ул, д. 31",
-                                    "Longitude": "54.2264826",
-                                    "Latitude": "45.1311999",
-                                    "Index": "430021",
-                                    "Город": "Саранск",
-                                    "Адреса": "Веселовского ул, д. 31"
-                                },
-                                {
-                                    "undefined": "Хабаровск Большая ул, д. 2а",
-                                    "Longitude": "48.4979443",
-                                    "Latitude": "135.0990308",
-                                    "Index": "680009",
-                                    "Город": "Хабаровск",
-                                    "Адреса": "Большая ул, д. 2а"
-                                },
-                                {
-                                    "undefined": "Нижневартовск Северная ул., 19",
-                                    "Longitude": "60.956817",
-                                    "Latitude": "76.58085",
-                                    "Index": "628609",
-                                    "Город": "Нижневартовск",
-                                    "Адреса": "Северная ул., 19"
-                                },
-                                {
-                                    "undefined": "Северодвинск ул. Ломоносова, 71 А",
-                                    "Longitude": "64.5536658",
-                                    "Latitude": "39.802804",
-                                    "Index": "164504",
-                                    "Город": "Северодвинск",
-                                    "Адреса": "ул. Ломоносова, 71 А"
-                                },
-                                {
-                                    "undefined": "Архангельск Московский пр-кт, д. 25",
-                                    "Longitude": "64.5327258",
-                                    "Latitude": "40.5925948",
-                                    "Index": "163002",
-                                    "Город": "Архангельск",
-                                    "Адреса": "Московский пр-кт, д. 25"
-                                },
-                                {
-                                    "undefined": "Ярославль Толбухина пр-кт, д. 8/75",
-                                    "Longitude": "57.6206272",
-                                    "Latitude": "39.8588887",
-                                    "Index": "150014",
-                                    "Город": "Ярославль",
-                                    "Адреса": "Толбухина пр-кт, д. 8/75"
-                                },
-                                {
-                                    "undefined": "Рыбинск Герцена ул, д. 48а",
-                                    "Longitude": "58.048626",
-                                    "Latitude": "38.839466",
-                                    "Index": "152934",
-                                    "Город": "Рыбинск",
-                                    "Адреса": "Герцена ул, д. 48а"
-                                },
-                                {
-                                    "undefined": "Рязань Маяковского ул, д. 1а",
-                                    "Longitude": "54.6154272",
-                                    "Latitude": "39.7525963",
-                                    "Index": "390046",
-                                    "Город": "Рязань",
-                                    "Адреса": "Маяковского ул, д. 1а"
-                                },
-                                {
-                                    "undefined": "Псков Яна Фабрициуса ул, д. 10",
-                                    "Longitude": "57.80717",
-                                    "Latitude": "28.3466772",
-                                    "Index": "180000",
-                                    "Город": "Псков",
-                                    "Адреса": "Яна Фабрициуса ул, д. 10"
-                                },
-                                {
-                                    "undefined": "Тверь Софьи Перовской ул, д. 28",
-                                    "Longitude": "56.8584719",
-                                    "Latitude": "35.8844564",
-                                    "Index": "170006",
-                                    "Город": "Тверь",
-                                    "Адреса": "Софьи Перовской ул, д. 28"
-                                },
-                                {
-                                    "undefined": "Тамбов Советская ул, д. 125",
-                                    "Longitude": "52.735737",
-                                    "Latitude": "41.453014",
-                                    "Index": "392008",
-                                    "Город": "Тамбов",
-                                    "Адреса": "Советская ул, д. 125"
-                                },
-                                {
-                                    "undefined": "Липецк Победы пр-кт, д. 29",
-                                    "Longitude": "52.5968568",
-                                    "Latitude": "39.5675221",
-                                    "Index": "398024",
-                                    "Город": "Липецк",
-                                    "Адреса": "Победы пр-кт, д. 29"
-                                },
-                                {
-                                    "undefined": "Мурманск Ленина пр-кт, д. 82",
-                                    "Longitude": "68.9712018",
-                                    "Latitude": "33.0765628",
-                                    "Index": "183038",
-                                    "Город": "Мурманск",
-                                    "Адреса": "Ленина пр-кт, д. 82"
-                                },
-                                {
-                                    "undefined": "Новосибирск ул. Коммунистическая 27/29",
-                                    "Longitude": "55.0233112",
-                                    "Latitude": "82.9173795",
-                                    "Index": "630007",
-                                    "Город": "Новосибирск",
-                                    "Адреса": "ул. Коммунистическая 27/29"
-                                },
-                                {
-                                    "undefined": "Омск Серова ул, д. 19а",
-                                    "Longitude": "54.940583",
-                                    "Latitude": "73.382547",
-                                    "Index": "644020",
-                                    "Город": "Омск",
-                                    "Адреса": "Серова ул, д. 19а"
-                                },
-                                {
-                                    "undefined": "Иваново Ленина пр-кт, д. 108",
-                                    "Longitude": "57.0172029",
-                                    "Latitude": "40.9701735",
-                                    "Index": "153002",
-                                    "Город": "Иваново",
-                                    "Адреса": "Ленина пр-кт, д. 108"
-                                },
-                                {
-                                    "undefined": "Челябинск Университетская Набережная ул, д. 66б",
-                                    "Longitude": "55.1700196",
-                                    "Latitude": "61.3043173",
-                                    "Index": "692777",
-                                    "Город": "Челябинск",
-                                    "Адреса": "Университетская Набережная ул, д. 66б"
-                                },
-                                {
-                                    "undefined": "Златоуст 40-летия Победы ул, д. 20",
-                                    "Longitude": "55.1244316",
-                                    "Latitude": "59.7189427",
-                                    "Index": "456238",
-                                    "Город": "Златоуст",
-                                    "Адреса": "40-летия Победы ул, д. 20"
-                                },
-                                {
-                                    "undefined": "Магнитогорск Ленина пр-кт, д. 139",
-                                    "Longitude": "53.3652777",
-                                    "Latitude": "58.9918804",
-                                    "Index": "455021",
-                                    "Город": "Магнитогорск",
-                                    "Адреса": "Ленина пр-кт, д. 139"
-                                },
-                                {
-                                    "undefined": "Миасс Октября пр-кт, д. 21",
-                                    "Longitude": "55.1377138",
-                                    "Latitude": "60.1535306",
-                                    "Index": "456318",
-                                    "Город": "Миасс",
-                                    "Адреса": "Октября пр-кт, д. 21"
-                                },
-                                {
-                                    "undefined": "Екатеринбург Ул. Ленина 25 ТЦ Европа 4 этаж оф 106 (вход через вторую дверь \"вертушкой\")",
-                                    "Longitude": "56.8386868",
-                                    "Latitude": "60.5949801",
-                                    "Index": "620014",
-                                    "Город": "Екатеринбург",
-                                    "Адреса": "Ул. Ленина 25 ТЦ Европа 4 этаж оф 106 (вход через вторую дверь \"вертушкой\")"
-                                },
-                                {
-                                    "undefined": "Нижний Тагил Строителей пр-кт, д. 16",
-                                    "Longitude": "57.9088832",
-                                    "Latitude": "59.9846078",
-                                    "Index": "622034",
-                                    "Город": "Нижний Тагил",
-                                    "Адреса": "Строителей пр-кт, д. 16"
-                                },
-                                {
-                                    "undefined": "Каменск-Уральский Кутузова ул, д. 27",
-                                    "Longitude": "56.390316",
-                                    "Latitude": "61.9211889",
-                                    "Index": "623430",
-                                    "Город": "Каменск-Уральский",
-                                    "Адреса": "Кутузова ул, д. 27"
-                                },
-                                {
-                                    "undefined": "Оренбург Дзержинского пр-кт, д. 4",
-                                    "Longitude": "51.8265429",
-                                    "Latitude": "55.1146214",
-                                    "Index": "460038",
-                                    "Город": "Оренбург",
-                                    "Адреса": "Дзержинского пр-кт, д. 4"
-                                },
-                                {
-                                    "undefined": "Орск Мира пр-кт, д. 7",
-                                    "Longitude": "51.2282269",
-                                    "Latitude": "58.5053159",
-                                    "Index": "462403",
-                                    "Город": "Орск",
-                                    "Адреса": "Мира пр-кт, д. 7"
-                                },
-                                {
-                                    "undefined": "Орёл ул. Михалицина, 61",
-                                    "Longitude": "52.9953645",
-                                    "Latitude": "36.1110953",
-                                    "Index": "302025",
-                                    "Город": "Орёл",
-                                    "Адреса": "ул. Михалицина, 61"
-                                },
-                                {
-                                    "undefined": "Калуга Гагарина ул, д. 4",
-                                    "Longitude": "54.514852",
-                                    "Latitude": "36.242388",
-                                    "Index": "248000",
-                                    "Город": "Калуга",
-                                    "Адреса": "Гагарина ул, д. 4"
-                                },
-                                {
-                                    "undefined": "Калининград А.Невского ул, д. 193а",
-                                    "Longitude": "54.7486443",
-                                    "Latitude": "20.536815",
-                                    "Index": "236029",
-                                    "Город": "Калининград",
-                                    "Адреса": "А.Невского ул, д. 193а"
-                                },
-                                {
-                                    "undefined": "Благовещенск Октябрьская ул, д. 173/1",
-                                    "Longitude": "50.2711997",
-                                    "Latitude": "127.5383613",
-                                    "Index": "675016",
-                                    "Город": "Благовещенск",
-                                    "Адреса": "Октябрьская ул, д. 173/1"
-                                },
-                                {
-                                    "undefined": "Пермь ул. Петропаловская 41 оф 204",
-                                    "Longitude": "58.0134977",
-                                    "Latitude": "56.2392396",
-                                    "Index": "614045",
-                                    "Город": "Пермь",
-                                    "Адреса": "ул. Петропаловская 41 оф 204"
-                                },
-                                {
-                                    "undefined": "Пенза Чехова ул, д. 3б",
-                                    "Longitude": "53.1991359",
-                                    "Latitude": "45.021645",
-                                    "Index": "440000",
-                                    "Город": "Пенза",
-                                    "Адреса": "Чехова ул, д. 3б"
-                                },
-                                {
-                                    "undefined": "Находка Находкинский пр-кт, д. 12",
-                                    "Longitude": "42.8253471",
-                                    "Latitude": "132.8931304",
-                                    "Index": "692904",
-                                    "Город": "Находка",
-                                    "Адреса": "Находкинский пр-кт, д. 12"
-                                },
-                                {
-                                    "undefined": "Уссурийск ул. Ленина, 122",
-                                    "Longitude": "43.7995525",
-                                    "Latitude": "131.9553983",
-                                    "Index": "692519",
-                                    "Город": "Уссурийск",
-                                    "Адреса": "ул. Ленина, 122"
-                                },
-                                {
-                                    "undefined": "Петропавловск-Камчатский 50 Лет Октября просп",
-                                    "Longitude": "53.0550474",
-                                    "Latitude": "158.6370749",
-                                    "Index": "683024",
-                                    "Город": "Петропавловск-Камчатский",
-                                    "Адреса": "50 Лет Октября просп"
-                                },
-                                {
-                                    "undefined": "Петрозаводск Ленина пр-кт, д. 15",
-                                    "Longitude": "61.7905275",
-                                    "Latitude": "34.3658882",
-                                    "Index": "185035",
-                                    "Город": "Петрозаводск",
-                                    "Адреса": "Ленина пр-кт, д. 15"
-                                },
-                                {
-                                    "undefined": "Смоленск Кловская ул, д. 19а",
-                                    "Longitude": "54.775478",
-                                    "Latitude": "31.998343",
-                                    "Index": "214038",
-                                    "Город": "Смоленск",
-                                    "Адреса": "Кловская ул, д. 19а"
-                                },
-                                {
-                                    "undefined": "Барнаул Антона Петрова ул, д. 170",
-                                    "Longitude": "53.3591672",
-                                    "Latitude": "83.7036861",
-                                    "Index": "656050",
-                                    "Город": "Барнаул",
-                                    "Адреса": "Антона Петрова ул, д. 170"
-                                },
-                                {
-                                    "undefined": "Бийск Вали Максимовой ул, д. 85/1",
-                                    "Longitude": "52.5328604",
-                                    "Latitude": "85.1773608",
-                                    "Index": "659303",
-                                    "Город": "Бийск",
-                                    "Адреса": "Вали Максимовой ул, д. 85/1"
-                                },
-                                {
-                                    "undefined": "Иркутск Советская ул, д. 136",
-                                    "Longitude": "52.2794953",
-                                    "Latitude": "104.3241141",
-                                    "Index": "664009",
-                                    "Город": "Иркутск",
-                                    "Адреса": "Советская ул, д. 136"
-                                },
-                                {
-                                    "undefined": "Ангарск 86-й кв-л, 1",
-                                    "Longitude": "52.5327512",
-                                    "Latitude": "103.886292",
-                                    "Index": "665825",
-                                    "Город": "Ангарск",
-                                    "Адреса": "86-й кв-л, 1"
-                                },
-                                {
-                                    "undefined": "Братск ул. Наймушина, 4",
-                                    "Longitude": "56.3095414",
-                                    "Latitude": "101.7508487",
-                                    "Index": "665709",
-                                    "Город": "Братск",
-                                    "Адреса": "ул. Наймушина, 4"
-                                },
-                                {
-                                    "undefined": "Севастополь ул. Парковая, 29",
-                                    "Longitude": "44.5982707",
-                                    "Latitude": "33.4595152",
-                                    "Index": "423585",
-                                    "Город": "Севастополь",
-                                    "Адреса": "ул. Парковая, 29"
-                                },
-                                {
-                                    "undefined": "Симферополь ул. Маяковского, 14",
-                                    "Longitude": "44.9506286",
-                                    "Latitude": "34.0888239",
-                                    "Index": "420111",
-                                    "Город": "Симферополь",
-                                    "Адреса": "ул. Маяковского, 14"
-                                },
-                                {
-                                    "undefined": "Нальчик ул. Ногмова, 75",
-                                    "Longitude": "43.491202",
-                                    "Latitude": "43.5983488",
-                                    "Index": "360004",
-                                    "Город": "Нальчик",
-                                    "Адреса": "ул. Ногмова, 75"
-                                },
-                                {
-                                    "undefined": "Казань ул.Пушкина 30, 2 этаж, офис 211",
-                                    "Longitude": "55.7914528",
-                                    "Latitude": "49.1251417",
-                                    "Index": "420111",
-                                    "Город": "Казань",
-                                    "Адреса": "ул.Пушкина 30, 2 этаж, офис 211"
-                                },
-                                {
-                                    "undefined": "Альметьевск Ленина ул, д. 60",
-                                    "Longitude": "54.8997794",
-                                    "Latitude": "52.2920335",
-                                    "Index": "423450",
-                                    "Город": "Альметьевск",
-                                    "Адреса": "Ленина ул, д. 60"
-                                },
-                                {
-                                    "undefined": "Нижнекамск Южная ул, д. 3",
-                                    "Longitude": "55.6139122",
-                                    "Latitude": "51.7844298",
-                                    "Index": "423585",
-                                    "Город": "Нижнекамск",
-                                    "Адреса": "Южная ул, д. 3"
-                                },
-                                {
-                                    "undefined": "Набережные челны Мира пр-кт, д. 8а",
-                                    "Longitude": "55.7258189",
-                                    "Latitude": "52.3874565",
-                                    "Index": "423814",
-                                    "Город": "Набережные челны",
-                                    "Адреса": "Мира пр-кт, д. 8а"
-                                },
-                                {
-                                    "undefined": "Абакан Тараса Шевченко ул, д. 62",
-                                    "Longitude": "53.7201647",
-                                    "Latitude": "91.4587105",
-                                    "Index": "655012",
-                                    "Город": "Абакан",
-                                    "Адреса": "Тараса Шевченко ул, д. 62"
-                                },
-                                {
-                                    "undefined": "Йошкар-Ола Комсомольская ул, д. 79",
-                                    "Longitude": "56.6468165",
-                                    "Latitude": "47.900845",
-                                    "Index": "424004",
-                                    "Город": "Йошкар-Ола",
-                                    "Адреса": "Комсомольская ул, д. 79"
-                                },
-                                {
-                                    "undefined": "Ижевск Воткинское шоссе, 162, оф.18",
-                                    "Longitude": "56.890287",
-                                    "Latitude": "53.2693529",
-                                    "Index": "426039",
-                                    "Город": "Ижевск",
-                                    "Адреса": "Воткинское шоссе, 162, оф.18"
-                                },
-                                {
-                                    "undefined": "Ростов-на-Дону Ул. Ленина 54, (рядом салон красоты \"Светлана\")",
-                                    "Longitude": "47.2496889",
-                                    "Latitude": "39.717606",
-                                    "Index": "344000",
-                                    "Город": "Ростов-на-Дону",
-                                    "Адреса": "Ул. Ленина 54, (рядом салон красоты \"Светлана\")"
-                                },
-                                {
-                                    "undefined": "Волгодонск Ленина ул, д. 45",
-                                    "Longitude": "47.5199426",
-                                    "Latitude": "42.1515737",
-                                    "Index": "347360",
-                                    "Город": "Волгодонск",
-                                    "Адреса": "Ленина ул, д. 45"
-                                },
-                                {
-                                    "undefined": "Аксай пр. Ленина, 24",
-                                    "Longitude": "47.2656354",
-                                    "Latitude": "39.8605587",
-                                    "Index": "346720",
-                                    "Город": "Аксай",
-                                    "Адреса": "пр. Ленина, 24"
-                                },
-                                {
-                                    "undefined": "Батайск Ул. Максима Горького 285Г",
-                                    "Longitude": "47.1381791",
-                                    "Latitude": "39.7148327",
-                                    "Index": "346880",
-                                    "Город": "Батайск",
-                                    "Адреса": "Ул. Максима Горького 285Г"
-                                },
-                                {
-                                    "undefined": "Шахты Победа Революции пр-т., 188",
-                                    "Longitude": "47.6924472",
-                                    "Latitude": "40.2037742",
-                                    "Index": "346524",
-                                    "Город": "Шахты",
-                                    "Адреса": "Победа Революции пр-т., 188"
-                                },
-                                {
-                                    "undefined": "Таганрог ул. Москатова, 10-1",
-                                    "Longitude": "47.2623494",
-                                    "Latitude": "38.917375",
-                                    "Index": "347924",
-                                    "Город": "Таганрог",
-                                    "Адреса": "ул. Москатова, 10-1"
-                                },
-                                {
-                                    "undefined": "Новочеркасск Новочеркасское шоссе 1А (поворот на грушевку)",
-                                    "Longitude": "47.3368662",
-                                    "Latitude": "39.8689832",
-                                    "Index": "346735",
-                                    "Город": "Новочеркасск",
-                                    "Адреса": "Новочеркасское шоссе 1А (поворот на грушевку)"
-                                },
-                                {
-                                    "undefined": "Владивосток ул. Батарейная, 3а, офис 310",
-                                    "Longitude": "43.120086",
-                                    "Latitude": "131.8774404",
-                                    "Index": "690091",
-                                    "Город": "Владивосток",
-                                    "Адреса": "ул. Батарейная, 3а, офис 310"
-                                },
-                                {
-                                    "undefined": "Сургут ул. Игоря Киртбая, 11",
-                                    "Longitude": "61.270299",
-                                    "Latitude": "73.3610136",
-                                    "Index": "628400",
-                                    "Город": "Сургут",
-                                    "Адреса": "ул. Игоря Киртбая, 11"
-                                },
-                                {
-                                    "undefined": "Керчь улица Ленина, 45",
-                                    "Longitude": "45.3531026",
-                                    "Latitude": "36.4742842",
-                                    "Index": "601901",
-                                    "Город": "Керчь",
-                                    "Адреса": "улица Ленина, 45"
-                                },
-                                {
-                                    "undefined": "Пятигорск улица Ермолова, 28с2",
-                                    "Longitude": "44.047087",
-                                    "Latitude": "43.0126546",
-                                    "Index": "357500",
-                                    "Город": "Пятигорск",
-                                    "Адреса": "улица Ермолова, 28с2"
-                                },
-                                {
-                                    "undefined": "Копейск проспект Ильича, 13",
-                                    "Longitude": "55.108263",
-                                    "Latitude": "61.6112031",
-                                    "Index": "456623",
-                                    "Город": "Копейск",
-                                    "Адреса": "проспект Ильича, 13"
-                                },
-                                {
-                                    "undefined": "Рубцовск Комсомольская улица, 257",
-                                    "Longitude": "51.5091242",
-                                    "Latitude": "81.202193",
-                                    "Index": "658200",
-                                    "Город": "Рубцовск",
-                                    "Адреса": "Комсомольская улица, 257"
-                                },
-                                {
-                                    "undefined": "Майкоп Краснооктябрьская ул., 50",
-                                    "Longitude": "44.6149876",
-                                    "Latitude": "40.1066554",
-                                    "Index": "385000",
-                                    "Город": "Майкоп",
-                                    "Адреса": "Краснооктябрьская ул., 50"
-                                },
-                                {
-                                    "undefined": "Коломна проспект Кирова, 28А/2",
-                                    "Longitude": "55.0836538",
-                                    "Latitude": "38.7624039",
-                                    "Index": "140411",
-                                    "Город": "Коломна",
-                                    "Адреса": "проспект Кирова, 28А/2"
-                                },
-                                {
-                                    "undefined": "Березники улица Карла Маркса, 53",
-                                    "Longitude": "59.4053067",
-                                    "Latitude": "56.801973",
-                                    "Index": "618400",
-                                    "Город": "Березники",
-                                    "Адреса": "улица Карла Маркса, 53"
-                                },
-                                {
-                                    "undefined": "Домодедово улица Кирова, с28",
-                                    "Longitude": "55.4316116",
-                                    "Latitude": "37.7512829",
-                                    "Index": "142000",
-                                    "Город": "Домодедово",
-                                    "Адреса": "улица Кирова, с28"
-                                },
-                                {
-                                    "undefined": "Ковров проспект Ленина, 35",
-                                    "Longitude": "56.3574322",
-                                    "Latitude": "41.3109678",
-                                    "Index": "601901",
-                                    "Город": "Ковров",
-                                    "Адреса": "проспект Ленина, 35"
-                                },
-                                {
-                                    "undefined": "Одинцово Можайское ш., 71 ТЦ Дубрава",
-                                    "Longitude": "55.6774931",
-                                    "Latitude": "37.2805823",
-                                    "Index": "143007",
-                                    "Город": "Одинцово",
-                                    "Адреса": "Можайское ш., 71 ТЦ Дубрава"
-                                },
-                                {
-                                    "undefined": "Нефтекамск улица Ленина, 46",
-                                    "Longitude": "56.09444",
-                                    "Latitude": "54.2333178",
-                                    "Index": "452683",
-                                    "Город": "Нефтекамск",
-                                    "Адреса": "улица Ленина, 46"
-                                },
-                                {
-                                    "undefined": "Кисловодск улица Тельмана, 5",
-                                    "Longitude": "43.9065598",
-                                    "Latitude": "42.7107066",
-                                    "Index": "357700",
-                                    "Город": "Кисловодск",
-                                    "Адреса": "улица Тельмана, 5"
-                                },
-                                {
-                                    "undefined": "Нефтеюганск 5-й микрорайон, 6",
-                                    "Longitude": "61.0953922",
-                                    "Latitude": "72.6059357",
-                                    "Index": "628301",
-                                    "Город": "Нефтеюганск",
-                                    "Адреса": "5-й микрорайон, 6"
-                                },
-                                {
-                                    "undefined": "Новочебоксарск улица Семёнова, 37",
-                                    "Longitude": "56.107868",
-                                    "Latitude": "47.4751352",
-                                    "Index": "429965",
-                                    "Город": "Новочебоксарск",
-                                    "Адреса": "улица Семёнова, 37"
-                                },
-                                {
-                                    "undefined": "Щёлково улица Комарова, 2",
-                                    "Longitude": "55.9203061",
-                                    "Latitude": "37.9922025",
-                                    "Index": "141100",
-                                    "Город": "Щёлково",
-                                    "Адреса": "улица Комарова, 2"
-                                },
-                                {
-                                    "undefined": "Новомосковск Комсомольская улица, 30",
-                                    "Longitude": "54.010725",
-                                    "Latitude": "38.286777",
-                                    "Index": "301650",
-                                    "Город": "Новомосковск",
-                                    "Адреса": "Комсомольская улица, 30"
-                                },
-                                {
-                                    "undefined": "Раменское улица Карла Маркса, 6",
-                                    "Longitude": "55.569386",
-                                    "Latitude": "38.2267399",
-                                    "Index": "140108",
-                                    "Город": "Раменское",
-                                    "Адреса": "улица Карла Маркса, 6"
-                                },
-                                {
-                                    "undefined": "Первоуральск улица Ватутина, 42",
-                                    "Longitude": "56.9056267",
-                                    "Latitude": "59.9442997",
-                                    "Index": "623104",
-                                    "Город": "Первоуральск",
-                                    "Адреса": "улица Ватутина, 42"
-                                },
-                                {
-                                    "undefined": "Кызыл улица Кочетова, 53",
-                                    "Longitude": "51.718968",
-                                    "Latitude": "94.438587",
-                                    "Index": "667000",
-                                    "Город": "Кызыл",
-                                    "Адреса": "улица Кочетова, 53"
-                                },
-                                {
-                                    "undefined": "Орехово-Зуево Центральный бульвар, 3",
-                                    "Longitude": "55.8040889",
-                                    "Latitude": "38.9796467",
-                                    "Index": "142600",
-                                    "Город": "Орехово-Зуево",
-                                    "Адреса": "Центральный бульвар, 3"
-                                },
-                                {
-                                    "undefined": "Новый Уренгой Ленинградский проспект, 8",
-                                    "Longitude": "66.0832715",
-                                    "Latitude": "76.6766004",
-                                    "Index": "629300",
-                                    "Город": "Новый Уренгой",
-                                    "Адреса": "Ленинградский проспект, 8"
-                                },
-                                {
-                                    "undefined": "Обнинск проспект Маркса, 50",
-                                    "Longitude": "55.1175454",
-                                    "Latitude": "36.5994164",
-                                    "Index": "249032",
-                                    "Город": "Обнинск",
-                                    "Адреса": "проспект Маркса, 50"
-                                },
-                                {
-                                    "undefined": "Невинномысск улица Гагарина, 17",
-                                    "Longitude": "44.63796",
-                                    "Latitude": "41.9428424",
-                                    "Index": "357108",
-                                    "Город": "Невинномысск",
-                                    "Адреса": "улица Гагарина, 17"
-                                },
-                                {
-                                    "undefined": "Долгопрудный Дирижабельная улица, 9",
-                                    "Longitude": "55.9374279",
-                                    "Latitude": "37.5106119",
-                                    "Index": "141700",
-                                    "Город": "Долгопрудный",
-                                    "Адреса": "Дирижабельная улица, 9"
-                                },
-                                {
-                                    "undefined": "Октябрьский проспект Ленина, 10",
-                                    "Longitude": "54.4815064",
-                                    "Latitude": "53.4680978",
-                                    "Index": "452614",
-                                    "Город": "Октябрьский",
-                                    "Адреса": "проспект Ленина, 10"
-                                },
-                                {
-                                    "undefined": "Димитровград улица Хмельницкого, 112",
-                                    "Longitude": "54.2172037",
-                                    "Latitude": "49.6254903",
-                                    "Index": "433508",
-                                    "Город": "Димитровград",
-                                    "Адреса": "улица Хмельницкого, 112"
-                                },
-                                {
-                                    "undefined": "Ессентуки Советская улица, 24",
-                                    "Longitude": "44.0444044",
-                                    "Latitude": "42.854195",
-                                    "Index": "357601",
-                                    "Город": "Ессентуки",
-                                    "Адреса": "Советская улица, 24"
-                                },
-                                {
-                                    "undefined": "Камышин Пролетарская улица, 70/1",
-                                    "Longitude": "50.0778709",
-                                    "Latitude": "45.4004872",
-                                    "Index": "403873",
-                                    "Город": "Камышин",
-                                    "Адреса": "Пролетарская улица, 70/1"
-                                },
-                                {
-                                    "undefined": "Евпатория улица Пушкина, 16",
-                                    "Longitude": "45.1883094",
-                                    "Latitude": "33.3667642",
-                                    "Index": "636000",
-                                    "Город": "Евпатория",
-                                    "Адреса": "улица Пушкина, 16"
-                                },
-                                {
-                                    "undefined": "Реутов улица Ленина, 14",
-                                    "Longitude": "55.7577635",
-                                    "Latitude": "37.8569164",
-                                    "Index": "143966",
-                                    "Город": "Реутов",
-                                    "Адреса": "улица Ленина, 14"
-                                },
-                                {
-                                    "undefined": "Жуковский улица Фрунзе, 9",
-                                    "Longitude": "55.5967761",
-                                    "Latitude": "38.1197226",
-                                    "Index": "140181",
-                                    "Город": "Жуковский",
-                                    "Адреса": "улица Фрунзе, 9"
-                                },
-                                {
-                                    "undefined": "Пушкино Московский проспект, 6",
-                                    "Longitude": "56.010741",
-                                    "Latitude": "37.843394",
-                                    "Index": "141207",
-                                    "Город": "Пушкино",
-                                    "Адреса": "Московский проспект, 6"
-                                },
-                                {
-                                    "undefined": "Муром Московская улица, 14",
-                                    "Longitude": "55.578431",
-                                    "Latitude": "42.0496941",
-                                    "Index": "602267",
-                                    "Город": "Муром",
-                                    "Адреса": "Московская улица, 14"
-                                },
-                                {
-                                    "undefined": "Ноябрьск улица Ленина, 42",
-                                    "Longitude": "63.198942",
-                                    "Latitude": "75.4466964",
-                                    "Index": "629807",
-                                    "Город": "Ноябрьск",
-                                    "Адреса": "улица Ленина, 42"
-                                },
-                                {
-                                    "undefined": "Новошахтинск проспект Ленина, 7",
-                                    "Longitude": "47.754224",
-                                    "Latitude": "39.933748",
-                                    "Index": "346918",
-                                    "Город": "Новошахтинск",
-                                    "Адреса": "проспект Ленина, 7"
-                                },
-                                {
-                                    "undefined": "Северск улица Ленина, 40",
-                                    "Longitude": "56.6007747",
-                                    "Latitude": "84.8777915",
-                                    "Index": "636000",
-                                    "Город": "Северск",
-                                    "Адреса": "улица Ленина, 40"
-                                },
-                                {
-                                    "undefined": "Артём улица Фрунзе, 54Г",
-                                    "Longitude": "43.3529802",
-                                    "Latitude": "132.1727113",
-                                    "Index": "692760",
-                                    "Город": "Артём",
-                                    "Адреса": "улица Фрунзе, 54Г"
-                                },
-                                {
-                                    "undefined": "Ачинск 9-й микрорайон, 11",
-                                    "Longitude": "56.2705263",
-                                    "Latitude": "90.4972436",
-                                    "Index": "662150",
-                                    "Город": "Ачинск",
-                                    "Адреса": "9-й микрорайон, 11"
-                                },
-                                {
-                                    "undefined": "Бердск улица Островского, 57",
-                                    "Longitude": "54.7582908",
-                                    "Latitude": "83.0968264",
-                                    "Index": "633010",
-                                    "Город": "Бердск",
-                                    "Адреса": "улица Островского, 57"
-                                },
-                                {
-                                    "undefined": "Ногинск Советская улица, 44",
-                                    "Longitude": "55.8549167",
-                                    "Latitude": "38.4430685",
-                                    "Index": "142400",
-                                    "Город": "Ногинск",
-                                    "Адреса": "Советская улица, 44"
-                                },
-                                {
-                                    "undefined": "Арзамас Соборная площадь, 2А",
-                                    "Longitude": "55.386375",
-                                    "Latitude": "43.8158201",
-                                    "Index": "607223",
-                                    "Город": "Арзамас",
-                                    "Адреса": "Соборная площадь, 2А"
-                                },
-                                {
-                                    "undefined": "Элиста улица А. Сусеева, 4",
-                                    "Longitude": "46.3049537",
-                                    "Latitude": "44.2694469",
-                                    "Index": "358000",
-                                    "Город": "Элиста",
-                                    "Адреса": "улица А. Сусеева, 4"
-                                },
-                                {
-                                    "undefined": "Елец улица Мира, 92",
-                                    "Longitude": "52.621826",
-                                    "Latitude": "38.501011",
-                                    "Index": "399770",
-                                    "Город": "Елец",
-                                    "Адреса": "улица Мира, 92"
-                                },
-                                {
-                                    "undefined": "Ханты-Мансийск улица Энгельса, 3",
-                                    "Longitude": "61.0038295",
-                                    "Latitude": "69.0147575",
-                                    "Index": "628011",
-                                    "Город": "Ханты-Мансийск",
-                                    "Адреса": "улица Энгельса, 3"
-                                },
-                                {
-                                    "undefined": "Новокуйбышевск Коммунистическая улица, 39",
-                                    "Longitude": "53.098823",
-                                    "Latitude": "49.9473719",
-                                    "Index": "446200",
-                                    "Город": "Новокуйбышевск",
-                                    "Адреса": "Коммунистическая улица, 39"
-                                },
-                                {
-                                    "undefined": "Железногорск улица Ленина, 48к1",
-                                    "Longitude": "52.337659",
-                                    "Latitude": "35.352051",
-                                    "Index": "307170",
-                                    "Город": "Железногорск",
-                                    "Адреса": "улица Ленина, 48к1"
-                                },
-                                {
-                                    "undefined": "Сергиев Посад проспект Красной Армии, 131",
-                                    "Longitude": "56.3103767",
-                                    "Latitude": "38.1338702",
-                                    "Index": "141306",
-                                    "Город": "Сергиев Посад",
-                                    "Адреса": "проспект Красной Армии, 131"
-                                },
-                                {
-                                    "undefined": "Зеленодольск улица Ленина, 21",
-                                    "Longitude": "55.8464739",
-                                    "Latitude": "48.4982577",
-                                    "Index": "422550",
-                                    "Город": "Зеленодольск",
-                                    "Адреса": "улица Ленина, 21"
-                                }
-                            ]
+                                <br><br>
 
-                            ReactDOM.render(
-                                <div>
-                                    {dateMap.map((obj, index) => {
-                                        return (
-                                            <a
-                                                key={index}
-                                                id={obj['Город']}
-                                                itemProp="address" itemScope itemType="http://schema.org/PostalAddress"
-                                                href="#"
-                                                data-coordinate={obj['Latitude'] + ',' + obj['Longitude']}
-                                                data-address={obj['Index'] + ' ' + obj['Город'] + ', ' + obj['Адреса']}
-                                                data-name={obj['Адреса']}
-                                                data-content="режим работы: 9:00-19:00"
-                                                title=""
-                                                className="mapOptions__addresses_a">
-                                                <span itemProp="postalCode"
-                                                      className="addresses-text-bold">{obj['Index']}, г. {obj['Город']}</span><br/>
-                                                <span itemProp="streetAddress"
-                                                      className="addresses-text-bold"> {obj['Адреса']}</span><br/>
-                                                режим работы: 9:00-19:00
-                                            </a>
-                                        )
-                                    })}
-                                </div>,
-                                document.getElementById('rootMap')
-                            )
-                        </script>
+                                <div class="city-wrapper-main">
+                                </div>
+                            </div>
+
+
+                            <div id="rootMap">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <script type="text/babel">
+                        const dateMap = [{
+                            "undefined": "Астрахань Богдана Хмельницкого ул, д. 36",
+                            "Longitude": "46.335739",
+                            "Latitude": "48.0233103",
+                            "Index": "414024",
+                            "Город": "Астрахань",
+                            "Адреса": "Богдана Хмельницкого ул, д. 36"
+                        },
+                            {
+                                "undefined": "Белгород Михайловское ш, д. 31",
+                                "Longitude": "50.5825967",
+                                "Latitude": "36.6423653",
+                                "Index": "308013",
+                                "Город": "Белгород",
+                                "Адреса": "Михайловское ш, д. 31"
+                            },
+                            {
+                                "undefined": "Старый Оскол Солнечный мкр, д. 36",
+                                "Longitude": "51.3117225",
+                                "Latitude": "37.8981075",
+                                "Index": "309502",
+                                "Город": "Старый Оскол",
+                                "Адреса": "Солнечный мкр, д. 36"
+                            },
+                            {
+                                "undefined": "Брянск Литейная ул, д. 68",
+                                "Longitude": "53.3317173",
+                                "Latitude": "34.2889528",
+                                "Index": "241014",
+                                "Город": "Брянск",
+                                "Адреса": "Литейная ул, д. 68"
+                            },
+                            {
+                                "undefined": "Волгоград Чехова ул, д. 18",
+                                "Longitude": "48.59373",
+                                "Latitude": "44.413441",
+                                "Index": "400023",
+                                "Город": "Волгоград",
+                                "Адреса": "Чехова ул, д. 18"
+                            },
+                            {
+                                "undefined": "Волжский просп. Ленина, 326 Г",
+                                "Longitude": "48.7516107",
+                                "Latitude": "44.7981116",
+                                "Index": "404133",
+                                "Город": "Волжский",
+                                "Адреса": "просп. Ленина, 326 Г"
+                            },
+                            {
+                                "undefined": "Владимир Горького ул, д. 65",
+                                "Longitude": "56.140629",
+                                "Latitude": "40.394392",
+                                "Index": "600017",
+                                "Город": "Владимир",
+                                "Адреса": "Горького ул, д. 65"
+                            },
+                            {
+                                "undefined": "Владимир Горького ул, д. 65",
+                                "Longitude": "56.140629",
+                                "Latitude": "40.394392",
+                                "Index": "600017",
+                                "Город": "Великий Новгород",
+                                "Адреса": "Стратилатовская ул, д. 5"
+                            },
+                            {
+                                "undefined": "Воронеж Фридриха Энгельса ул, д. 25б",
+                                "Longitude": "51.6688449",
+                                "Latitude": "39.2048469",
+                                "Index": "394036",
+                                "Город": "Воронеж",
+                                "Адреса": "Фридриха Энгельса ул, д. 25б"
+                            },
+                            {
+                                "undefined": "Вологда Чехова ул, д. 18",
+                                "Longitude": "59.211288",
+                                "Latitude": "39.88535",
+                                "Index": "160009",
+                                "Город": "Вологда",
+                                "Адреса": "Чехова ул, д. 18"
+                            },
+                            {
+                                "undefined": "Череповец пер. Ухтомского, 5",
+                                "Longitude": "59.118364",
+                                "Latitude": "37.9143089",
+                                "Index": "162602",
+                                "Город": "Череповец",
+                                "Адреса": "пер. Ухтомского, 5"
+                            },
+                            {
+                                "undefined": "Дзержинск Красноармейская ул, д. 21",
+                                "Longitude": "56.2480479",
+                                "Latitude": "43.4192534",
+                                "Index": "606015",
+                                "Город": "Дзержинск",
+                                "Адреса": "Красноармейская ул, д. 21"
+                            },
+                            {
+                                "undefined": "Нижний Новгород ул.Рождественская, 13, 2 этаж, 3 офис",
+                                "Longitude": "56.330243",
+                                "Latitude": "43.9961776",
+                                "Index": "603001",
+                                "Город": "Нижний Новгород",
+                                "Адреса": "ул.Рождественская, 13, 2 этаж, 3 офис"
+                            },
+                            {
+                                "undefined": "Кемерово ул. Пирогова, 32",
+                                "Longitude": "55.3443282",
+                                "Latitude": "86.0620865",
+                                "Index": "600017",
+                                "Город": "Кемерово",
+                                "Адреса": "ул. Пирогова, 32"
+                            },
+                            {
+                                "undefined": "Новокузнецк Ленина пр-кт, д. 7",
+                                "Longitude": "53.76919",
+                                "Latitude": "87.186149",
+                                "Index": "654034",
+                                "Город": "Новокузнецк",
+                                "Адреса": "Ленина пр-кт, д. 7"
+                            },
+                            {
+                                "undefined": "Прокопьевск Ноградская ул., 28-а",
+                                "Longitude": "53.8744939",
+                                "Latitude": "86.6397549",
+                                "Index": "653045",
+                                "Город": "Прокопьевск",
+                                "Адреса": "Ноградская ул., 28-а"
+                            },
+                            {
+                                "undefined": "Краснодар Северная, 490, БЦ Кутузовский, 1 этаж",
+                                "Longitude": "45.0367027",
+                                "Latitude": "38.9964005",
+                                "Index": "350002",
+                                "Город": "Краснодар",
+                                "Адреса": "Северная, 490, БЦ Кутузовский, 1 этаж"
+                            },
+                            {
+                                "undefined": "Сочи Кубанская ул, д. 15",
+                                "Longitude": "43.5782004",
+                                "Latitude": "39.7306993",
+                                "Index": "354000",
+                                "Город": "Сочи",
+                                "Адреса": "Кубанская ул, д. 15"
+                            },
+                            {
+                                "undefined": "Армавир Мира ул, д. 24",
+                                "Longitude": "44.9969711",
+                                "Latitude": "41.1287957",
+                                "Index": "352900",
+                                "Город": "Армавир",
+                                "Адреса": "Мира ул, д. 24"
+                            },
+                            {
+                                "undefined": "Новороссийск Пр-кт Дзержинского 183 (вход со стороны ул. Дзержинского)",
+                                "Longitude": "44.692561",
+                                "Latitude": "37.7794749",
+                                "Index": "353910",
+                                "Город": "Новороссийск",
+                                "Адреса": "Пр-кт Дзержинского 183 (вход со стороны ул. Дзержинского)"
+                            },
+                            {
+                                "undefined": "Курск Кулакова пр-кт, д. 24",
+                                "Longitude": "51.66474",
+                                "Latitude": "36.135793",
+                                "Index": "305018",
+                                "Город": "Курск",
+                                "Адреса": "Кулакова пр-кт, д. 24"
+                            },
+                            {
+                                "undefined": "Ставрополь Ул. Доваторцев 49Б (на 2 этаже над сбербанком)",
+                                "Longitude": "45.010461",
+                                "Latitude": "41.9286377",
+                                "Index": "355042",
+                                "Город": "Ставрополь",
+                                "Адреса": "Ул. Доваторцев 49Б (на 2 этаже над сбербанком)"
+                            },
+                            {
+                                "undefined": "Курган Машиностроителей пр-кт, д. 3в",
+                                "Longitude": "55.452769",
+                                "Latitude": "65.3397179",
+                                "Index": "150055",
+                                "Город": "Курган",
+                                "Адреса": "Машиностроителей пр-кт, д. 3в"
+                            },
+                            {
+                                "undefined": "Чита ул. Мостовая, 3",
+                                "Longitude": "52.0393778",
+                                "Latitude": "113.4778132",
+                                "Index": "672000",
+                                "Город": "Чита",
+                                "Адреса": "ул. Мостовая, 3"
+                            },
+                            {
+                                "undefined": "Красноярск Вильского ул, д. 22",
+                                "Longitude": "56.0208545",
+                                "Latitude": "92.7641713",
+                                "Index": "660113",
+                                "Город": "Красноярск",
+                                "Адреса": "Вильского ул, д. 22"
+                            },
+                            {
+                                "undefined": "Норильск Молодежный проезд, д. 3",
+                                "Longitude": "69.3549366",
+                                "Latitude": "88.1745093",
+                                "Index": "663319",
+                                "Город": "Норильск",
+                                "Адреса": "Молодежный проезд, д. 3"
+                            },
+                            {
+                                "undefined": "Кострома Калиновская ул, д. 56",
+                                "Longitude": "57.7741475",
+                                "Latitude": "40.9453862",
+                                "Index": "156013",
+                                "Город": "Кострома",
+                                "Адреса": "Калиновская ул, д. 56"
+                            },
+                            {
+                                "undefined": "Киров Комсомольская ул, д. 50",
+                                "Longitude": "58.5749849",
+                                "Latitude": "49.6383498",
+                                "Index": "610035",
+                                "Город": "Киров",
+                                "Адреса": "Комсомольская ул, д. 50"
+                            },
+                            {
+                                "undefined": "Чебоксары ул. Энгельса, 28",
+                                "Longitude": "56.120672",
+                                "Latitude": "47.2582459",
+                                "Index": "428003",
+                                "Город": "Чебоксары",
+                                "Адреса": "ул. Энгельса, 28"
+                            },
+                            {
+                                "undefined": "Москва улица Ленинская Слобода, 19, 3 этаж, офис 3,034 (БЦ Омега Плаза)",
+                                "Longitude": "55.7084315",
+                                "Latitude": "37.6527952",
+                                "Index": "115280",
+                                "Город": "Москва",
+                                "Адреса": "улица Ленинская Слобода, 19, 3 этаж, офис 3,034 (БЦ Омега Плаза)"
+                            },
+                            {
+                                "undefined": "Балашиха Фадеева ул, д. 5",
+                                "Longitude": "55.7946111",
+                                "Latitude": "37.9720841",
+                                "Index": "143900",
+                                "Город": "Балашиха",
+                                "Адреса": "Фадеева ул, д. 5"
+                            },
+                            {
+                                "undefined": "Электросталь Красная ул, д. 30б",
+                                "Longitude": "55.7864157",
+                                "Latitude": "38.4508797",
+                                "Index": "144000",
+                                "Город": "Электросталь",
+                                "Адреса": "Красная ул, д. 30б"
+                            },
+                            {
+                                "undefined": "Химки Московская ул, д. 3",
+                                "Longitude": "55.8933055",
+                                "Latitude": "37.4498698",
+                                "Index": "141402",
+                                "Город": "Химки",
+                                "Адреса": "Московская ул, д. 3"
+                            },
+                            {
+                                "undefined": "Красногорск Железнодорожный пер, д. 3",
+                                "Longitude": "55.816076",
+                                "Latitude": "37.340669",
+                                "Index": "143402",
+                                "Город": "Красногорск",
+                                "Адреса": "Железнодорожный пер, д. 3"
+                            },
+                            {
+                                "undefined": "Мытищи Осташковское ш, д. 1",
+                                "Longitude": "55.8974247",
+                                "Latitude": "37.6661978",
+                                "Index": "141014",
+                                "Город": "Мытищи",
+                                "Адреса": "Осташковское ш, д. 1"
+                            },
+                            {
+                                "undefined": "Королёв Карла Маркса ул, д. 3",
+                                "Longitude": "55.9247363",
+                                "Latitude": "37.8200547",
+                                "Index": "141070",
+                                "Город": "Королёв",
+                                "Адреса": "Карла Маркса ул, д. 3"
+                            },
+                            {
+                                "undefined": "Подольск Большая Серпуховская ул, д. 30",
+                                "Longitude": "55.420307",
+                                "Latitude": "37.5462621",
+                                "Index": "142104",
+                                "Город": "Подольск",
+                                "Адреса": "Большая Серпуховская ул, д. 30"
+                            },
+                            {
+                                "undefined": "Люберцы Волковская ул, д. 11",
+                                "Longitude": "55.681033",
+                                "Latitude": "37.8961048",
+                                "Index": "140000",
+                                "Город": "Люберцы",
+                                "Адреса": "Волковская ул, д. 11"
+                            },
+                            {
+                                "undefined": "Саратов Симбирская ул, д. 154",
+                                "Longitude": "51.5561227",
+                                "Latitude": "46.0449237",
+                                "Index": "410003",
+                                "Город": "Саратов",
+                                "Адреса": "Симбирская ул, д. 154"
+                            },
+                            {
+                                "undefined": "Балаково ул. Минская, д.56",
+                                "Longitude": "52.0099811",
+                                "Latitude": "47.7976955",
+                                "Index": "413841",
+                                "Город": "Балаково",
+                                "Адреса": "ул. Минская, д.56"
+                            },
+                            {
+                                "undefined": "Энгельс Петровская ул, д. 63",
+                                "Longitude": "51.4978144",
+                                "Latitude": "46.1169468",
+                                "Index": "413100",
+                                "Город": "Энгельс",
+                                "Адреса": "Петровская ул, д. 63"
+                            },
+                            {
+                                "undefined": "Южно-Сахалинск пр. Мира, 239",
+                                "Longitude": "46.9404898",
+                                "Latitude": "142.744537",
+                                "Index": "693013",
+                                "Город": "Южно-Сахалинск",
+                                "Адреса": "пр. Мира, 239"
+                            },
+                            {
+                                "undefined": "Якутск Вилюйский тракт, 1",
+                                "Longitude": "62.0347618",
+                                "Latitude": "129.6673826",
+                                "Index": "677000",
+                                "Город": "Якутск",
+                                "Адреса": "Вилюйский тракт, 1"
+                            },
+                            {
+                                "undefined": "Санкт-Петербург Пр-кт Маршала Блюхера 12 корпус 7, офис 1.1. (станция метро Лесная)",
+                                "Longitude": "59.981865",
+                                "Latitude": "30.375452",
+                                "Index": "195197",
+                                "Город": "Санкт-Петербург",
+                                "Адреса": "Пр-кт Маршала Блюхера 12 корпус 7, офис 1.1. (станция метро Лесная)"
+                            },
+                            {
+                                "undefined": "Сыктывкар Интернациональная ул, д. 157",
+                                "Longitude": "61.6672081",
+                                "Latitude": "50.8331468",
+                                "Index": "167000",
+                                "Город": "Сыктывкар",
+                                "Адреса": "Интернациональная ул, д. 157"
+                            },
+                            {
+                                "undefined": "Томск Фрунзе пр-кт, д. 124",
+                                "Longitude": "56.4763824",
+                                "Latitude": "84.9872164",
+                                "Index": "634021",
+                                "Город": "Томск",
+                                "Адреса": "Фрунзе пр-кт, д. 124"
+                            },
+                            {
+                                "undefined": "Ульяновск Краснопролетарская ул, д. 16",
+                                "Longitude": "54.3309807",
+                                "Latitude": "48.4849081",
+                                "Index": "432007",
+                                "Город": "Ульяновск",
+                                "Адреса": "Краснопролетарская ул, д. 16"
+                            },
+                            {
+                                "undefined": "Улан-Удэ 34, ул. Бабушкина",
+                                "Longitude": "51.809399",
+                                "Latitude": "107.5969129",
+                                "Index": "670031",
+                                "Город": "Улан-Удэ",
+                                "Адреса": "34, ул. Бабушкина"
+                            },
+                            {
+                                "undefined": "Тюмень Локомотивная ул, д. 116/2",
+                                "Longitude": "57.1494188",
+                                "Latitude": "65.484614",
+                                "Index": "625025",
+                                "Город": "Тюмень",
+                                "Адреса": "Локомотивная ул, д. 116/2"
+                            },
+                            {
+                                "undefined": "Тула Красноармейский пр-кт, д. 11а",
+                                "Longitude": "54.1965713",
+                                "Latitude": "37.6019082",
+                                "Index": "300041",
+                                "Город": "Тула",
+                                "Адреса": "Красноармейский пр-кт, д. 11а"
+                            },
+                            {
+                                "undefined": "Самара Лазо ул, д. 14",
+                                "Longitude": "53.3469497",
+                                "Latitude": "50.2141895",
+                                "Index": "443026",
+                                "Город": "Самара",
+                                "Адреса": "Лазо ул, д. 14"
+                            },
+                            {
+                                "undefined": "Сызрань Ул. Гагарина 104 (жилой дом офис рядом с нотариусом)",
+                                "Longitude": "53.1257042",
+                                "Latitude": "48.4138342",
+                                "Index": "446028",
+                                "Город": "Сызрань",
+                                "Адреса": "Ул. Гагарина 104 (жилой дом офис рядом с нотариусом)"
+                            },
+                            {
+                                "undefined": "Тольятти Революционная ул, д. 18а",
+                                "Longitude": "53.531511",
+                                "Latitude": "49.276121",
+                                "Index": "445032",
+                                "Город": "Тольятти",
+                                "Адреса": "Революционная ул, д. 18а"
+                            },
+                            {
+                                "undefined": "Салават Монтажников б-р, д. 48/2",
+                                "Longitude": "53.3719789",
+                                "Latitude": "55.9452123",
+                                "Index": "453252",
+                                "Город": "Салават",
+                                "Адреса": "Монтажников б-р, д. 48/2"
+                            },
+                            {
+                                "undefined": "Стерлитамак Коммунистическая ул, д. 84",
+                                "Longitude": "53.6199323",
+                                "Latitude": "55.9066724",
+                                "Index": "453120",
+                                "Город": "Стерлитамак",
+                                "Адреса": "Коммунистическая ул, д. 84"
+                            },
+                            {
+                                "undefined": "Уфа ул Бакалинская 25",
+                                "Longitude": "54.7189242",
+                                "Latitude": "55.9870381",
+                                "Index": "450073",
+                                "Город": "Уфа",
+                                "Адреса": "ул Бакалинская 25"
+                            },
+                            {
+                                "undefined": "Саранск Веселовского ул, д. 31",
+                                "Longitude": "54.2264826",
+                                "Latitude": "45.1311999",
+                                "Index": "430021",
+                                "Город": "Саранск",
+                                "Адреса": "Веселовского ул, д. 31"
+                            },
+                            {
+                                "undefined": "Хабаровск Большая ул, д. 2а",
+                                "Longitude": "48.4979443",
+                                "Latitude": "135.0990308",
+                                "Index": "680009",
+                                "Город": "Хабаровск",
+                                "Адреса": "Большая ул, д. 2а"
+                            },
+                            {
+                                "undefined": "Нижневартовск Северная ул., 19",
+                                "Longitude": "60.956817",
+                                "Latitude": "76.58085",
+                                "Index": "628609",
+                                "Город": "Нижневартовск",
+                                "Адреса": "Северная ул., 19"
+                            },
+                            {
+                                "undefined": "Северодвинск ул. Ломоносова, 71 А",
+                                "Longitude": "64.5536658",
+                                "Latitude": "39.802804",
+                                "Index": "164504",
+                                "Город": "Северодвинск",
+                                "Адреса": "ул. Ломоносова, 71 А"
+                            },
+                            {
+                                "undefined": "Архангельск Московский пр-кт, д. 25",
+                                "Longitude": "64.5327258",
+                                "Latitude": "40.5925948",
+                                "Index": "163002",
+                                "Город": "Архангельск",
+                                "Адреса": "Московский пр-кт, д. 25"
+                            },
+                            {
+                                "undefined": "Ярославль Толбухина пр-кт, д. 8/75",
+                                "Longitude": "57.6206272",
+                                "Latitude": "39.8588887",
+                                "Index": "150014",
+                                "Город": "Ярославль",
+                                "Адреса": "Толбухина пр-кт, д. 8/75"
+                            },
+                            {
+                                "undefined": "Рыбинск Герцена ул, д. 48а",
+                                "Longitude": "58.048626",
+                                "Latitude": "38.839466",
+                                "Index": "152934",
+                                "Город": "Рыбинск",
+                                "Адреса": "Герцена ул, д. 48а"
+                            },
+                            {
+                                "undefined": "Рязань Маяковского ул, д. 1а",
+                                "Longitude": "54.6154272",
+                                "Latitude": "39.7525963",
+                                "Index": "390046",
+                                "Город": "Рязань",
+                                "Адреса": "Маяковского ул, д. 1а"
+                            },
+                            {
+                                "undefined": "Псков Яна Фабрициуса ул, д. 10",
+                                "Longitude": "57.80717",
+                                "Latitude": "28.3466772",
+                                "Index": "180000",
+                                "Город": "Псков",
+                                "Адреса": "Яна Фабрициуса ул, д. 10"
+                            },
+                            {
+                                "undefined": "Тверь Софьи Перовской ул, д. 28",
+                                "Longitude": "56.8584719",
+                                "Latitude": "35.8844564",
+                                "Index": "170006",
+                                "Город": "Тверь",
+                                "Адреса": "Софьи Перовской ул, д. 28"
+                            },
+                            {
+                                "undefined": "Тамбов Советская ул, д. 125",
+                                "Longitude": "52.735737",
+                                "Latitude": "41.453014",
+                                "Index": "392008",
+                                "Город": "Тамбов",
+                                "Адреса": "Советская ул, д. 125"
+                            },
+                            {
+                                "undefined": "Липецк Победы пр-кт, д. 29",
+                                "Longitude": "52.5968568",
+                                "Latitude": "39.5675221",
+                                "Index": "398024",
+                                "Город": "Липецк",
+                                "Адреса": "Победы пр-кт, д. 29"
+                            },
+                            {
+                                "undefined": "Мурманск Ленина пр-кт, д. 82",
+                                "Longitude": "68.9712018",
+                                "Latitude": "33.0765628",
+                                "Index": "183038",
+                                "Город": "Мурманск",
+                                "Адреса": "Ленина пр-кт, д. 82"
+                            },
+                            {
+                                "undefined": "Новосибирск ул. Коммунистическая 27/29",
+                                "Longitude": "55.0233112",
+                                "Latitude": "82.9173795",
+                                "Index": "630007",
+                                "Город": "Новосибирск",
+                                "Адреса": "ул. Коммунистическая 27/29"
+                            },
+                            {
+                                "undefined": "Омск Серова ул, д. 19а",
+                                "Longitude": "54.940583",
+                                "Latitude": "73.382547",
+                                "Index": "644020",
+                                "Город": "Омск",
+                                "Адреса": "Серова ул, д. 19а"
+                            },
+                            {
+                                "undefined": "Иваново Ленина пр-кт, д. 108",
+                                "Longitude": "57.0172029",
+                                "Latitude": "40.9701735",
+                                "Index": "153002",
+                                "Город": "Иваново",
+                                "Адреса": "Ленина пр-кт, д. 108"
+                            },
+                            {
+                                "undefined": "Челябинск Университетская Набережная ул, д. 66б",
+                                "Longitude": "55.1700196",
+                                "Latitude": "61.3043173",
+                                "Index": "692777",
+                                "Город": "Челябинск",
+                                "Адреса": "Университетская Набережная ул, д. 66б"
+                            },
+                            {
+                                "undefined": "Златоуст 40-летия Победы ул, д. 20",
+                                "Longitude": "55.1244316",
+                                "Latitude": "59.7189427",
+                                "Index": "456238",
+                                "Город": "Златоуст",
+                                "Адреса": "40-летия Победы ул, д. 20"
+                            },
+                            {
+                                "undefined": "Магнитогорск Ленина пр-кт, д. 139",
+                                "Longitude": "53.3652777",
+                                "Latitude": "58.9918804",
+                                "Index": "455021",
+                                "Город": "Магнитогорск",
+                                "Адреса": "Ленина пр-кт, д. 139"
+                            },
+                            {
+                                "undefined": "Миасс Октября пр-кт, д. 21",
+                                "Longitude": "55.1377138",
+                                "Latitude": "60.1535306",
+                                "Index": "456318",
+                                "Город": "Миасс",
+                                "Адреса": "Октября пр-кт, д. 21"
+                            },
+                            {
+                                "undefined": "Екатеринбург Ул. Ленина 25 ТЦ Европа 4 этаж оф 106 (вход через вторую дверь \"вертушкой\")",
+                                "Longitude": "56.8386868",
+                                "Latitude": "60.5949801",
+                                "Index": "620014",
+                                "Город": "Екатеринбург",
+                                "Адреса": "Ул. Ленина 25 ТЦ Европа 4 этаж оф 106 (вход через вторую дверь \"вертушкой\")"
+                            },
+                            {
+                                "undefined": "Нижний Тагил Строителей пр-кт, д. 16",
+                                "Longitude": "57.9088832",
+                                "Latitude": "59.9846078",
+                                "Index": "622034",
+                                "Город": "Нижний Тагил",
+                                "Адреса": "Строителей пр-кт, д. 16"
+                            },
+                            {
+                                "undefined": "Каменск-Уральский Кутузова ул, д. 27",
+                                "Longitude": "56.390316",
+                                "Latitude": "61.9211889",
+                                "Index": "623430",
+                                "Город": "Каменск-Уральский",
+                                "Адреса": "Кутузова ул, д. 27"
+                            },
+                            {
+                                "undefined": "Оренбург Дзержинского пр-кт, д. 4",
+                                "Longitude": "51.8265429",
+                                "Latitude": "55.1146214",
+                                "Index": "460038",
+                                "Город": "Оренбург",
+                                "Адреса": "Дзержинского пр-кт, д. 4"
+                            },
+                            {
+                                "undefined": "Орск Мира пр-кт, д. 7",
+                                "Longitude": "51.2282269",
+                                "Latitude": "58.5053159",
+                                "Index": "462403",
+                                "Город": "Орск",
+                                "Адреса": "Мира пр-кт, д. 7"
+                            },
+                            {
+                                "undefined": "Орёл ул. Михалицина, 61",
+                                "Longitude": "52.9953645",
+                                "Latitude": "36.1110953",
+                                "Index": "302025",
+                                "Город": "Орёл",
+                                "Адреса": "ул. Михалицина, 61"
+                            },
+                            {
+                                "undefined": "Калуга Гагарина ул, д. 4",
+                                "Longitude": "54.514852",
+                                "Latitude": "36.242388",
+                                "Index": "248000",
+                                "Город": "Калуга",
+                                "Адреса": "Гагарина ул, д. 4"
+                            },
+                            {
+                                "undefined": "Калининград А.Невского ул, д. 193а",
+                                "Longitude": "54.7486443",
+                                "Latitude": "20.536815",
+                                "Index": "236029",
+                                "Город": "Калининград",
+                                "Адреса": "А.Невского ул, д. 193а"
+                            },
+                            {
+                                "undefined": "Благовещенск Октябрьская ул, д. 173/1",
+                                "Longitude": "50.2711997",
+                                "Latitude": "127.5383613",
+                                "Index": "675016",
+                                "Город": "Благовещенск",
+                                "Адреса": "Октябрьская ул, д. 173/1"
+                            },
+                            {
+                                "undefined": "Пермь ул. Петропаловская 41 оф 204",
+                                "Longitude": "58.0134977",
+                                "Latitude": "56.2392396",
+                                "Index": "614045",
+                                "Город": "Пермь",
+                                "Адреса": "ул. Петропаловская 41 оф 204"
+                            },
+                            {
+                                "undefined": "Пенза Чехова ул, д. 3б",
+                                "Longitude": "53.1991359",
+                                "Latitude": "45.021645",
+                                "Index": "440000",
+                                "Город": "Пенза",
+                                "Адреса": "Чехова ул, д. 3б"
+                            },
+                            {
+                                "undefined": "Находка Находкинский пр-кт, д. 12",
+                                "Longitude": "42.8253471",
+                                "Latitude": "132.8931304",
+                                "Index": "692904",
+                                "Город": "Находка",
+                                "Адреса": "Находкинский пр-кт, д. 12"
+                            },
+                            {
+                                "undefined": "Уссурийск ул. Ленина, 122",
+                                "Longitude": "43.7995525",
+                                "Latitude": "131.9553983",
+                                "Index": "692519",
+                                "Город": "Уссурийск",
+                                "Адреса": "ул. Ленина, 122"
+                            },
+                            {
+                                "undefined": "Петропавловск-Камчатский 50 Лет Октября просп",
+                                "Longitude": "53.0550474",
+                                "Latitude": "158.6370749",
+                                "Index": "683024",
+                                "Город": "Петропавловск-Камчатский",
+                                "Адреса": "50 Лет Октября просп"
+                            },
+                            {
+                                "undefined": "Петрозаводск Ленина пр-кт, д. 15",
+                                "Longitude": "61.7905275",
+                                "Latitude": "34.3658882",
+                                "Index": "185035",
+                                "Город": "Петрозаводск",
+                                "Адреса": "Ленина пр-кт, д. 15"
+                            },
+                            {
+                                "undefined": "Смоленск Кловская ул, д. 19а",
+                                "Longitude": "54.775478",
+                                "Latitude": "31.998343",
+                                "Index": "214038",
+                                "Город": "Смоленск",
+                                "Адреса": "Кловская ул, д. 19а"
+                            },
+                            {
+                                "undefined": "Барнаул Антона Петрова ул, д. 170",
+                                "Longitude": "53.3591672",
+                                "Latitude": "83.7036861",
+                                "Index": "656050",
+                                "Город": "Барнаул",
+                                "Адреса": "Антона Петрова ул, д. 170"
+                            },
+                            {
+                                "undefined": "Бийск Вали Максимовой ул, д. 85/1",
+                                "Longitude": "52.5328604",
+                                "Latitude": "85.1773608",
+                                "Index": "659303",
+                                "Город": "Бийск",
+                                "Адреса": "Вали Максимовой ул, д. 85/1"
+                            },
+                            {
+                                "undefined": "Иркутск Советская ул, д. 136",
+                                "Longitude": "52.2794953",
+                                "Latitude": "104.3241141",
+                                "Index": "664009",
+                                "Город": "Иркутск",
+                                "Адреса": "Советская ул, д. 136"
+                            },
+                            {
+                                "undefined": "Ангарск 86-й кв-л, 1",
+                                "Longitude": "52.5327512",
+                                "Latitude": "103.886292",
+                                "Index": "665825",
+                                "Город": "Ангарск",
+                                "Адреса": "86-й кв-л, 1"
+                            },
+                            {
+                                "undefined": "Братск ул. Наймушина, 4",
+                                "Longitude": "56.3095414",
+                                "Latitude": "101.7508487",
+                                "Index": "665709",
+                                "Город": "Братск",
+                                "Адреса": "ул. Наймушина, 4"
+                            },
+                            {
+                                "undefined": "Севастополь ул. Парковая, 29",
+                                "Longitude": "44.5982707",
+                                "Latitude": "33.4595152",
+                                "Index": "423585",
+                                "Город": "Севастополь",
+                                "Адреса": "ул. Парковая, 29"
+                            },
+                            {
+                                "undefined": "Симферополь ул. Маяковского, 14",
+                                "Longitude": "44.9506286",
+                                "Latitude": "34.0888239",
+                                "Index": "420111",
+                                "Город": "Симферополь",
+                                "Адреса": "ул. Маяковского, 14"
+                            },
+                            {
+                                "undefined": "Нальчик ул. Ногмова, 75",
+                                "Longitude": "43.491202",
+                                "Latitude": "43.5983488",
+                                "Index": "360004",
+                                "Город": "Нальчик",
+                                "Адреса": "ул. Ногмова, 75"
+                            },
+                            {
+                                "undefined": "Казань ул.Пушкина 30, 2 этаж, офис 211",
+                                "Longitude": "55.7914528",
+                                "Latitude": "49.1251417",
+                                "Index": "420111",
+                                "Город": "Казань",
+                                "Адреса": "ул.Пушкина 30, 2 этаж, офис 211"
+                            },
+                            {
+                                "undefined": "Альметьевск Ленина ул, д. 60",
+                                "Longitude": "54.8997794",
+                                "Latitude": "52.2920335",
+                                "Index": "423450",
+                                "Город": "Альметьевск",
+                                "Адреса": "Ленина ул, д. 60"
+                            },
+                            {
+                                "undefined": "Нижнекамск Южная ул, д. 3",
+                                "Longitude": "55.6139122",
+                                "Latitude": "51.7844298",
+                                "Index": "423585",
+                                "Город": "Нижнекамск",
+                                "Адреса": "Южная ул, д. 3"
+                            },
+                            {
+                                "undefined": "Набережные челны Мира пр-кт, д. 8а",
+                                "Longitude": "55.7258189",
+                                "Latitude": "52.3874565",
+                                "Index": "423814",
+                                "Город": "Набережные челны",
+                                "Адреса": "Мира пр-кт, д. 8а"
+                            },
+                            {
+                                "undefined": "Абакан Тараса Шевченко ул, д. 62",
+                                "Longitude": "53.7201647",
+                                "Latitude": "91.4587105",
+                                "Index": "655012",
+                                "Город": "Абакан",
+                                "Адреса": "Тараса Шевченко ул, д. 62"
+                            },
+                            {
+                                "undefined": "Йошкар-Ола Комсомольская ул, д. 79",
+                                "Longitude": "56.6468165",
+                                "Latitude": "47.900845",
+                                "Index": "424004",
+                                "Город": "Йошкар-Ола",
+                                "Адреса": "Комсомольская ул, д. 79"
+                            },
+                            {
+                                "undefined": "Ижевск Воткинское шоссе, 162, оф.18",
+                                "Longitude": "56.890287",
+                                "Latitude": "53.2693529",
+                                "Index": "426039",
+                                "Город": "Ижевск",
+                                "Адреса": "Воткинское шоссе, 162, оф.18"
+                            },
+                            {
+                                "undefined": "Ростов-на-Дону Ул. Ленина 54, (рядом салон красоты \"Светлана\")",
+                                "Longitude": "47.2496889",
+                                "Latitude": "39.717606",
+                                "Index": "344000",
+                                "Город": "Ростов-на-Дону",
+                                "Адреса": "Ул. Ленина 54, (рядом салон красоты \"Светлана\")"
+                            },
+                            {
+                                "undefined": "Волгодонск Ленина ул, д. 45",
+                                "Longitude": "47.5199426",
+                                "Latitude": "42.1515737",
+                                "Index": "347360",
+                                "Город": "Волгодонск",
+                                "Адреса": "Ленина ул, д. 45"
+                            },
+                            {
+                                "undefined": "Аксай пр. Ленина, 24",
+                                "Longitude": "47.2656354",
+                                "Latitude": "39.8605587",
+                                "Index": "346720",
+                                "Город": "Аксай",
+                                "Адреса": "пр. Ленина, 24"
+                            },
+                            {
+                                "undefined": "Батайск Ул. Максима Горького 285Г",
+                                "Longitude": "47.1381791",
+                                "Latitude": "39.7148327",
+                                "Index": "346880",
+                                "Город": "Батайск",
+                                "Адреса": "Ул. Максима Горького 285Г"
+                            },
+                            {
+                                "undefined": "Шахты Победа Революции пр-т., 188",
+                                "Longitude": "47.6924472",
+                                "Latitude": "40.2037742",
+                                "Index": "346524",
+                                "Город": "Шахты",
+                                "Адреса": "Победа Революции пр-т., 188"
+                            },
+                            {
+                                "undefined": "Таганрог ул. Москатова, 10-1",
+                                "Longitude": "47.2623494",
+                                "Latitude": "38.917375",
+                                "Index": "347924",
+                                "Город": "Таганрог",
+                                "Адреса": "ул. Москатова, 10-1"
+                            },
+                            {
+                                "undefined": "Новочеркасск Новочеркасское шоссе 1А (поворот на грушевку)",
+                                "Longitude": "47.3368662",
+                                "Latitude": "39.8689832",
+                                "Index": "346735",
+                                "Город": "Новочеркасск",
+                                "Адреса": "Новочеркасское шоссе 1А (поворот на грушевку)"
+                            },
+                            {
+                                "undefined": "Владивосток ул. Батарейная, 3а, офис 310",
+                                "Longitude": "43.120086",
+                                "Latitude": "131.8774404",
+                                "Index": "690091",
+                                "Город": "Владивосток",
+                                "Адреса": "ул. Батарейная, 3а, офис 310"
+                            },
+                            {
+                                "undefined": "Сургут ул. Игоря Киртбая, 11",
+                                "Longitude": "61.270299",
+                                "Latitude": "73.3610136",
+                                "Index": "628400",
+                                "Город": "Сургут",
+                                "Адреса": "ул. Игоря Киртбая, 11"
+                            },
+                            {
+                                "undefined": "Керчь улица Ленина, 45",
+                                "Longitude": "45.3531026",
+                                "Latitude": "36.4742842",
+                                "Index": "601901",
+                                "Город": "Керчь",
+                                "Адреса": "улица Ленина, 45"
+                            },
+                            {
+                                "undefined": "Пятигорск улица Ермолова, 28с2",
+                                "Longitude": "44.047087",
+                                "Latitude": "43.0126546",
+                                "Index": "357500",
+                                "Город": "Пятигорск",
+                                "Адреса": "улица Ермолова, 28с2"
+                            },
+                            {
+                                "undefined": "Копейск проспект Ильича, 13",
+                                "Longitude": "55.108263",
+                                "Latitude": "61.6112031",
+                                "Index": "456623",
+                                "Город": "Копейск",
+                                "Адреса": "проспект Ильича, 13"
+                            },
+                            {
+                                "undefined": "Рубцовск Комсомольская улица, 257",
+                                "Longitude": "51.5091242",
+                                "Latitude": "81.202193",
+                                "Index": "658200",
+                                "Город": "Рубцовск",
+                                "Адреса": "Комсомольская улица, 257"
+                            },
+                            {
+                                "undefined": "Майкоп Краснооктябрьская ул., 50",
+                                "Longitude": "44.6149876",
+                                "Latitude": "40.1066554",
+                                "Index": "385000",
+                                "Город": "Майкоп",
+                                "Адреса": "Краснооктябрьская ул., 50"
+                            },
+                            {
+                                "undefined": "Коломна проспект Кирова, 28А/2",
+                                "Longitude": "55.0836538",
+                                "Latitude": "38.7624039",
+                                "Index": "140411",
+                                "Город": "Коломна",
+                                "Адреса": "проспект Кирова, 28А/2"
+                            },
+                            {
+                                "undefined": "Березники улица Карла Маркса, 53",
+                                "Longitude": "59.4053067",
+                                "Latitude": "56.801973",
+                                "Index": "618400",
+                                "Город": "Березники",
+                                "Адреса": "улица Карла Маркса, 53"
+                            },
+                            {
+                                "undefined": "Домодедово улица Кирова, с28",
+                                "Longitude": "55.4316116",
+                                "Latitude": "37.7512829",
+                                "Index": "142000",
+                                "Город": "Домодедово",
+                                "Адреса": "улица Кирова, с28"
+                            },
+                            {
+                                "undefined": "Ковров проспект Ленина, 35",
+                                "Longitude": "56.3574322",
+                                "Latitude": "41.3109678",
+                                "Index": "601901",
+                                "Город": "Ковров",
+                                "Адреса": "проспект Ленина, 35"
+                            },
+                            {
+                                "undefined": "Одинцово Можайское ш., 71 ТЦ Дубрава",
+                                "Longitude": "55.6774931",
+                                "Latitude": "37.2805823",
+                                "Index": "143007",
+                                "Город": "Одинцово",
+                                "Адреса": "Можайское ш., 71 ТЦ Дубрава"
+                            },
+                            {
+                                "undefined": "Нефтекамск улица Ленина, 46",
+                                "Longitude": "56.09444",
+                                "Latitude": "54.2333178",
+                                "Index": "452683",
+                                "Город": "Нефтекамск",
+                                "Адреса": "улица Ленина, 46"
+                            },
+                            {
+                                "undefined": "Кисловодск улица Тельмана, 5",
+                                "Longitude": "43.9065598",
+                                "Latitude": "42.7107066",
+                                "Index": "357700",
+                                "Город": "Кисловодск",
+                                "Адреса": "улица Тельмана, 5"
+                            },
+                            {
+                                "undefined": "Нефтеюганск 5-й микрорайон, 6",
+                                "Longitude": "61.0953922",
+                                "Latitude": "72.6059357",
+                                "Index": "628301",
+                                "Город": "Нефтеюганск",
+                                "Адреса": "5-й микрорайон, 6"
+                            },
+                            {
+                                "undefined": "Новочебоксарск улица Семёнова, 37",
+                                "Longitude": "56.107868",
+                                "Latitude": "47.4751352",
+                                "Index": "429965",
+                                "Город": "Новочебоксарск",
+                                "Адреса": "улица Семёнова, 37"
+                            },
+                            {
+                                "undefined": "Щёлково улица Комарова, 2",
+                                "Longitude": "55.9203061",
+                                "Latitude": "37.9922025",
+                                "Index": "141100",
+                                "Город": "Щёлково",
+                                "Адреса": "улица Комарова, 2"
+                            },
+                            {
+                                "undefined": "Новомосковск Комсомольская улица, 30",
+                                "Longitude": "54.010725",
+                                "Latitude": "38.286777",
+                                "Index": "301650",
+                                "Город": "Новомосковск",
+                                "Адреса": "Комсомольская улица, 30"
+                            },
+                            {
+                                "undefined": "Раменское улица Карла Маркса, 6",
+                                "Longitude": "55.569386",
+                                "Latitude": "38.2267399",
+                                "Index": "140108",
+                                "Город": "Раменское",
+                                "Адреса": "улица Карла Маркса, 6"
+                            },
+                            {
+                                "undefined": "Первоуральск улица Ватутина, 42",
+                                "Longitude": "56.9056267",
+                                "Latitude": "59.9442997",
+                                "Index": "623104",
+                                "Город": "Первоуральск",
+                                "Адреса": "улица Ватутина, 42"
+                            },
+                            {
+                                "undefined": "Кызыл улица Кочетова, 53",
+                                "Longitude": "51.718968",
+                                "Latitude": "94.438587",
+                                "Index": "667000",
+                                "Город": "Кызыл",
+                                "Адреса": "улица Кочетова, 53"
+                            },
+                            {
+                                "undefined": "Орехово-Зуево Центральный бульвар, 3",
+                                "Longitude": "55.8040889",
+                                "Latitude": "38.9796467",
+                                "Index": "142600",
+                                "Город": "Орехово-Зуево",
+                                "Адреса": "Центральный бульвар, 3"
+                            },
+                            {
+                                "undefined": "Новый Уренгой Ленинградский проспект, 8",
+                                "Longitude": "66.0832715",
+                                "Latitude": "76.6766004",
+                                "Index": "629300",
+                                "Город": "Новый Уренгой",
+                                "Адреса": "Ленинградский проспект, 8"
+                            },
+                            {
+                                "undefined": "Обнинск проспект Маркса, 50",
+                                "Longitude": "55.1175454",
+                                "Latitude": "36.5994164",
+                                "Index": "249032",
+                                "Город": "Обнинск",
+                                "Адреса": "проспект Маркса, 50"
+                            },
+                            {
+                                "undefined": "Невинномысск улица Гагарина, 17",
+                                "Longitude": "44.63796",
+                                "Latitude": "41.9428424",
+                                "Index": "357108",
+                                "Город": "Невинномысск",
+                                "Адреса": "улица Гагарина, 17"
+                            },
+                            {
+                                "undefined": "Долгопрудный Дирижабельная улица, 9",
+                                "Longitude": "55.9374279",
+                                "Latitude": "37.5106119",
+                                "Index": "141700",
+                                "Город": "Долгопрудный",
+                                "Адреса": "Дирижабельная улица, 9"
+                            },
+                            {
+                                "undefined": "Октябрьский проспект Ленина, 10",
+                                "Longitude": "54.4815064",
+                                "Latitude": "53.4680978",
+                                "Index": "452614",
+                                "Город": "Октябрьский",
+                                "Адреса": "проспект Ленина, 10"
+                            },
+                            {
+                                "undefined": "Димитровград улица Хмельницкого, 112",
+                                "Longitude": "54.2172037",
+                                "Latitude": "49.6254903",
+                                "Index": "433508",
+                                "Город": "Димитровград",
+                                "Адреса": "улица Хмельницкого, 112"
+                            },
+                            {
+                                "undefined": "Ессентуки Советская улица, 24",
+                                "Longitude": "44.0444044",
+                                "Latitude": "42.854195",
+                                "Index": "357601",
+                                "Город": "Ессентуки",
+                                "Адреса": "Советская улица, 24"
+                            },
+                            {
+                                "undefined": "Камышин Пролетарская улица, 70/1",
+                                "Longitude": "50.0778709",
+                                "Latitude": "45.4004872",
+                                "Index": "403873",
+                                "Город": "Камышин",
+                                "Адреса": "Пролетарская улица, 70/1"
+                            },
+                            {
+                                "undefined": "Евпатория улица Пушкина, 16",
+                                "Longitude": "45.1883094",
+                                "Latitude": "33.3667642",
+                                "Index": "636000",
+                                "Город": "Евпатория",
+                                "Адреса": "улица Пушкина, 16"
+                            },
+                            {
+                                "undefined": "Реутов улица Ленина, 14",
+                                "Longitude": "55.7577635",
+                                "Latitude": "37.8569164",
+                                "Index": "143966",
+                                "Город": "Реутов",
+                                "Адреса": "улица Ленина, 14"
+                            },
+                            {
+                                "undefined": "Жуковский улица Фрунзе, 9",
+                                "Longitude": "55.5967761",
+                                "Latitude": "38.1197226",
+                                "Index": "140181",
+                                "Город": "Жуковский",
+                                "Адреса": "улица Фрунзе, 9"
+                            },
+                            {
+                                "undefined": "Пушкино Московский проспект, 6",
+                                "Longitude": "56.010741",
+                                "Latitude": "37.843394",
+                                "Index": "141207",
+                                "Город": "Пушкино",
+                                "Адреса": "Московский проспект, 6"
+                            },
+                            {
+                                "undefined": "Муром Московская улица, 14",
+                                "Longitude": "55.578431",
+                                "Latitude": "42.0496941",
+                                "Index": "602267",
+                                "Город": "Муром",
+                                "Адреса": "Московская улица, 14"
+                            },
+                            {
+                                "undefined": "Ноябрьск улица Ленина, 42",
+                                "Longitude": "63.198942",
+                                "Latitude": "75.4466964",
+                                "Index": "629807",
+                                "Город": "Ноябрьск",
+                                "Адреса": "улица Ленина, 42"
+                            },
+                            {
+                                "undefined": "Новошахтинск проспект Ленина, 7",
+                                "Longitude": "47.754224",
+                                "Latitude": "39.933748",
+                                "Index": "346918",
+                                "Город": "Новошахтинск",
+                                "Адреса": "проспект Ленина, 7"
+                            },
+                            {
+                                "undefined": "Северск улица Ленина, 40",
+                                "Longitude": "56.6007747",
+                                "Latitude": "84.8777915",
+                                "Index": "636000",
+                                "Город": "Северск",
+                                "Адреса": "улица Ленина, 40"
+                            },
+                            {
+                                "undefined": "Артём улица Фрунзе, 54Г",
+                                "Longitude": "43.3529802",
+                                "Latitude": "132.1727113",
+                                "Index": "692760",
+                                "Город": "Артём",
+                                "Адреса": "улица Фрунзе, 54Г"
+                            },
+                            {
+                                "undefined": "Ачинск 9-й микрорайон, 11",
+                                "Longitude": "56.2705263",
+                                "Latitude": "90.4972436",
+                                "Index": "662150",
+                                "Город": "Ачинск",
+                                "Адреса": "9-й микрорайон, 11"
+                            },
+                            {
+                                "undefined": "Бердск улица Островского, 57",
+                                "Longitude": "54.7582908",
+                                "Latitude": "83.0968264",
+                                "Index": "633010",
+                                "Город": "Бердск",
+                                "Адреса": "улица Островского, 57"
+                            },
+                            {
+                                "undefined": "Ногинск Советская улица, 44",
+                                "Longitude": "55.8549167",
+                                "Latitude": "38.4430685",
+                                "Index": "142400",
+                                "Город": "Ногинск",
+                                "Адреса": "Советская улица, 44"
+                            },
+                            {
+                                "undefined": "Арзамас Соборная площадь, 2А",
+                                "Longitude": "55.386375",
+                                "Latitude": "43.8158201",
+                                "Index": "607223",
+                                "Город": "Арзамас",
+                                "Адреса": "Соборная площадь, 2А"
+                            },
+                            {
+                                "undefined": "Элиста улица А. Сусеева, 4",
+                                "Longitude": "46.3049537",
+                                "Latitude": "44.2694469",
+                                "Index": "358000",
+                                "Город": "Элиста",
+                                "Адреса": "улица А. Сусеева, 4"
+                            },
+                            {
+                                "undefined": "Елец улица Мира, 92",
+                                "Longitude": "52.621826",
+                                "Latitude": "38.501011",
+                                "Index": "399770",
+                                "Город": "Елец",
+                                "Адреса": "улица Мира, 92"
+                            },
+                            {
+                                "undefined": "Ханты-Мансийск улица Энгельса, 3",
+                                "Longitude": "61.0038295",
+                                "Latitude": "69.0147575",
+                                "Index": "628011",
+                                "Город": "Ханты-Мансийск",
+                                "Адреса": "улица Энгельса, 3"
+                            },
+                            {
+                                "undefined": "Новокуйбышевск Коммунистическая улица, 39",
+                                "Longitude": "53.098823",
+                                "Latitude": "49.9473719",
+                                "Index": "446200",
+                                "Город": "Новокуйбышевск",
+                                "Адреса": "Коммунистическая улица, 39"
+                            },
+                            {
+                                "undefined": "Железногорск улица Ленина, 48к1",
+                                "Longitude": "52.337659",
+                                "Latitude": "35.352051",
+                                "Index": "307170",
+                                "Город": "Железногорск",
+                                "Адреса": "улица Ленина, 48к1"
+                            },
+                            {
+                                "undefined": "Сергиев Посад проспект Красной Армии, 131",
+                                "Longitude": "56.3103767",
+                                "Latitude": "38.1338702",
+                                "Index": "141306",
+                                "Город": "Сергиев Посад",
+                                "Адреса": "проспект Красной Армии, 131"
+                            },
+                            {
+                                "undefined": "Зеленодольск улица Ленина, 21",
+                                "Longitude": "55.8464739",
+                                "Latitude": "48.4982577",
+                                "Index": "422550",
+                                "Город": "Зеленодольск",
+                                "Адреса": "улица Ленина, 21"
+                            }
+                        ]
+                        ReactDOM.render(
+                            <div>
+                                {dateMap.map((obj, index) => {
+                                    return (
+                                        <a key={index}
+                                           id={obj['Город']}
+                                           itemProp="address" itemScope itemType="http://schema.org/PostalAddress"
+                                           href="#"
+                                           data-coordinate={obj['Latitude'] + ',' + obj['Longitude']}
+                                           data-address={obj['Index'] + ' ' + obj['Город'] + ', ' + obj['Адреса']}
+                                           data-name={obj['Адреса']}
+                                           data-content="режим работы: 9:00-19:00"
+                                           title=""
+                                           className="mapOptions__addresses_a">
+                                        <span itemProp="postalCode"
+                                              className="addresses-text-bold">{obj['Index']}, г. {obj['Город']}</span><br/>
+                                            <span itemProp="streetAddress"
+                                                  className="addresses-text-bold"> {obj['Адреса']}</span><br/>
+                                            режим работы: 9:00-19:00
+                                        </a>
+                                    )
+                                })}
+                            </div>,
+                            document.getElementById('rootMap')
+                        )
+                    </script>
+                    <script>
+                        setTimeout(() => {
+                            document.querySelector('#Ростов-на-Дону').click()
+                        }, 2000)
+                    </script>
+
+                    <div id="map" class="ofices map-right visible-on-wade visible-on-tablet"></div>
+                </div>
+
                 <div class="visible-on-mobile">
                     <div class="region_address">
                         <div class="row all_address">
                             <div class="col-md-12">
                                 <div class="city-wrapper city-wrapper-main">
                                     <p>Для отображения адресов офисов выберете регион</p>
-                                    <div class="city-text btn btn-danger"> Краснодар</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
 
-    <input id="init-map-subdomain" type="hidden" value="37.484137,55.642164" name="_token">
+    <input id="init-map-subdomain" type="hidden" value="37.484137,55.642164">
 </section>
-<footer id="footer-4">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="footer-li inline bold">
-                    <li><a href="autolombard.php">Автоломбард</a></li>
-                    <li><a href="credit-gruzovogoi-avtomobil.php">Грузовые авто</a></li>
-                    <li><a href="credit-pod-spectehniku.php">Спецтехника</a></li>
-                    <li><a href="credit-dlja-biznesa-pod-pts-avto.php">Юр. лицам</a></li>
-                    <li><a href="credit-pod-motocikl.php">Мототехника</a></li>
-                </ul>
 
-                <div class="footer-logo inline"><a href="/"><img src="images/16.png" alt="logo"/></a></div>
+<footer id="footer-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="footer-logo m-b-30"><a href="#"><img src="images/logo-color.svg" alt="logo" /></a></div>
 
-                <hr>
+                    <div class="footer-phone m-b-30"><a href="tel:<?=$tel ?>"><?=$phone ?></a><br></div>
 
-                <div class="footer-phone inline"><a href="tel:<?=$tel ?>"><?=$phone ?></a><br></div>
-
-                <div class="footer-phone inline">
-                    <button type="button" class="btn btn-line-red" data-toggle="modal" data-target="#CallPhone-ver-2">
-                        Обратный звонок
-                    </button>
+                    <div class="footer-phone m-b-30"><button type="button" class="btn btn-line-red" data-toggle="modal" data-target="#CallPhone-ver-2">Обратный звонок</button></div>
                 </div>
-                <button type="button" class="btn btn-danger footer-btn" data-toggle="modal"
-                        data-target="#CallPhone-ver-4">Оформить займ
-                </button>
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <ul class="footer-li bold">
+                                <li><a href="avtokredit.html">Кредит под ПТС</a></li>
+                                <li><a href="kredit-pod-gruzovogo-avtomobilya.html">Грузовые авто</a></li>
+                                <li><a href="kredit-pod-spectehniku.html">Спецтехника</a></li>
 
-                <div class="soc-seti inline">
-                    <div class="soc-footer">
-                        <a href="#" target="_blank" rel="nofollow" class="soc-vk"></a>
-                        <a href="#" target="_blank" rel="nofollow" class="soc-inst"></a>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <ul class="footer-li bold">
+                                <li><a href="kredit-dlja-biznes-dengi-pts-avto.html">Юр. лицам</a></li>
+                                <li><a href="kredit-pod-motocikl.html">Мототехника</a></li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
+                <div class="col-md-12 m-b-30">
+                    
 
-                <hr>
+                    <div class="soc-seti">
+                        <div class="soc-footer">
+                            <a href="#" target="_blank" rel="nofollow" class="soc-vk"></a>
 
-                <div class="footer-bottom">
-                    <p>
-                        «Люкс займ» не является финансовым учреждением, банком или МФО. Сайт предоставляет
-                        информационную помощь для получения кредитов и займов в аккредитованных организациях, имеющих
-                        разрешение ЦБ на данную деятельность. При оформлении заявки, формируется единая заявка
-                        отправляемая компаниям партнерам, которые занимаются кредитованием населения.
-
-                        *Все компании партнеры, зарегистрированы в реестре Центрального банка РФ. Список компаний,
-                        опубликован на главной странице сайта.
-                    </p>
+                            <a href="#" target="_blank" rel="nofollow" class="soc-inst"></a>
+                        </div>
 
 
+                    </div>
+                    <button style="margin-left: 340px" type="button" class="btn btn-danger footer-btn" data-toggle="modal" data-target="#CallPhone-ver-4">Оформить займ</button>
+                </div>
+                <div class="col-md-12">
+                    <div class="footer-bottom">
+                        <p>«Автоломбард Ростов-61» не является финансовым учреждением, банком или МФО. Сайт предоставляет информационную помощь для получения кредитов и займов в аккредитованных организациях, имеющих разрешение ЦБ на данную деятельность. При оформлении заявки, формируется единая заявка отправляемая компаниям партнерам, которые занимаются кредитованием населения.
+
+                            *Все компании партнеры, зарегистрированы в реестре Центрального банка РФ. Список компаний, опубликован на главной странице сайта.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 </footer>
-</main>
+
 
 <div class="modal fade" id="CallPhone-ver-4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-deneg modal-dialog-centered" role="document">
         <div class="modal-content">
             <section id="online-application-1">
+                <style>
+                    .marginForButton {
+                        margin-right: -38px;
+                        margin-top: -35px;
+                    }
+                </style>
+                <button type="button" class="close marginForButton" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"></span>
+                </button>
+
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
@@ -2422,9 +2331,10 @@
                                         <div class="switch-js-2">
                                             <div class="opening_view" data-switch-2="one">
                                                 <h3>Экспресс анкета</h3>
-                                                <form action="thanks.php" method="POST">
+                                                <form action="thanks.php"
+                                                      method="POST">
                                                     <input type="hidden" name="_token" value=>
-                                                    <input type="hidden" value="" name="_token">
+                                                    <input type="hidden" value="" name=>
 
                                                     <div class="row">
                                                         <div class="col-md-4 col-sm-4">
@@ -2488,8 +2398,9 @@
                                                         </div>
 
                                                         <div class="col-md-12">
-                                                            <button type="submit" class="btn btn-danger">Оформить
-                                                                заявку
+                                                            <button type="submit" class="btn btn-danger"
+                                                                    data-toggle="modal" data-target="#CallPhone-ver-4">
+                                                                Оформить заявку
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2497,10 +2408,11 @@
                                             </div>
                                             <div class="opening_view" data-switch-2="two">
                                                 <h3>Подробная анкета</h3>
-                                                <form action="thanks.php" method="POST">
+                                                <form action="thanks.php"
+                                                      method="POST">
 
                                                     <input type="hidden" name="_token" value=>
-                                                    <input type="hidden" value="" name="_token">
+                                                    <input type="hidden" value="" name=>
 
                                                     <div class="row">
                                                         <div class="col-md-4 col-sm-4">
@@ -2571,8 +2483,9 @@
                                                         </div>
 
                                                         <div class="col-md-12">
-                                                            <button type="submit" class="btn btn-danger">Оформить
-                                                                заявку
+                                                            <button type="submit" class="btn btn-danger"
+                                                                    data-toggle="modal" data-target="#CallPhone-ver-4">
+                                                                Оформить заявку
                                                             </button>
                                                         </div>
                                                     </div>
@@ -2589,7 +2502,8 @@
         </div>
     </div>
 </div>
-a
+
+
 <div class="modal fade" id="onlajn-zayavka-short" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -2601,6 +2515,7 @@ a
             </div>
             <div class="modal-body">
                 <form action="thanks.php" method="POST">
+
                     <input type="hidden" name="_token" value="HYmmUBG7ERWgh7DZ8PyKYpmENIyoQAY6qZR29Xh5">
                     <input type="hidden" value="Подать заявку" name="_token">
                     <div class="row">
@@ -2651,7 +2566,9 @@ a
                     <span aria-hidden="true"></span></button>
             </div>
             <div class="modal-body">
+
                 <form action="thanks.php" method="POST">
+
                     <div class="row">
                         <div class="form-group col-md-6 col-sm-12 col-xs-12">
                             <label for="AppName71">Ваше имя</label>
@@ -2687,8 +2604,8 @@ a
                 <form class="ajax_form" method="post" action="#/onlajn-partners-short"
                       onsubmit="ym(, 'reachGoal', 'CallBackZAYAVKA'); gtag('event', 'onlajn-zayavka', {'event_category': 'form', 'event_action': 'callback'}); return true;">
                     <input type="hidden" name="_token" value="HYmmUBG7ERWgh7DZ8PyKYpmENIyoQAY6qZR29Xh5"><input
-                        type="hidden" value="Подать заявку" name="_token"><input type="hidden" class="form-control"
-                                                                                 name="type_service" value="partners">
+                        type="hidden" value="Подать заявку"><input type="hidden" class="form-control"
+                                                                   name="type_service" value="partners">
                     <div class="row">
                         <div class="form-group col-md-6 col-sm-12 col-xs-12"><label for="AppName7">Ваше имя</label><span
                                 class="error"></span><input id="AppName7" type="text" class="form-control" required
@@ -2718,7 +2635,7 @@ a
             <div class="modal-body">
                 <form class="ajax_form" method="post" action="#/onlajn-zayavka-short"><input type="hidden" name="_token"
                                                                                              value="HYmmUBG7ERWgh7DZ8PyKYpmENIyoQAY6qZR29Xh5"><input
-                        type="hidden" value="Подать заявку" name="_token"><input type="hidden" class="form-control"
+                        type="hidden" name="_token" value="Подать заявку"><input type="hidden" class="form-control"
                                                                                  name="type_service"
                                                                                  value="srochniy_vikup">
                     <div class="row">
@@ -2742,9 +2659,10 @@ a
 </div>
 <div class="off-canvas-sidebar grey">
     <div class="off-canvas-sidebar-wrapper visible-on-tablet visible-on-wade">
-        <div class="off-canvas-car-dark-grey">
+        <div style="background-position-x: right;" class="off-canvas-car-dark-grey">
 
         </div>
+
         <div class="off-canvas-header"><a class="off-canvas-close" href="#"><img src="images/close-white.svg"
                                                                                  alt="Автоломбард под залог ПТС  в Москве"></a>
         </div>
@@ -2752,13 +2670,16 @@ a
         <div class="off-canvas-grey">
             <div class="off-canvas-content modal-dialog-centered">
                 <div class="row">
-                    <div class="col-md-12">
+
+                    <div class="col-md-6">
+                        <h2 style="position:relative;margin-left: 52px;">
+                        </h2>
                         <ul class="off-canvas-li">
-                            <li><a href="autolombard.php">Автоломбард</a></li>
-                            <li><a href="credit-gruzovogoi-avtomobil.php">Грузовые авто</a></li>
-                            <li><a href="credit-pod-spectehniku.php">Спецтехника</a></li>
-                            <li><a href="credit-dlja-biznesa-pod-pts-avto.php">Юр. лицам</a></li>
-                            <li><a href="credit-pod-motocikl.php">Мототехника</a></li>
+                            <li><a href="kredit-pod-pts.php">Кредит под ПТС</a></li>
+                            <li><a href="pod-pts-gruzovogo-avtomobilya.php">Грузовые авто</a></li>
+                            <li><a href="pod-pts-spectehniki.php">Спецтехника</a></li>
+                            <li><a href="pod-pts-motozikla.php">Мототехника</a></li>
+                            <li><a href="pod-pts-dlja-biznesa.php">Юр. Лица</a></li>
                         </ul>
                         <button type="button" class="btn btn-danger inline-btn" data-toggle="modal"
                                 data-target="#CallPhone-ver-4" id="deleteBodyClass">Оформить займ
@@ -2766,6 +2687,7 @@ a
                         <br>
                         <br>
                         <br>
+
 
                         <script>
                             document.getElementById('deleteBodyClass').onclick = function () {
@@ -2786,7 +2708,7 @@ a
         <div class="off-canvas-car-dark-grey">
             <div class="city-wrapper city-wrapper-main m-b-30">
             </div>
-         <div class="off-canvas-phone"><a href="tel:<?=$tel ?>"><?=$phone ?></a><br></div>
+            <div class="off-canvas-phone"><a href="tel:<?=$tel ?>"><?=$phone ?></a><br></div>
         </div>
 
         <div class="off-canvas-grey">
@@ -2794,11 +2716,11 @@ a
                 <div class="row">
                     <div class="col-md-12">
                         <ul class="off-canvas-li">
-                            <li><a href="autolombard.php">Автоломбард</a></li>
-                            <li><a href="credit-gruzovogoi-avtomobil.php">Грузовые авто</a></li>
-                            <li><a href="credit-pod-spectehniku.php">Спецтехника</a></li>
-                            <li><a href="credit-dlja-biznesa-pod-pts-avto.php">Юр. лицам</a></li>
-                            <li><a href="credit-pod-motocikl.php">Мототехника</a></li>
+                            <li><a href="kredit-pod-pts.php">Кредит под ПТС</a></li>
+                            <li><a href="pod-pts-gruzovogo-avtomobilya.php">Грузовые авто</a></li>
+                            <li><a href="pod-pts-spectehniki.php">Спецтехника</a></li>
+                            <li><a href="pod-pts-motozikla.php">Мототехника</a></li>
+                            <li><a href="pod-pts-dlja-biznesa.php">Юр. Лица</a></li>
                         </ul>
                         <button type="button" class="btn btn-danger m-t-30" data-toggle="modal"
                                 data-target="#CallPhone-ver-4" id="closeMenu">Оформить займ
@@ -2888,7 +2810,6 @@ a
                     </div>
                 </form>
             </div>
-
         </div>
     </div>
 </div>
@@ -3076,8 +2997,9 @@ a
                                                                          name="AppName" placeholder="Как Вас зовут">
                         </div>
                         <div class="form-group col-md-6 col-sm-12 col-xs-12"><label for="AppPhone1">Телефон</label><span
-                                class="error"></span><input type="text" class="form-control type-phone" id="AppPhone1"
-                                                            name="AppPhone" placeholder="+7 (ХХХ) ХХХ - ХХ - ХХ"></div>
+                                class="error"></span><input name="_token" type="text" class="form-control type-phone"
+                                                            id="AppPhone1" name="AppPhone"
+                                                            placeholder="+7 (ХХХ) ХХХ - ХХ - ХХ"></div>
                         <div class="col-md-12">
                             <div class="personal-data">Нажимая на кнопку, вы даёте своё согласие на обработку ваших <a
                                     target="_blank" href="privacy-policy.pdf">персональных данных</a></div>

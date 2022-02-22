@@ -4,64 +4,64 @@ if ($('*').is('#map') === true) {
 		Collection;
 
 	function initMap() {
-            var geoPoints = $('#addresses .mapOptions__addresses_a');
-                    let firstCoordinate = $('#init-map-subdomain').val();
-                    toAddr = firstCoordinate.toString().split(',');
-                    var tolatitude = parseFloat(toAddr[1]),
-                            tolongitude = parseFloat(toAddr[0]);
+		var geoPoints = $('#addresses .mapOptions__addresses_a');
+		let firstCoordinate = $('#init-map-subdomain').val();
+		toAddr = firstCoordinate.toString().split(',');
+		var tolatitude = parseFloat(toAddr[1]),
+			tolongitude = parseFloat(toAddr[0]);
 
-            Map = new ymaps.Map(
-                'map',
-                {
-                    center: [tolatitude, tolongitude],
-                    zoom: 12,
-                    behaviors: [/*'scrollZoom'*/, 'drag', 'dblClickZoom', 'multiTouch']
-                },
-                {
-                    maxAnimationZoomDifference: 15,
-                    minZoom: 1
-                }
-            );
-                    Map.controls.add('zoomControl', {left: '5px', top: '5px'});
+		Map = new ymaps.Map(
+			'map',
+			{
+				center: [tolatitude, tolongitude],
+				zoom: 12,
+				behaviors: [/*'scrollZoom'*/, 'drag', 'dblClickZoom', 'multiTouch']
+			},
+			{
+				maxAnimationZoomDifference: 5,
+				minZoom: 14
+			}
+		);
+		Map.controls.add('zoomControl', {left: '5px', top: '5px'});
 
-            var minL = minB = 999999;
-            var maxR = maxT = -999999;
-            $.each(geoPoints, function (index, val) {
-                var cordinates = $(this).data('coordinate');
-                toAddr = cordinates.toString().split(',');
-                var item = {
-                    lat: toAddr[1],
-                    long: toAddr[0],
-                }
+		var minL = minB = 999999;
+		var maxR = maxT = -999999;
+		$.each(geoPoints, function (index, val) {
+			var cordinates = $(this).data('coordinate');
+			toAddr = cordinates.toString().split(',');
+			var item = {
+				lat: toAddr[1],
+				long: toAddr[0],
+			}
 
-                minL = minL >=  item.lat ? item.lat : minL;
-                minB = minB >=  item.long ? item.long : minB;
-                maxR = maxR <=  item.lat ? item.lat : maxR;
-                maxT = maxT <=  item.long ? item.long : maxT;
+			minL = minL >=  item.lat ? item.lat : minL;
+			minB = minB >=  item.long ? item.long : minB;
+			maxR = maxR <=  item.lat ? item.lat : maxR;
+			maxT = maxT <=  item.long ? item.long : maxT;
 
-                Map.geoObjects.add(
-                    new ymaps.Placemark(
-                        [item.lat, item.long],
-                        {
-                            balloonContentHeader: $(this).data('name'),
-                            balloonContentFooter: $(this).data('content')
-                        }
-                    )
-                );
-            });
-            
-            var _checkZoomRange = false;
-            if (window.location.href.split('.').length > 2) {
-                _checkZoomRange = true;
-            } 
-            Map.setBounds([[minL, minB], [maxR, maxT]], {
-                checkZoomRange: _checkZoomRange,
-            });
-            if (!_checkZoomRange) {
-                Map.setZoom(14);
-            }
+			Map.geoObjects.add(
+				new ymaps.Placemark(
+					[item.lat, item.long],
+					{
+						balloonContentHeader: $(this).data('name'),
+						balloonContentFooter: $(this).data('content')
+					}
+				)
+			);
+		});
+
+		var _checkZoomRange = false;
+		if (window.location.href.split('.').length > 2) {
+			_checkZoomRange = true;
+		}
+		Map.setBounds([[minL, minB], [maxR, maxT]], {
+			checkZoomRange: _checkZoomRange,
+		});
+		if (!_checkZoomRange) {
+			Map.setZoom(14);
+		}
 	}
-	
+
 	$(function () {
 		$(document).on('click', 'a.mapOptions__addresses_a', function () {
 			$(".mapOptions__userAddress").show(250);
@@ -73,7 +73,7 @@ if ($('*').is('#map') === true) {
 			return false;
 		});
 	});
-	
+
 	function setGeoObject(coords, address) {
 		if (coords != '') {
 			var address = $('#addresses').find('a.m-active').data('address'),
@@ -105,27 +105,29 @@ if ($('*').is('#map') === true) {
 			}
 		);
 
-		Map.panTo([latitude, longitude],
-			{
-				duration: 400,
-				flying: true,
-				checkZoomRange: false,
-				callback: function (state) {
-					if (state == null) {
-						Map.zoomRange.get([latitude, longitude]).then(
-							function (zoomRange, err) {
-								if (!err) {
-									Map.setZoom(zoomRange[1] - 1);
+		setTimeout(() => {
+			Map.panTo([latitude, longitude],
+				{
+					duration: 400,
+					flying: true,
+					checkZoomRange: false,
+					callback: function (state) {
+						if (state == null) {
+							Map.zoomRange.get([latitude, longitude]).then(
+								function (zoomRange, err) {
+									if (!err) {
+										Map.setZoom(zoomRange[1] - 1);
+									}
 								}
-							}
-						);
-						Collection.add(PlaceMark);
-						Map.geoObjects.add(Collection);
-						PlaceMark.balloon.open();
+							);
+							Collection.add(PlaceMark);
+							Map.geoObjects.add(Collection);
+							PlaceMark.balloon.open();
+						}
 					}
 				}
-			}
-		);
+			);
+		},1000)
 	}
-	
+
 }

@@ -849,8 +849,8 @@ xhr.addEventListener('load', function () {
         if (data[result] !== undefined){
             document.querySelector(`#${data[result].city}`).click()
         }
-    else {
-            document.querySelector(`#Москва`).click()
+        else {
+            document.querySelector(`#Ростов-на-Дону`).click()
 
         }
         // console.log(data['kirov'])

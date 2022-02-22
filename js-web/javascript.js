@@ -47,6 +47,8 @@ $(".card-bank").mask("9999 9999 9999 9999", {
 $(".monthly-payment1").mask("99999999", {
     // completed: function(){ alert("Вы ввели номер: " + this.val()); }
 });
+//Удаление лого
+
 
 //слайдер занятий
 $(document).ready(function() {
