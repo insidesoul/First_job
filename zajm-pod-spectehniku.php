@@ -11,7 +11,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="yandex-verification" content="71149ceae4e3a8a8"/>
-    <title>Автоломбард под залог ПТС в Ростове-на-Дону</title>
+    <title>Автоломбард под залог ПТС спецтехники в Ростове-на-Дону</title>
     <meta name="description" content="Автоломбард под залог ПТС в Ростове"/>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -73,12 +73,12 @@
         </div>
     </header>
     <main>
-        <section class="overlay-background" style="background-image: url(images/p4298/bgmazda.pn);">
+        <section class="overlay-background" style="height: 557px; background-image: url(images/p4298/bgmazda.pn);">
         <div class="container responceHide">
             <div class="row">
                 <div class="col-md-6 col-sm-7">
                     <div class="header-form-block">
-                        <h1 class="h1"><span class="h1-span">Автоломбард под залог ПТС</span>в Ростове-на-Дону</h1>
+                        <h1 class="h1"><span class="h1-span">Автоломбард под залог ПТС спецтехники</span>в Ростове-на-Дону</h1>
 
                         <div class="row">
                             <div class="col-md-4 introduction">
@@ -132,30 +132,30 @@
                             <div class="row">
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-template-bg">
-                                        <div class="element-img grey" style="background-image: url(images/product/sedan.png);"></div>
-                                        <div class="element-title"><a href="#">Легковые авто</a></div>
-                                        <div class="element-text">Отечественные авто, иномарки</div>
+                                        <div class="element-img grey" style="background-image: url(images/p4298/trctr.png);"></div>
+                                        <div class="element-title"><a href="#">Тракторы</a></div>
+                                        <div class="element-text">Колесные и гусеничные</div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-template-bg">
-                                        <div class="element-img grey" style="background-image: url(images/product/truck.png);"></div>
-                                        <div class="element-title"><a href="#">Грузовые авто</a></div>
-                                        <div class="element-text">Газели, тягачи, фуры</div>
+                                        <div class="element-img grey" style="background-image: url(images/p4298/pgrzchk.png);"></div>
+                                        <div class="element-title"><a href="#">Погрузчики</a></div>
+                                        <div class="element-text">Вилочные, ковшовые</div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-template-bg">
-                                        <div class="element-img grey" style="background-image: url(images/product/tractor.png);"></div>
-                                        <div class="element-title"><a href="#">Спецтехника</a></div>
-                                        <div class="element-text">Трактора, бульдозеры, погрузчики, краны</div>
+                                        <div class="element-img grey" style="background-image: url(images/p4298/kran.png);"></div>
+                                        <div class="element-title"><a href="#">Краны</a></div>
+                                        <div class="element-text">Авто, башенные</div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-template-bg">
-                                        <div class="element-img grey" style="background-image: url(images/product/motorbike.png);"></div>
-                                        <div class="element-title"><a href="#">Мототехника</a></div>
-                                        <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
+                                        <div class="element-img grey" style="background-image: url(images/p4298/bldzrpng.png);"></div>
+                                        <div class="element-title"><a href="#">Бульдозеры</a></div>
+                                        <div class="element-text">Гидравлические, механические</div>
                                     </div>
                                 </div>
                             </div>
@@ -164,24 +164,24 @@
                         <div class="visible-on-mobile">
                             <div class="owl-carousel owl-theme product">
                                 <div class="product-template-bg">
-                                    <div class="element-img grey" style="background-image: url(images/product/sedan.png);"></div>
-                                    <div class="element-title"><a href="#">Легковые авто</a></div>
-                                    <div class="element-text">Отечественные авто, иномарки</div>
+                                    <div class="element-img grey" style="background-image: url(images/p4298/trctr.png);"></div>
+                                        <div class="element-title"><a href="#">Тракторы</a></div>
+                                        <div class="element-text">Колесные и гусеничные</div>
                                 </div>
                                 <div class="product-template-bg">
-                                    <div class="element-img grey" style="background-image: url(images/product/truck.png);"></div>
-                                    <div class="element-title"><a href="#">Грузовые авто</a></div>
-                                    <div class="element-text">Газели, тягачи, фуры</div>
+                                    <div class="element-img grey" style="background-image: url(images/p4298/pgrzchk.png);"></div>
+                                        <div class="element-title"><a href="#">Погрузчики</a></div>
+                                        <div class="element-text">Вилочные, ковшовые</div>
                                 </div>
                                 <div class="product-template-bg">
-                                    <div class="element-img grey" style="background-image: url(images/product/tractor.png);"></div>
-                                    <div class="element-title"><a href="#">Спецтехника</a></div>
-                                    <div class="element-text">Трактора, бульдозеры, погрузчики, краны</div>
+                                    <div class="element-img grey" style="background-image: url(images/p4298/kran.png);"></div>
+                                        <div class="element-title"><a href="#">Краны</a></div>
+                                        <div class="element-text">Авто, башенные</div>
                                 </div>
                                 <div class="product-template-bg">
-                                    <div class="element-img grey" style="background-image: url(images/product/motorbike.png);"></div>
-                                    <div class="element-title"><a href="#">Мототехника</a></div>
-                                    <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
+                                    <div class="element-img grey" style="background-image: url(images/p4298/bldzrpng.png);"></div>
+                                        <div class="element-title"><a href="#">Бульдозеры</a></div>
+                                        <div class="element-text">Гидравлические, механические</div>
                                 </div>
                             </div>
                         </div>
@@ -286,7 +286,7 @@
                             залог ПТС</h3>
                     </div>
                     <div class="col-md-12 col-sm-6">
-                        <img class="m-t-image" src="images/p4298/audi_1.png" alt="Автоломбард под залог ПТС"/>
+                        <img class="m-t-image" src="images/p4298/sidespec.png" alt="Автоломбард под залог ПТС"/>
                     </div>
                 </div>
             </div>
@@ -700,40 +700,27 @@
                         <div class=row>
                             <div class="col-md-4">
                                 <article class="review-bg-grey">
-                                    <div class="review-text">Взял кредит на выгодных условиях в автоломбарде под залог ПТС и доволен. Если когда ещё потребуются деньги, то обязательно обращусь. Решить финансовые проблемы проще, чем кажется, когда есть своя машина, которая ликвидна.
+                                    <div class="review-text">Обратились в компанию для получения займа под залог спецтехники в Ростове-на-Дону и нам одобрили заявку под низкий процент. В результате нам удалось выполнить задачу точно в срок, не беспокоясь о деньгах - всю сумму нам предоставили в полном объёме в кратчайший срок.
                                     </div>
                                     <div class="review-person">
-                                        <div class="review-name">Антон</div>
-                                    </div>
-                                </article>
-                                <article class="review-bg-grey">
-                                    <div class="review-text">Первый раз в жизни получил ссуду в Ростове-на-Дону в автоломбарде под залог ПТС. На самом деле, это очень удобно, ведь машина остаётся у вас, и на ней можно продолжать работать, поэтому легко рассчитался по займу, не опасаясь, что денег не будет. </div>
-                                    <div class="review-person">
-                                        <div class="review-name">Семен</div>
+                                        <div class="review-name">Александр</div>
                                     </div>
                                 </article>
                             </div>
                             <div class="col-md-4">
                                 <article class="review-bg-grey">
-                                    <div class="review-text">Впервые обратился в автоломбард и получил под залог ПТС авто весьма кругленькую сумму, которой оказалось более чем достаточно для решения возникших проблем. Деньги получил очень быстро. Всё проходит по договору, то есть, все по закону и в белую!
-                                    </div>
+                                    <div class="review-text">Получил займ под спецтехнику, который помог вывести бизнес на новый уровень! Вся спецтехника, кстати, продолжала работать. Автоломбард забрал только ПТС, экскаваторы остались и было нам счастье. Рекомендую эту компанию как вполне рабочий способ решения финансовых проблем! </div>
                                     <div class="review-person">
-                                        <div class="review-name">Борис</div>
-                                    </div>
-                                </article>
-                                <article class="review-bg-grey">
-                                    <div class="review-text">Не было возможности взять кредит в банке, но деньги без проблем дали в автоломбарде под залог ПТС авто и оформили меньше чем за час, если считать с осмотром и подготовкой документов. Суду, я, разумеется, выплатила точно в срок, чего и остальным желаю.
-                                    </div>
-                                    <div class="review-person">
-                                        <div class="review-name">Ольга</div>
+                                        <div class="review-name">Иван</div>
                                     </div>
                                 </article>
                             </div>
                             <div class="col-md-4">
                                 <article class="review-bg-grey">
-                                    <div class="review-text">Срочно не хватало денег. Хорошо, что ваш автоломбард выдает займы круглосуточно. Можно взять деньги даже ночью и вернуть, когда будет достаточно налички. Для оформления, кстати, нужен только паспорт и ПТС. Можно погасить ссуду досрочно без всяких проблем.</div>
+                                    <div class="review-text">Дали деньги под залог спецтехники под ПТС, процент вполне устроил. Тот факт, что техника осталась у меня - тоже устроил более чем! Если ещё понадобится большая сумма срочно и с гарантией, то обязательно обращусь и оформлю ещё одну ссуду.
+                                    </div>
                                     <div class="review-person">
-                                        <div class="review-name">Анна</div>
+                                        <div class="review-name">Константин</div>
                                     </div>
                                 </article>
                             </div>
@@ -743,37 +730,23 @@
                     <div class="visible-on-mobile">
                         <div class="owl-carousel owl-theme reviews-4">
                             <article class="review-bg-grey">
-                                    <div class="review-text">Взял кредит на выгодных условиях в автоломбарде под залог ПТС и доволен. Если когда ещё потребуются деньги, то обязательно обращусь. Решить финансовые проблемы проще, чем кажется, когда есть своя машина, которая ликвидна.
+                                    <div class="review-text">Обратились в компанию для получения займа под залог спецтехники в Ростове-на-Дону и нам одобрили заявку под низкий процент. В результате нам удалось выполнить задачу точно в срок, не беспокоясь о деньгах - всю сумму нам предоставили в полном объёме в кратчайший срок.
                                     </div>
                                     <div class="review-person">
-                                        <div class="review-name">Антон</div>
+                                        <div class="review-name">Александр</div>
                                     </div>
                                 </article>
                                 <article class="review-bg-grey">
-                                    <div class="review-text">Первый раз в жизни получил ссуду в Ростове-на-Дону в автоломбарде под залог ПТС. На самом деле, это очень удобно, ведь машина остаётся у вас, и на ней можно продолжать работать, поэтому легко рассчитался по займу, не опасаясь, что денег не будет. </div>
+                                    <div class="review-text">Получил займ под спецтехнику, который помог вывести бизнес на новый уровень! Вся спецтехника, кстати, продолжала работать. Автоломбард забрал только ПТС, экскаваторы остались и было нам счастье. Рекомендую эту компанию как вполне рабочий способ решения финансовых проблем! </div>
                                     <div class="review-person">
-                                        <div class="review-name">Семен</div>
+                                        <div class="review-name">Иван</div>
                                     </div>
                                 </article>
-                            </article>
                             <article class="review-bg-grey">
-                                    <div class="review-text">Впервые обратился в автоломбард и получил под залог ПТС авто весьма кругленькую сумму, которой оказалось более чем достаточно для решения возникших проблем. Деньги получил очень быстро. Всё проходит по договору, то есть, все по закону и в белую!
+                                    <div class="review-text">Дали деньги под залог спецтехники под ПТС, процент вполне устроил. Тот факт, что техника осталась у меня - тоже устроил более чем! Если ещё понадобится большая сумма срочно и с гарантией, то обязательно обращусь и оформлю ещё одну ссуду.
                                     </div>
                                     <div class="review-person">
-                                        <div class="review-name">Борис</div>
-                                    </div>
-                                </article>
-                                <article class="review-bg-grey">
-                                    <div class="review-text">Не было возможности взять кредит в банке, но деньги без проблем дали в автоломбарде под залог ПТС авто и оформили меньше чем за час, если считать с осмотром и подготовкой документов. Суду, я, разумеется, выплатила точно в срок, чего и остальным желаю.
-                                    </div>
-                                    <div class="review-person">
-                                        <div class="review-name">Ольга</div>
-                                    </div>
-                                </article>
-                                <article class="review-bg-grey">
-                                    <div class="review-text">Срочно не хватало денег. Хорошо, что ваш автоломбард выдает займы круглосуточно. Можно взять деньги даже ночью и вернуть, когда будет достаточно налички. Для оформления, кстати, нужен только паспорт и ПТС. Можно погасить ссуду досрочно без всяких проблем.</div>
-                                    <div class="review-person">
-                                        <div class="review-name">Анна</div>
+                                        <div class="review-name">Константин</div>
                                     </div>
                                 </article>
 
@@ -793,50 +766,30 @@
                         <div class=question-answer>
                             <div class=row>
                                 <div class="col-md-4">
-                                    <div class=question>Как получить деньги под залог ПТС в автоломбарде?</div>
+                                    <div class=question>Выдаете ли вы деньги под залог паспорта на спецтехнику?</div>
                                 </div>
                                 <div class="col-md-8">
-                                    <div class=answer>Это быстро: заполните форму на сайте, дождитесь звонка менеджера и его уточнений, узнайте решение. Забрать деньги в автоломбарде под залог ПТС можно в день обращения. </div>
+                                    <div class=answer>Да, у нас есть услуга оформления займа под залог спецтехники. Процедура его получения не отличается от получения займа под ПТС легкового автомобиля.  </div>
                                 </div>
                             </div>
                         </div>
                         <div class=question-answer>
                             <div class=row>
                                 <div class="col-md-4">
-                                    <div class=question>Как можно забрать деньги — наличными или с карты?</div>
+                                    <div class=question>Какую спецтехнику вы рассматриваете в качестве залога?</div>
                                 </div>
                                 <div class="col-md-8">
-                                    <div class=answer>Выбирайте удобный для вас способ. Получить деньги под залог ПТС в автоломбарде в Ростове-на-Дону вы можете на карту или наличными.  </div>
+                                    <div class=answer>Если у вас есть трактор, бульдозер, асфальтоукладочный каток, фронтальный погрузчик или подъемный кран, у вас есть все шансы на получение кредита под залог ПТС спецтехники. Мы заберем только техпаспорт: вы сможете пользоваться самой техникой дальше.  </div>
                                 </div>
                             </div>
                         </div>
                         <div class=question-answer>
                             <div class=row>
                                 <div class="col-md-4">
-                                    <div class=question>Можно ли продолжать ездить в автомобиле после получения займа?</div>
+                                    <div class=question>Когда я смогу забрать деньги, взятые под залог ПТС спецтехники? </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <div class=answer>После получения денег в нашем автоломбарде под залог автомобиля владелец может им пользоваться так, как считаем нужным. Мы берем у него на время только ПТС.  </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=question-answer>
-                            <div class=row>
-                                <div class="col-md-4">
-                                    <div class=question>Автомобиль не мой, я вожу его по генеральной доверенности — можно ли мне оформить займ в таком случае?</div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class=answer>Да, мы работаем и с собственниками транспортных средств, и с теми, кто водит машину по доверенности. Если у вас есть такой документ, вы можете в любой момент обратиться за деньгами под залог ПТС в круглосуточный автоломбард.</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=question-answer>
-                            <div class=row>
-                                <div class="col-md-4">
-                                    <div class=question>Какие документы должны быть на руках, чтобы получить автозалог в Ростове-на-Дону?</div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class=answer>Для оформления кредита понадобится паспорт гражданина РФ, СТС и ПТС. Если вы водите машину по генеральной доверенности, менеджер также попросит ее предоставить.</div>
+                                    <div class=answer>Чаще всего мы оформляем заявки и принимаем по ним решения в течение 20—40 минут. В редких случаях процесс занимает один день. Менеджеры нашего автоломбарда спецтехники под залог ПТС в Ростове-на-Дону рассматривают заявки круглосуточно и без выходных.  </div>
                                 </div>
                             </div>
                         </div>
