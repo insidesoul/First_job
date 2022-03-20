@@ -10,7 +10,7 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="yandex-verification" content="71149ceae4e3a8a8"/>
-    <title>Сеть автоломбардов Санкт-Петербурга под залог ПТС автомобиля</title>
+    <title>Сеть автоломбардов Санкт-Петербурга под залог ПТС мототехнику</title>
     <meta name="description" content="Автоломбард под залог ПТС в Ростове"/>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -77,7 +77,7 @@
             <div class="row">
                 <div class="col-md-6 col-sm-7">
                     <div class="header-form-block">
-                        <h1 class="h1"><span class="h1-span">Сеть автоломбардов <br>Санкт-Петербурга</span>под залог ПТС автомобиля</h1>
+                        <h1 class="h1"><span class="h1-span">Сеть автоломбардов <br>Санкт-Петербурга</span>под залог ПТС мототехнику</h1>
 
                         <div class="row">
                             <div class="col-md-4 introduction">
@@ -131,30 +131,26 @@
                             <div class="row">
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-template-bg">
-                                        <div class="element-img grey" style="background-image: url(images/product/sedan.png);"></div>
-                                        <div class="element-title"><a href="#">Легковые авто</a></div>
-                                        <div class="element-text">Отечественные авто, иномарки</div>
+                                        <div class="element-img grey" style="background-image: url(images/p4298/motoc.png);"></div>
+                                        <div class="element-title"><a href="#">Мотоцикл</a></div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-template-bg">
-                                        <div class="element-img grey" style="background-image: url(images/product/truck.png);"></div>
-                                        <div class="element-title"><a href="#">Грузовые авто</a></div>
-                                        <div class="element-text">Газели, тягачи, фуры</div>
+                                        <div class="element-img grey" style="background-image: url(images/p4298/motorl.png);"></div>
+                                        <div class="element-title"><a href="#">Мотороллер</a></div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-template-bg">
-                                        <div class="element-img grey" style="background-image: url(images/product/tractor.png);"></div>
-                                        <div class="element-title"><a href="#">Спецтехника</a></div>
-                                        <div class="element-text">Трактора, бульдозеры, погрузчики, краны</div>
+                                        <div class="element-img grey" style="background-image: url(images/p4298/chop.png);"></div>
+                                        <div class="element-title"><a href="#">Чоппер</a></div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="product-template-bg">
-                                        <div class="element-img grey" style="background-image: url(images/product/motorbike.png);"></div>
-                                        <div class="element-title"><a href="#">Мототехника</a></div>
-                                        <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
+                                        <div class="element-img grey" style="background-image: url(images/p4298/mop.png);"></div>
+                                        <div class="element-title"><a href="#">Мопед</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -163,24 +159,20 @@
                         <div class="visible-on-mobile">
                             <div class="owl-carousel owl-theme product">
                                 <div class="product-template-bg">
-                                    <div class="element-img grey" style="background-image: url(images/product/sedan.png);"></div>
-                                    <div class="element-title"><a href="#">Легковые авто</a></div>
-                                    <div class="element-text">Отечественные авто, иномарки</div>
+                                    <div class="element-img grey" style="background-image: url(images/p4298/motoc.png);"></div>
+                                        <div class="element-title"><a href="#">Мотоцикл</a></div>
                                 </div>
                                 <div class="product-template-bg">
-                                    <div class="element-img grey" style="background-image: url(images/product/truck.png);"></div>
-                                    <div class="element-title"><a href="#">Грузовые авто</a></div>
-                                    <div class="element-text">Газели, тягачи, фуры</div>
+                                    <div class="element-img grey" style="background-image: url(images/p4298/motorl.png);"></div>
+                                        <div class="element-title"><a href="#">Мотороллер</a></div>
                                 </div>
                                 <div class="product-template-bg">
-                                    <div class="element-img grey" style="background-image: url(images/product/tractor.png);"></div>
-                                    <div class="element-title"><a href="#">Спецтехника</a></div>
-                                    <div class="element-text">Трактора, бульдозеры, погрузчики, краны</div>
+                                     <div class="element-img grey" style="background-image: url(images/p4298/chop.png);"></div>
+                                        <div class="element-title"><a href="#">Чоппер</a></div>
                                 </div>
                                 <div class="product-template-bg">
-                                    <div class="element-img grey" style="background-image: url(images/product/motorbike.png);"></div>
-                                    <div class="element-title"><a href="#">Мототехника</a></div>
-                                    <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
+                                    <div class="element-img grey" style="background-image: url(images/p4298/mop.png);"></div>
+                                        <div class="element-title"><a href="#">Мопед</a></div>
                                 </div>
                             </div>
                         </div>
@@ -438,7 +430,7 @@
             <div class="col-md-5 col-sm-12">
                 <div class="bg-grey-man">
                     <h3 class="h1">Погашение автозайма</h3>
-                    <img src="images/p4298/cars.png" alt="Автоломбард под залог ПТС"/>
+                    <img src="images/p4298/carssss.png" alt="Автоломбард под залог ПТС"/>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
@@ -607,30 +599,20 @@
 </section>
 <script type="text/babel">
     let data = [
-        [{question: 'Как получить деньги под залог ПТС в автоломбарде?'},
-            {answer: 'Для получения кредита в автоломбарде под залог ПТС необходимо выполнить три простых этапа. Первый – подаем онлайн-заявку, указываем свой контактный телефон. Второй этап - с вами связывается менеджер для уточнения деталей заявки. Третий – дожидаемся решения и следуем дальнейшему алгоритму действий.'},
+        [{question: 'Могу ли я вернуть деньги за свой мотоцикл раньше установленного срока?'},
+            {answer: 'В соответствии с договором на залог ПТС мотоцикла в Санкт-Петербурге, вы имеете полное право вернуть деньги раньше установленного срока. Никаких пеней и санкций не будет предусмотрено за досрочное погашение кредита. '},
             {numId: '0'},
             {numIdText: 'Zero'}],
 
-        [{question: 'Займ выдается наличными или на карту?'},
-            {answer: 'Для получения займа для программы залог в автоломбарде ПТС можно указать реквизиты карты или получить наличные средства. Вариант выбора денежных средств по кредиту заемщик выбирает самостоятельно.'},
+        [{question: 'Можете ли переоформить мой мотоцикл на ваш автоломбард?'},
+            {answer: 'Это исключено, поскольку согласно договору кредита под залог ПТС мотоцикла, транспортное средство остается у вас, а мы осуществляем только кредитование заемщика, и не имеем права переоформлять ТС на нашу компанию.'},
             {numId: '1'},
             {numIdText: 'One'}],
 
-        [{question: 'Автомобиль останется у меня?'},
-            {answer: 'Да, машина по условиям программы автоломбард под залог автомобиля останется у вас. Мы забираем у вас только один документ – ПТС, в остальном никаких ограничений на управление машиной не имеется.'},
+        [{question: 'На какой срок можно получить займ под залог мототехники?'},
+            {answer: 'В рамках программы займа под залог ПТС мотоцикла, кредитную линию можно оформить на срок от 12 до 60 месяцев. Порядок кредитования точно такой же, как и для других транспортных средств.'},
             {numId: '2'},
             {numIdText: 'Two'}],
-
-        [{question: 'Можно ли взять займ в автоломбарде по генеральной доверенности?'},
-            {answer: 'Для получения займа не обязательно, чтобы вы были единственным владельцем ТС. Вы можете обратиться в круглосуточные автоломбарды под залог ПТС и предоставить генеральную доверенность или ДКП.'},
-            {numId: '3'},
-            {numIdText: 'Three'}],
-
-        [{question: 'Что нужно для получения займа под ПТС автомобиля?'},
-            {answer: 'Для оформления и автозалога в Санкт-Петербурге достаточно предоставить всего 3 документа: ваш общегражданский паспорт, ПТС, а также свидетельство на транспортное средство СТС. Других документов предоставлять не нужно.'},
-            {numId: '4'},
-            {numIdText: 'Four'}],
     ]
     ReactDOM.render(
         <div>
@@ -732,38 +714,24 @@
 
                 <div class="owl-carousel owl-theme reviews-1">
                     <article class="review-bg-no">
-                        <div class="review-text">Дважды обращался в данную организацию. Данный автоломбард предоставляет  выгодные условия под залог ПТС, одобряют заявку быстро, средства приходят в этот же день. Выплаты осуществлять комфортно, деньги можно отправить любым удобным способом.
+                        <div class="review-text">Потребовалось оформить займ под залог ПТС мотоцикла в СПБ. Знакомые посоветовали обратиться в данную организацию. Было это полгода назад, с тех пор уже успел даже погасить задолженность. От сотрудничества остались приятные впечатления, деньги выдали довольно быстро.
                         </div>
                         <div class="review-person">
-                            <div class="review-name">Степан</div>
+                            <div class="review-name">Сергей</div>
                         </div>
                     </article>
                     <article class="review-bg-no">
-                        <div class="review-text">Искал автоломбард под залог ПТС в Санкт-Петербурге, наткнулся на данную организацию. Условия понравились, поэтому заключил договор. Получил 80 тысяч на год, спокойно их вернул, не возникло каких-либо проблем. Если понадобится, обращусь снова.
+                        <div class="review-text">В данной организации оформил кредит под залог ПТС мотоцикла. Что здорово, сделку одобрили даже несмотря на то, что у меня плохая кредитная история. Договор полностью прозрачный, поэтому подписывал вообще не переживая.
                         </div>
                         <div class="review-person">
-                            <div class="review-name">Виктор </div>
+                            <div class="review-name">Евгений </div>
                         </div>
                     </article>
                     <article class="review-bg-no">
-                        <div class="review-text">В вашем ломбарде под залог ПТС авто получил на руки нужную сумму денег. С заключением сделки не возникло проблем, менеджеры компании быстро подготовили необходимые бумаги.
+                        <div class="review-text">Когда потребовалось решить финансовые проблемы, взял займ под залог ПТС мотоцикла. Компания отличная, охотно идет навстречу и учитывает твои пожелания. Мне составили удобный график платежей, поэтому задолженность погасил вообще без проблем.
                         </div>
                         <div class="review-person">
-                            <div class="review-name">Николай</div>
-                        </div>
-                    </article>
-                    <article class="review-bg-no">
-                        <div class="review-text">Нередко ломбард автомобилей под залог ПТС предлагает невыгодные условия, но не в этом случае. Эта организация работает на высшем уровне, у них можно получить до 80% от рыночной стоимости авто. Оценка машины происходит сразу, поэтому для заключения договора требуется минимум времени.
-                        </div>
-                        <div class="review-person">
-                            <div class="review-name">Марина</div>
-                        </div>
-                    </article>
-                    <article class="review-bg-no">
-                        <div class="review-text">Этот автоломбард работает круглосуточно, что очень здорово. Деньги могут потребоваться в любой момент, и компания всегда придет на помощь. Получить здесь займ не составляет труда, принимается практически любая машина в качестве залога.
-                        </div>
-                        <div class="review-person">
-                            <div class="review-name">Анна П.</div>
+                            <div class="review-name">Андрей</div>
                         </div>
                     </article>
                 </div>
