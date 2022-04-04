@@ -1,6 +1,6 @@
 if ($('*').is('#map') === true) {
 	ymaps.ready(initMap);
-	var Map,
+	var ymobj,
 		Collection;
 
 	function initMap() {
@@ -10,7 +10,7 @@ if ($('*').is('#map') === true) {
 		var tolatitude = parseFloat(toAddr[1]),
 			tolongitude = parseFloat(toAddr[0]);
 
-		Map = new ymaps.Map(
+		ymobj = new ymaps.Map(
 			'map',
 			{
 				center: [tolatitude, tolongitude],
@@ -22,7 +22,7 @@ if ($('*').is('#map') === true) {
 				minZoom: 14
 			}
 		);
-		Map.controls.add('zoomControl', {left: '5px', top: '5px'});
+		ymobj.controls.add('zoomControl', {left: '5px', top: '5px'});
 
 		var minL = minB = 999999;
 		var maxR = maxT = -999999;
@@ -39,7 +39,7 @@ if ($('*').is('#map') === true) {
 			maxR = maxR <=  item.lat ? item.lat : maxR;
 			maxT = maxT <=  item.long ? item.long : maxT;
 
-			Map.geoObjects.add(
+			ymobj.geoObjects.add(
 				new ymaps.Placemark(
 					[item.lat, item.long],
 					{
@@ -54,11 +54,11 @@ if ($('*').is('#map') === true) {
 		if (window.location.href.split('.').length > 2) {
 			_checkZoomRange = true;
 		}
-		Map.setBounds([[minL, minB], [maxR, maxT]], {
+		ymobj.setBounds([[minL, minB], [maxR, maxT]], {
 			checkZoomRange: _checkZoomRange,
 		});
 		if (!_checkZoomRange) {
-			Map.setZoom(14);
+			ymobj.setZoom(14);
 		}
 	}
 
@@ -106,22 +106,22 @@ if ($('*').is('#map') === true) {
 		);
 
 		setTimeout(() => {
-			Map.panTo([latitude, longitude],
+			ymobj.panTo([latitude, longitude],
 				{
 					duration: 400,
 					flying: true,
 					checkZoomRange: false,
 					callback: function (state) {
 						if (state == null) {
-							Map.zoomRange.get([latitude, longitude]).then(
+							ymobj.zoomRange.get([latitude, longitude]).then(
 								function (zoomRange, err) {
 									if (!err) {
-										Map.setZoom(zoomRange[1] - 1);
+										ymobj.setZoom(zoomRange[1] - 1);
 									}
 								}
 							);
 							Collection.add(PlaceMark);
-							Map.geoObjects.add(Collection);
+							ymobj.geoObjects.add(Collection);
 							PlaceMark.balloon.open();
 						}
 					}

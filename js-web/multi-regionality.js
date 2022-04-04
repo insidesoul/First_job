@@ -17,8 +17,6 @@ xhr.addEventListener('load', function () {
             city: xhr.response[subdomain].city,
             subdomain: subdomain,
         });
-
-
     }
     setTimeout(() => {
         let siteUrl = window.location.hostname;
@@ -342,7 +340,7 @@ xhr.addEventListener('load', function () {
 
     },2000)
 
-    for (let letter of ['А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ё', 'Ж', 'З', 'И', 'Й', 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С', 'Т', 'У', 'Ф', 'Х', 'Ц', 'Ч', 'Ш', 'Щ', 'Э', 'Ю', 'Я']) {
+    for (let letter of ['А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ё', 'Ж', 'З', 'И', 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С', 'Т', 'У', 'Ф', 'Х', 'Ц', 'Ч', 'Ш', 'Щ', 'Э', 'Ю', 'Я']) {
         if (!citiesLetters.hasOwnProperty(letter)) continue;
         let node = document.getElementById('root' + letter);
         if (!node) continue;
