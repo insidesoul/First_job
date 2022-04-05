@@ -1,0 +1,12 @@
+17:53:17 | Error | file_put_contents(/var/www/dev.server/subdomains.json): failed to open stream: Отказано в доступе in /var/www/dev.server/multi-regionality.php:164
+11:21:27 | Error | file_put_contents(/var/www/dev.server/subdomains.json): failed to open stream: Отказано в доступе in /var/www/dev.server/multi-regionality.php:164
+11:21:41 | Error | file_put_contents(/var/www/dev.server/subdomains.json): failed to open stream: Отказано в доступе in /var/www/dev.server/multi-regionality.php:164
+11:24:05 | Error | file_put_contents(/var/www/dev.server/subdomains.json): failed to open stream: Отказано в доступе in /var/www/dev.server/multi-regionality.php:164
+11:25:41 | Error | file_put_contents(/var/www/dev.server/subdomains.json): failed to open stream: Отказано в доступе in /var/www/dev.server/multi-regionality.php:164
+11:26:28 | Error | file_put_contents(/var/www/dev.server/subdomains.json): failed to open stream: Отказано в доступе in /var/www/dev.server/multi-regionality.php:164
+11:30:23 | Error | file_put_contents(/var/www/dev.server/subdomains.json): failed to open stream: Отказано в доступе in /var/www/dev.server/multi-regionality.php:164
+11:37:30 | Error | file_put_contents(/var/www/dev.server/subdomains.json): failed to open stream: Отказано в доступе in /var/www/dev.server/multi-regionality.php:164
+11:39:05 | Error | file_put_contents(/var/www/dev.server/subdomains.json): failed to open stream: Отказано в доступе in /var/www/dev.server/multi-regionality.php:164
+11:47:03 | Error | file_put_contents(/var/www/dev.server/subdomains.json): failed to open stream: Отказано в доступе in /var/www/dev.server/multi-regionality.php:164
+11:47:20 | Error | file_put_contents(/var/www/dev.server/subdomains.json): failed to open stream: Отказано в доступе in /var/www/dev.server/multi-regionality.php:164
+11:48:30 | Error | file_put_contents(/var/www/dev.server/subdomains.json): failed to open stream: Отказано в доступе in /var/www/dev.server/multi-regionality.php:164

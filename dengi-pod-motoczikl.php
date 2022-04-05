@@ -11,7 +11,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="yandex-verification" content="71149ceae4e3a8a8" />
-    <title>Кредит под залог ПТС <?= $in_city ?></title>
+    <title>Кредит под залог ПТС мототехники <?= $in_city ?></title>
     <meta name="description" content="Автоломбард под залог ПТС   <?= $in_city ?>" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -77,7 +77,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="row">
                         <div class="col-md-6 col-sm-7">
                             <div class="header-form-block">
-                                <h1 class="h1"><span class="h1-span">Кредит под залог ПТС <br><?= $in_city ?></span></h1>
+                                <h1 class="h1"><span class="h1-span">Кредит под залог ПТС мототехники <br><?= $in_city ?></span></h1>
 
                                 <div class="row">
                                     <div class="col-md-4 introduction">
@@ -206,7 +206,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     </div>
                 </div>
             </div>
-            <figure class="get-image-interlayer visible-on-wade visible-on-tablet"><img src="images/subaru2.png" alt="subaru" style="margin: 148px 0 0 14px;">
+            <figure class="get-image-interlayer visible-on-wade visible-on-tablet"><img src="images/subaru5.png" alt="subaru" style="margin: 148px 0 0 14px;">
             </figure>
         </div>
     </section>
@@ -377,140 +377,138 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
             </div>
         </div>
     </section>
-    <section id="products-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <h3 class="h1"><span class="h1-span">Принимаем в залог любые </span><span class="yellow-text">транспортные средства</span></h3>
-                    <div class="visible-on-wade visible-on-tablet">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6 product-template">
-                                <div class="element relative" title="займ под птс авто">
-                                    <div class="element-img" style="background-image: url(images/product/sedan3.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Легковые авто</div>
-                                            <div class="element-text">Отечественные авто, иномарки</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
-                                            </div>
+<section id=products-1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class=h1><span class="h1-span">Принимаем в залог любые </span>транспортные средства</h3>
+                <div class="visible-on-wade visible-on-tablet">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 product-template">
+                            <div class="element relative" title="займ под залог птс мотоцикла">
+                                <div class="element-img" style="background-image: url(images/product/motorbike.png);"></div>
+                                <div class="element-content-wrapper">
+                                    <div class="element-content">
+                                        <div class="element-title">Мотоцикл</div>
+                                        <!--                        <div class="element-text">Отечественные авто, иномарки</div>-->
+                                        <div class="element-wrap">
+                                            <button type=submit class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить</button>
+                                            <!--                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">Получить</button>-->
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6 product-template">
-                                <div class="element relative" title="займ под залог грузового автомобиля">
-                                    <div class="element-img" style="background-image: url(images/product/truck3.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Грузовые авто</div>
-                                            <div class="element-text">Газели, тягачи, фуры</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
+                        </div>
+                        <div class="col-md-3 col-sm-6 product-template">
+                            <div class="element relative" title="займ под птс мопед">
+                                <div class="element-img" style="background-image: url(images/product/motorbike4.png);"></div>
 
-                                            </div>
+                                <div class="element-content-wrapper">
+                                    <div class="element-content">
+                                        <div class="element-title">Мопед</div>
+                                        <!--                        <div class="element-text">Газели, тягачи, фуры</div>-->
+                                        <div class="element-wrap">
+                                            <button type=submit class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить</button>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6 product-template">
-                                <div class="element relative" title="быстрый займ под залог спецтехники">
-                                    <div class="element-img" style="background-image: url(images/product/tractor2.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Спецтехника</div>
-                                            <div class="element-text">Трактора, бульдозеры, краны</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
+                        </div>
+                        <div class="col-md-3 col-sm-6 product-template">
+                            <div class="element relative" title="займ под залог птс чоппера">
+                                <div class="element-img" style="background-image: url(images/product/chooper1.png);"></div>
 
-                                            </div>
+                                <div class="element-content-wrapper">
+                                    <div class="element-content">
+                                        <div class="element-title">Чоппер</div>
+                                        <!--                        <div class="element-text">Трактора, бульдозеры, погрузчики, краны</div>-->
+                                        <div class="element-wrap">
+                                            <button type=submit class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить</button>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6 product-template">
-                                <div class="element relative" title="займ под залог птс мотоцикла">
-                                    <div class="element-img" style="background-image: url(images/product/motorbike3.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Мототехника</div>
-                                            <div class="element-text">Мотоциклы, квадроциклы</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
+                        </div>
+                        <div class="col-md-3 col-sm-6 product-template">
+                            <div class="element relative" title="займ под залог птс мотороллера">
+                                <div class="element-img" style="background-image: url(images/product/skuter.png);"></div>
 
-                                            </div>
+                                <div class="element-content-wrapper">
+                                    <div class="element-content">
+                                        <div class="element-title">Мотороллер скутер</div>
+                                        <!--                        <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>-->
+                                        <div class="element-wrap">
+                                            <button type=submit class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить</button>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="visible-on-mobile">
-                        <div class="owl-carousel owl-theme product">
-                            <div class="product-template">
-                                <div class="element relative">
-                                    <div class="element-img" style="background-image: url(images/product/sedan3.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Легковые авто</div>
-                                            <div class="element-text">Отечественные авто, иномарки</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
+                </div>
 
-                                            </div>
+                <div class="visible-on-mobile">
+                    <div class="owl-carousel owl-theme product">
+                        <div class="product-template">
+                            <div class="element relative">
+                                <div class="element-img" style="background-image: url(images/product/motorbike4.png);"></div>
+                                <div class="element-content-wrapper">
+                                    <div class="element-content">
+                                        <div class="element-title">Мотоцикл</div>
+                                        <!--                        <div class="element-text">Отечественные авто, иномарки</div>-->
+                                        <div class="element-wrap">
+                                            <button type=submit class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить</button>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="product-template">
-                                <div class="element relative">
-                                    <div class="element-img" style="background-image: url(images/product/truck3.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Грузовые авто</div>
-                                            <div class="element-text">Газели, тягачи, фуры</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
+                        </div>
+                        <div class="product-template">
+                            <div class="element relative">
+                                <div class="element-img" style="background-image: url(images/product/motorbike4.png);"></div>
 
-                                            </div>
+                                <div class="element-content-wrapper">
+                                    <div class="element-content">
+                                        <div class="element-title">Мопед</div>
+                                        <!--                        <div class="element-text">Газели, тягачи, фуры</div>-->
+                                        <div class="element-wrap">
+                                            <button type=submit class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить</button>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="product-template">
-                                <div class="element relative">
-                                    <div class="element-img" style="background-image: url(images/product/tractor2.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Спецтехника</div>
-                                            <div class="element-text">Трактора, бульдозеры, краны</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
+                        </div>
+                        <div class="product-template">
+                            <div class="element relative">
+                                <div class="element-img" style="background-image: url(images/product/chooper1.png);"></div>
 
-                                            </div>
+                                <div class="element-content-wrapper">
+                                    <div class="element-content">
+                                        <div class="element-title">Чоппер</div>
+                                        <!--                        <div class="element-text">Трактора, бульдозеры, погрузчики, краны</div>-->
+                                        <div class="element-wrap">
+                                            <button type=submit class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить</button>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="product-template">
-                                <div class="element relative">
-                                    <div class="element-img" style="background-image: url(images/product/motorbike3.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Мототехника</div>
-                                            <div class="element-text">Мотоциклы, квадроциклы</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
+                        </div>
+                        <div class="product-template">
+                            <div class="element relative">
+                                <div class="element-img" style="background-image: url(images/product/skuter.png);"></div>
+                                <div class="element-content-wrapper">
+                                    <div class="element-content">
+                                        <div class="element-title">Мотороллер Мотороллер скуте</div>
+                                        <!--                        <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>-->
+                                        <div class="element-wrap">
+                                            <button type=submit class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить</button>
 
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -520,12 +518,13 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
     <section id=requirements-3>
         <div class=container>
             <div class="row">
                 <div class="col-md-3 col-sm-4">
-                    <div class=image-max-height style="background-image: url(images/bgLight.png); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
+                    <div class=image-max-height style="background-image: url(images/bgtr.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
                 </div>
 
                 <div class="col-md-9 col-sm-8">
@@ -729,30 +728,21 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
     </section>
     <script type="text/babel">
         let data = [
-        [{question: 'Как получить деньги под залог ПТС в автоломбарде?'},
-        {answer: `Автоломбард под залог ПТС выдаёт деньги в три этапа: 1. Человек оставляет заявку о получении займа на сайте.   2. Менеджер связывается с клиентом для уточнения важной информации.   3. Принимается решение по поводу выдачи займа, при положительном ответе человеку перечисляют деньги на карту или выдают наличными.`},
+        [{question: 'Могу ли я вернуть деньги за свой мотоцикл раньше установленного срока?'},
+            {answer: 'Если человек взял деньги под залог ПТС мотоцикла в Челябинске, у него будет возможность вернуть средства раньше установленного срока. Наш автоломбард за это не начислит пени.'},
             {numId: '0'},
             {numIdText: 'Zero'}],
 
-        [{question: 'Займ выдается наличными или на карту?'},
-            {answer: 'Возможны оба варианта. Автоломбард 24/7 готов выдать деньги клиенту наличными или перечислить на пластиковую карту.'},
+        [{question: 'Можете ли вы переоформить мой мотоцикл на ваш автоломбард? '},
+            {answer: 'Наша компания выдаёт только кредит под залог ПТС мотоцикла. Мы не станем на себя переоформлять транспортное средство клиента, так как подобная процедура не предусмотрена. '},
             {numId: '1'},
             {numIdText: 'One'}],
 
-        [{question: 'Автомобиль останется у меня?'},
-            {answer: 'Если человек под залог автомобиля в автоломбарде берёт кредит, ему не придётся на время отдавать своё транспортное средство. Человек сможет продолжить пользоваться машиной, но до выплаты долга не имеет права её продавать или дарить.'},
+        [{question: 'На какой срок можно получить займ под залог мототехники? '},
+            {answer: 'Займ под залог ПТС мотоцикла клиент может получить на длительный срок. Мы выдаём кредит на 1-5 лет. Точный срок зависит от возможностей и желания клиента. Будет возможность раньше погасить долг.'},
             {numId: '2'},
             {numIdText: 'Two'}],
 
-        [{question: 'Можно ли взять займ в автоломбарде по генеральной доверенности? '},
-            {answer: 'Круглосуточный автоломбард под залог ПТС выдаёт кредит не только собственникам машин. Можно получить займ, предоставив генеральную доверенность и договор купли-продажи на транспортное средство.'},
-            {numId: '3'},
-            {numIdText: 'Three'}],
-
-        [{question: 'Что нужно для получения займа под ПТС автомобиля?'},
-            {answer: 'Автоломбард в Челябинске для выдачи займа требует от людей минимальный перечень документов. Нужно предоставить СТС, ПТС и национальный паспорт.'},
-            {numId: '4'},
-            {numIdText: 'Four'}],
     ]
     ReactDOM.render(
         <div>
@@ -791,46 +781,29 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
 
                         <div class="owl-carousel owl-theme reviews-2 whiteColor">
                             <article class="review-bg-blue">
-                                <div class="review-text">Знакомые говорили, что брать займ – невыгодно, мол, проценты бешенные. Хочу сказать как клиент и финансист по образованию: цена денег – вещь относительная. Здесь в первую очередь я плачу за простоту, надёжность и скорость. Приятно, что работает автоломбард круглосуточно!
+                                <div class="review-text">Вообще здорово, что есть залог под ПТС мотоцикла в Челябинске. Странно только, что о них так мало людей знает. Погашение прошло гладко, было много времени для этого.
 
                                 </div>
                                 <div class="review-person">
-                                    <div class="review-name">Олег</div>
+                                    <div class="review-name">Пётр</div>
                                 </div>
                             </article>
                             <article class="review-bg-blue">
-                                <div class="review-text">Займы выдают быстро и без лишних вопросов. Сумму озвучивают приличную, но тут все зависит от техосмотра машины, конечно. Никогда не опаздывал с погашением, поэтому не знаю, как там обстоятельства развиваются. Автоламбард предложил адекватные условия под залог ПТС.
+                                <div class="review-text">У меня была финансовая яма: вовремя не погасил свой долг. Тут разница 1-2% процента, если считать на короткой дистанции. Оформил кредит под залог ПТС мотоцикла, никуда ничего не забирали, мотоцикл остался при себе. Время – деньги, экономьте и то и другое!
 
                                 </div>
                                 <div class="review-person">
-                                    <div class="review-name">Слава</div>
+                                    <div class="review-name">Миша</div>
                                 </div>
                             </article>
                             <article class="review-bg-blue">
-                                <div class="review-text">У меня не было наличных, обратился в ломбард и сдал автомобиль под залог ПТС. На следующий день получил перевод на карту. Не брал много, расплатился без каких-либо проблем. Прежде чем брать взаймы, надо подумать, а не рассуждать потом, какие все плохие!
+                                <div class="review-text">В банках по непонятным причинам отказывали. У родственников и знакомых брать деньги– это последнее дело для меня. Увидел рекламу о займе под залог ПТС мотоцикла, созвонился, подъехал, мне одобрили. Ставка устроила, плюс ко всему остаюсь со своим железным конём!
 
                                 </div>
                                 <div class="review-person">
-                                    <div class="review-name">Михаил</div>
+                                    <div class="review-name">Артём</div>
                                 </div>
                             </article>
-                            <article class="review-bg-blue">
-                                <div class="review-text">Всегда боялась брать кредиты. Решила в этом ломбарде взять под залог ПТС моего авто BMW X3. Мне нужна была помощь горячей линии, потому что брала первый раз. В итоге я получила свои деньги за 2 часа.
-
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Инна</div>
-                                </div>
-                            </article>
-                            <article class="review-bg-blue">
-                                <div class="review-text">Самое крутое, что, обращаясь в автоломбард за деньгами под залог ПТС не нужна справка о доходах – такого не видела в Челябинске. Это и повлияло на мое решение. Грубо говоря, взяла кредит без лишних формальностей. Машина сейчас есть у многих, не вижу смысла тратить время на заморочки в банках.
-
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Мария</div>
-                                </div>
-                            </article>
-
                         </div>
                     </div>
                 </div>
@@ -1824,7 +1797,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                             <h2 style="position:relative;margin-left: 52px;">
                             </h2>
                             <ul class="off-canvas-li">
-                                <li><a href="pod-gruzovogo-avtomobilia.php">Грузовые авто</a></li>
+                                <li><a href="pod-gruzovogo-avtomobilia.phpa.php">Грузовые авто</a></li>
                                 <li><a href="pod-specztekhniku.php">Спецтехника</a></li>
                                 <li><a href="dengi-pod-motoczikl.php">Мототехника</a></li>
                                 <li><a href="dlja-ip-pod-avto.php">Юр. Лица</a></li>
@@ -1863,7 +1836,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="row">
                         <div class="col-md-12">
                             <ul class="off-canvas-li">
-                                <li><a href="pod-gruzovogo-avtomobilia.php">Грузовые авто</a></li>
+                                <li><a href="pod-gruzovogo-avtomobilia.phpa.php">Грузовые авто</a></li>
                                 <li><a href="pod-specztekhniku.php">Спецтехника</a></li>
                                 <li><a href="dengi-pod-motoczikl.php">Мототехника</a></li>
                                 <li><a href="dlja-ip-pod-avto.php">Юр. Лица</a></li>
