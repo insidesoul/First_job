@@ -2186,6 +2186,11 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="letter">Г</div>
                     <div id="rootГ"></div>
 
+                    <div class="letter">Е</div>
+                    <div id="rootЕ"></div>
+
+                    <div class="letter">З</div>
+                    <div id="rootЗ"></div>
                 </div>
                 <div class="col-sm-12 col-md-3">
 
@@ -2225,12 +2230,20 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="letter">У</div>
                     <div id="rootУ"></div>
 
+                    <div class="letter">Х</div>
+                    <div id="rootХ"></div>
+
                     <div class="letter">Ч</div>
                     <div id="rootЧ"></div>
 
                     <div class="letter">Ш</div>
                     <div id="rootШ"></div>
 
+                    <div class="letter">Ю</div>
+                    <div id="rootЮ"></div>
+
+                    <div class="letter">Я</div>
+                    <div id="rootЯ"></div>
                 </div>
             </div>
         </div>
