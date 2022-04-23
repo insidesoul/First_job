@@ -23,281 +23,111 @@ xhr.addEventListener('load', function () {
         // console.log(siteUrl)
         let result =  /:\/\/([^\/]+)/.exec(window.location.href)[1].split('.')[0]
         let data = {
-          "kurgan": {
-            "City": "Курган",
-            "inCity": "Кургане",
-            "address": "улица Гоголя, 83"
-          },
-          "shadrinsk": {
-            "City": "Шадринск",
-            "inCity": "Шадринске",
-            "address": "Комсомольская улица, 24"
-          },
-          "asbest": {
-            "City": "Асбест",
-            "inCity": "Асбесте",
-            "address": "Советская улица, 22"
-          },
-          "beryozovsky": {
-            "City": "Берёзовский",
-            "inCity": "Берёзовском",
-            "address": "улица Красных Героев, 2Д"
-          },
-          "verkhnyayapyshma": {
-            "City": "Верхняя Пышма",
-            "inCity": "Верхней Пышме",
-            "address": "улица Александра Козицына, 8"
-          },
-          "verkhnyayasalda": {
-            "City": "Верхняя Салда",
-            "inCity": "Верхней Салде",
-            "address": "улица Сабурова, 6"
-          },
-          "yekaterinburg": {
-            "City": "Екатеринбург",
-            "inCity": "Екатеринбурге",
-            "address": "ул. Вайнера, 10"
-          },
-          "kamenskuralsky": {
-            "City": "Каменск-Уральский",
-            "inCity": "Каменск-Уральском",
-            "address": "улица Ленина, 28"
-          },
-          "kachkanar": {
-            "City": "Качканар",
-            "inCity": "Качканаре",
-            "address": "улица Свердлова, 7Б"
-          },
-          "krasnoturyinsk": {
-            "City": "Краснотурьинск",
-            "inCity": "Краснотурьинске",
-            "address": "улица Ленина, 25"
-          },
-          "krasnoufimsk": {
-            "City": "Красноуфимск",
-            "inCity": "Красноуфимске",
-            "address": "Советская улица, 28"
-          },
-          "kushva": {
-            "City": "Кушва",
-            "inCity": "Кушве",
-            "address": "улица Строителей, 13"
-          },
-          "lesnoy": {
-            "City": "Лесной",
-            "inCity": "Лесном",
-            "address": "Коммунистический проспект, 23"
-          },
-          "nev'yansk": {
-            "City": "Невьянск",
-            "inCity": "Невьянске",
-            "address": "Октябрьский проспект, 7"
-          },
-          "nizhnytagil": {
-            "City": "Нижний Тагил",
-            "inCity": "Нижнем Тагиле",
-            "address": "проспект Ленина, 40"
-          },
-          "nizhnyayatura": {
-            "City": "Нижняя Тура",
-            "inCity": "Нижней Туре",
-            "address": "улица Машиностроителей, 9"
-          },
-          "novouralsk": {
-            "City": "Новоуральск",
-            "inCity": "Новоуральске",
-            "address": "улица Ленина, 56"
-          },
-          "pervouralsk": {
-            "City": "Первоуральск",
-            "inCity": "Первоуральске",
-            "address": "улица Ватутина, 38"
-          },
-          "polevskoy": {
-            "City": "Полевской",
-            "inCity": "Полевском",
-            "address": "Коммунистическая улица, 2"
-          },
-          "revda": {
-            "City": "Ревда",
-            "inCity": "Ревде",
-            "address": "улица Максима Горького, 21"
-          },
-          "rezh": {
-            "City": "Реж",
-            "inCity": "Реже",
-            "address": "улица Ленина, 7"
-          },
-          "severouralsk": {
-            "City": "Североуральск",
-            "inCity": "Североуральске",
-            "address": "Молодёжная улица, 11"
-          },
-          "serov": {
-            "City": "Серов",
-            "inCity": "Серове",
-            "address": "улица Заславского, 35"
-          },
-          "ishim": {
-            "City": "Ишим",
-            "inCity": "Ишиме",
-            "address": "улица Карла Маркса, 31"
-          },
-          "tobolsk": {
-            "City": "Тобольск",
-            "inCity": "Тобольске",
-            "address": "Октябрьская улица, 4"
-          },
-          "tyumen": {
-            "City": "Тюмень",
-            "inCity": "Тюмене",
-            "address": "Первомайская улица, 11"
-          },
-          "yalutorovsk": {
-            "City": "Ялуторовск",
-            "inCity": "Ялуторовске",
-            "address": "улица Ленина, 50"
-          },
-          "kogalym": {
-            "City": "Когалым",
-            "inCity": "Когалыме",
-            "address": "улица Мира, 14"
-          },
-          "langepas": {
-            "City": "Лангепас",
-            "inCity": "Лангеласе",
-            "address": "улица Ленина, 20"
-          },
-          "megion": {
-            "City": "Мегион",
-            "inCity": "Мегионе",
-            "address": "Заречная улица, 15К2"
-          },
-          "nefteyugansk": {
-            "City": "Нефтеюганск",
-            "inCity": "Нефтеюганске",
-            "address": "3-й микрорайон, 19"
-          },
-          "nizhnevartovsk": {
-            "City": "Нижневартовск",
-            "inCity": "Нижневартовске",
-            "address": "улица Ленина, 9к1"
-          },
-          "nyagan": {
-            "City": "Нягань",
-            "inCity": "Нягане",
-            "address": "4-й микрорайон, 15А"
-          },
-          "pytyakh": {
-            "City": "Пыть-Ях",
-            "inCity": "Пыть-Яхе",
-            "address": "2-й микрорайон, 28"
-          },
-          "radyzniy": {
-            "City": "Радужный",
-            "inCity": "Радужном",
-            "address": "1-й микрорайон, 45"
-          },
-          "surgut": {
-            "City": "Сургут",
-            "inCity": "Сургуте",
-            "address": "проспект Ленина, 34"
-          },
-          "uray": {
-            "City": "Урай",
-            "inCity": "Урае",
-            "address": "2-й микрорайон, 61"
-          },
-          "khantymansiysk": {
-            "City": "Ханты-Мансийск",
-            "inCity": "Ханты-Мансийске",
-            "address": "улица Энгельса, 1"
-          },
-          "yugorsk": {
-            "City": "Югорск",
-            "inCity": "Югорске",
-            "address": "улица 40 лет Победы, 6"
-          },
-          "verhniyufaley": {
-            "City": "Верхний Уфалей",
-            "inCity": "Верхнем Уфалее",
-            "address": "улица Маяковского, 16"
-          },
-          "zlatoust": {
-            "City": "Златоуст",
-            "inCity": "Златоусте",
-            "address": "улица Ленина, 3"
-          },
-          "kopeysk": {
-            "City": "Копейск",
-            "inCity": "Копейске",
-            "address": "проспект Славы, 6"
-          },
-          "magnitogorsk": {
-            "City": "Магнитогорск",
-            "inCity": "Магнитогорске",
-            "address": "улица имени Газеты Правда, 16"
-          },
-          "miass": {
-            "City": "Миасс",
-            "inCity": "Миассе",
-            "address": "проспект Автозаводцев, 54"
-          },
-          "ozersk": {
-            "City": "Озёрск",
-            "inCity": "Озёрске",
-            "address": "Уральская улица, 16"
-          },
-          "satka": {
-            "City": "Сатка",
-            "inCity": "Сатке",
-            "address": "улица Кирова, 12"
-          },
-          "snezhinsk": {
-            "City": "Снежинск",
-            "inCity": "Снежинске",
-            "address": "улица Ленина, 34"
-          },
-          "moscow": {
-            "City": "Троицк",
-            "inCity": "Троицке",
-            "address": "улица имени В.И. Ленина, 69"
-          },
-          "ustkatav": {
-            "City": "Усть-Катав",
-            "inCity": "Усть-Катаве",
-            "address": "улица Ленина, 43"
-          },
-          "chelyabinsk": {
-            "City": "Челябинск",
-            "inCity": "Челябинске",
-            "address": "проспект Ленина, 58"
-          },
-          "gubkinsky": {
-            "City": "Губкинский",
-            "inCity": "Губкинском",
-            "address": "5-й микрорайон, 11"
-          },
-          "nadym": {
-            "City": "Надым",
-            "inCity": "Надыме",
-            "address": "Заводская улица, 5"
-          },
-          "novyurengoy": {
-            "City": "Новый Уренгой",
-            "inCity": "Новом Уренгое",
-            "address": "Ленинградский проспект, 9"
-          },
-          "noyabrsk": {
-            "City": "Ноябрьск",
-            "inCity": "Ноябрьске",
-            "address": "улица Ленина, 60"
-          },
-          "salekhard": {
-            "City": "Салехард",
-            "inCity": "Салехарде",
-            "address": "улица Чубынина, 12"
-          }
+          "belgorod": {
+          "city": "Белогорск",
+          "inCity": "Белогорске",
+          "address": "улица Кирова, 84"
+        },
+        "blagoveshchensk": {
+          "city": "Благовещенск",
+          "inCity": "Благовещенске",
+          "address": "улица Ленина, 139"
+        },
+        "svobodny": {
+          "city": "Свободный",
+          "inCity": "Свободном",
+          "address": "улица Карла Маркса, 16"
+        },
+        "tynda": {
+          "city": "Тында",
+          "inCity": "Тынде",
+          "address": "улица Красная Пресня, 27/1"
+        },
+        "chita": {
+          "city": "Чита",
+          "inCity": "Чите",
+          "address": "улица Бутина, 37"
+        },
+        "petropavlovsk-kamchatskiy": {
+          "city": "Петропавловск-Камчатский",
+          "inCity": "Петропавловске-Камчатском",
+          "address": "Советская улица, 14"
+        },
+        "magadan": {
+          "city": "Магадан",
+          "inCity": "Магадане",
+          "address": "улица Пушкина, 1"
+        },
+        "arsenyev": {
+          "city": "Арсеньев",
+          "inCity": "Арсеньеве",
+          "address": "Калининская улица, 14"
+        },
+        "artyom": {
+          "city": "Артём",
+          "inCity": "Артёме",
+          "address": "улица Фрунзе, 73"
+        },
+        "vladivostok": {
+          "city": "Владивосток",
+          "inCity": "Владивостоке",
+          "address": "Светланская улица, 31"
+        },
+        "dalnegorsk": {
+          "city": "Дальнегорск",
+          "inCity": "Дальнегорске",
+          "address": "проспект 50 лет Октября, 73"
+        },
+        "nakhodka": {
+          "city": "Находка",
+          "inCity": "Находкае",
+          "address": "Находкинский проспект, 11"
+        },
+        "ussuriysk": {
+          "city": "Уссурийск",
+          "inCity": "Уссурийске",
+          "address": "улица Плеханова, 61"
+        },
+        "severobaykalsk": {
+          "city": "Северобайкальск",
+          "inCity": "Северобайкальске",
+          "address": "Ленинградский проспект, 6"
+        },
+        "ulan-ude": {
+          "city": "Улан-Удэ",
+          "inCity": "Улан-Удэ",
+          "address": "улица Ленина, 52"
+        },
+        "neryungri": {
+          "city": "Нерюнгри",
+          "inCity": "Нерюнгри",
+          "address": "проспект Дружбы Народов, 25"
+        },
+        "yakutsk": {
+          "city": "Якутск",
+          "inCity": "Якутске",
+          "address": "улица Аммосова, 6"
+        },
+        "yuzhno-sakhalinsk": {
+          "city": "Южно-Сахалинск",
+          "inCity": "Южно-Сахалинске",
+          "address": "улица Карла Маркса, 51Б"
+        },
+        "amursk": {
+          "city": "Амурск",
+          "inCity": "Амурске",
+          "address": "улица Ленина, 279"
+        },
+        "komsomolsk-on-amur": {
+          "city": "Комсомольск-на-Амуре",
+          "inCity": "Комсомольске-на-Амуре",
+          "address": "проспект Ленина, 19"
+        },
+        "khabarovsk": {
+          "city": "Хабаровск",
+          "inCity": "Хабаровске",
+          "address": "улица Пушкина, 54"
+        }
         }
 
 
@@ -305,7 +135,7 @@ xhr.addEventListener('load', function () {
             document.querySelector(`#${data[result].city}`).click()
         }
         else {
-            document.querySelector(`#Челябинск`).click()
+            document.querySelector(`#Хабаровск`).click()
 
         }
         // console.log(data['kirov'])

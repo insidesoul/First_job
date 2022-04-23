@@ -180,15 +180,15 @@ if ($is_exists && $domain_dots_count > 1) {
         $in_city = $subdomains[$subdomain]['inCity'];
         $address = $subdomains[$subdomain]['address'];
     } else {
-        $city = 'Челябинск';
-        $in_city = 'в Челябинске';
-        $address = 'Университетская Набережная ул, д. 66б';
+        $city = 'Хабаровск';
+        $in_city = 'в Хабаровске';
+        $address = 'улица Пушкина, 54';
     }
 }
 else {
-    $city = 'Челябинск';
-    $in_city = 'в Челябинске';
-    $address = 'Университетская Набережная ул, д. 66б';
+    $city = 'Хабаровск';
+    $in_city = 'в Хабаровске';
+    $address = 'улица Пушкина, 54';
 }
 /* END Setup city variables */
 

@@ -1,5 +1,5 @@
 <?php
-$phone = '8 (961) 331-39-37';
+$phone = '8 (961) 331-39-41';
 $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
 ?>
 <?php include_once __DIR__ . '/multi-regionality.php'; ?>
@@ -121,52 +121,188 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
             </section>
     </div>
 
-    <section id="interlayer-2">
+<section id="receipt-of-money-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="row">
+                    <div class="col-md-12 col-sm-6">
+                        <h3 class="h1 m-t-image"><span class="h1-span"><span class="h1-span">Получение денег </span></span> <span class="yellow-text">под
+                            залог ПТС</span></h3>
+                    </div>
+                    <div class="col-md-12 col-sm-6">
+                        <img class="m-t-image" src="images/p4298/audi_1.png" alt="Автоломбард под залог ПТС"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8 col-sm-12">
+                <ul class="switcher gorizontal-pieces" id="switcher-loan-1">
+                    <li class="for_opening_view selected" data-modal-id="paymentsGrafModal" id="express"
+                        data-show="one">
+                        <div class="title-switch">Как получить займ</div>
+                    </li>
+                    <li class="for_opening_view" data-modal-id="paymentsInfo" id="detailed" data-show="two">
+                        <div class="title-switch">Что нужно для оформления займа</div>
+                    </li>
+                    <li class="for_opening_view" data-modal-id="paymentsInfo" id="detailed" data-show="three">
+                        <div class="title-switch">Оставьте заявку</div>
+                    </li>
+                </ul>
+
+                <div class="switch-js">
+                    <div class="opening_view" data-switch="one">
+                        <div class="visible-on-wade visible-on-tablet">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="list-icon-grey-item">
+                                        <div class="list-icon-grey-item-img arrow-right"
+                                             style="background-image: url(images/p4298/icon_41.png)"></div>
+                                        <div class="list-icon-grey-item-title text">Оставьте заявку и получите одобрение
+                                            по телефону
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="list-icon-grey-item">
+                                        <div class="list-icon-grey-item-img arrow-right"
+                                             style="background-image: url(images/p4298/electric-car.png);background-size:50px;"></div>
+                                        <div class="list-icon-grey-item-title text">Приезжаете в офис для оценки авто и
+                                            заключения договора
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="list-icon-grey-item">
+                                        <div class="list-icon-grey-item-img"
+                                             style="background-image: url(images/p4298/icon_19.png);background-size:50px;"></div>
+                                        <div class="list-icon-grey-item-title text">Получаете деньги и продолжаете
+                                            пользоваться своим авто
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visible-on-mobile">
+                            <div class="owl-carousel owl-theme receipt-of-money-2">
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="list-icon-grey-item">
+                                        <div class="list-icon-grey-item-img arrow-right"
+                                             style="background-image: url(images/p4298/icon_41.png)"></div>
+                                        <div class="list-icon-grey-item-title text">Оставьте заявку и получите одобрение
+                                            по телефону
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="list-icon-grey-item">
+                                        <div class="list-icon-grey-item-img arrow-right"
+                                             style="background-image: url(images/p4298/icon_26.png);background-size:50px;"></div>
+                                        <div class="list-icon-grey-item-title text">Приезжаете в офис для оценки авто и
+                                            заключения договора
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="list-icon-grey-item">
+                                        <div class="list-icon-grey-item-img"
+                                             style="background-image: url(images/p4298/icon_19.png);background-size:50px;"></div>
+                                        <div class="list-icon-grey-item-title text">Получаете деньги и продолжаете
+                                            пользоваться своим авто
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="opening_view" data-switch="two">
+                        <ul class="list-number">
+                            <li>Паспорт гражданина РФ</li>
+                            <li>ПТС (Паспорт транспортного средства)</li>
+                            <li>СТС (Свидетельство о регистрации транспортного средства)</li>
+                        </ul>
+                    </div>
+
+                    <div class="opening_view" data-switch="three">
+                        <div class="background-grey">
+                            <form class="ajax_form" method="post" action="#/" onsubmit="">
+                                <input type="hidden" name="_token" value=>
+                                <input type="hidden" value="" name=>
+
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="form-group">
+                                            <label for="CalcName">Ваше имя</label>
+                                            <span class="error"></span>
+                                            <input id="CalcName" required type="text" class="form-control" name="name"
+                                                   placeholder="Как Вас зовут">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="form-group">
+                                            <label for="CalcNumber">Телефон</label>
+                                            <span class="error"></span>
+                                            <input type="text" required class="form-control type-phone" id="CalcNumber"
+                                                   name="phone" placeholder="+7 (ХХХ) ХХХ - ХХ - ХХ">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-danger">Подать заявку</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id=advantages-4>
         <div class="container">
             <div class="row">
-                <div class="col-md-9 m-b-30">
-                    <h3 class="h1"><span class="h1-span">Преимущество перед </span>банком</h3>
-                    <p>Деньги под ПТС автомобиля – эффективный, выгодный и доступный способ получения кредита без проволочек
-                        и бумажной волокиты.</p>
+                <div class="col-md-11">
+                    <h3 class="h1"><span class="h1-span">Лучшее обслуживание </span>для каждого клиента</h3>
+                </div>
+                <div class="col-md-4">
+                    <p>Деньги под залог авто помогут решить временные финансовые трудности, клиенты продолжают пользоваться своим транспортным средством</p>
+
+                    <div class="link-button visible-on-wade visible-on-tablet">
+                        <a href="#" data-toggle="modal" data-target="#CallPhone-ver-4">Подать заявку <span class="arrow"></span></a>
+                    </div>
                 </div>
 
-                <div class="col-xl-9 col-md-9 push-xl-2">
+                <div class="col-md-8">
                     <div class="visible-on-wade visible-on-tablet">
                         <div class="row">
                             <div class="col-md-3 col-sm-3">
                                 <div class="list-icon-grey-item">
-                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/like2.png);background-size: 65px;"></div>
-                                    <div class="list-icon-grey-item-title mini">Не важна кредитная история</div>
+                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/withoutPeniRed.png); background-size: 50px"></div>
+                                    <div class="list-icon-grey-item-title">Выгода</div>
+                                    <div class="list-icon-grey-item-text">Наличные под залог авто. Выдача до 95%</div>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-3">
                                 <div class="list-icon-grey-item">
-                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/list2.png);background-size: 65px;"></div>
-                                    <div class="list-icon-grey-item-title mini">Не нужны справки</div>
+                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_24.png); background-size: 50px"></div>
+                                    <div class="list-icon-grey-item-title">Скорость</div>
+                                    <div class="list-icon-grey-item-text">Работаем 24/7. Выдача за пол часа</div>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-3">
                                 <div class="list-icon-grey-item">
-                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/smile2.png);background-size: 65px;"></div>
-                                    <div class="list-icon-grey-item-title mini">Не нужны поручители</div>
+                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/calendar.png); background-size: 50px"></div>
+                                    <div class="list-icon-grey-item-title">Сроки</div>
+                                    <div class="list-icon-grey-item-text">Займы на любые сроки</div>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-3">
                                 <div class="list-icon-grey-item">
-                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/car-insurance2.png);background-size: 65px;"></div>
-                                    <div class="list-icon-grey-item-title mini">Не требуется страхование залога</div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-3">
-                                <div class="list-icon-grey-item">
-                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/sedan2.png);background-size: 65px;"></div>
-                                    <div class="list-icon-grey-item-title mini">Авто остается у Вас</div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-3">
-                                <div class="list-icon-grey-item">
-                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/cheque.png);background-size: 65px;"></div>
-                                    <div class="list-icon-grey-item-title mini">Нет скрытых платежей</div>
+                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/electric-car.png); background-size: 50px"></div>
+                                    <div class="list-icon-grey-item-title">Удобство</div>
+                                    <div class="list-icon-grey-item-text">Принимаем любую технику</div>
                                 </div>
                             </div>
                         </div>
@@ -175,136 +311,211 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="visible-on-mobile">
                         <div class="owl-carousel owl-theme advantages-2">
                             <div class="list-icon-grey-item">
-                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_31.svg)"></div>
-                                <div class="list-icon-grey-item-title mini">Не важна кредитная история</div>
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_23.png); background-size: 50px"></div>
+                                <div class="list-icon-grey-item-title">Выгода</div>
+                                <div class="list-icon-grey-item-text">Наличные под залог авто. Выдача до 95%</div>
                             </div>
                             <div class="list-icon-grey-item">
-                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_32.svg)"></div>
-                                <div class="list-icon-grey-item-title mini">Не нужны справки</div>
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_24.png); background-size: 50px"></div>
+                                <div class="list-icon-grey-item-title">Скорость</div>
+                                <div class="list-icon-grey-item-text">Работаем 24/7. Выдача за пол часа</div>
                             </div>
                             <div class="list-icon-grey-item">
-                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_33.svg)"></div>
-                                <div class="list-icon-grey-item-title mini">Не нужны поручители</div>
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_25.png); background-size: 50px"></div>
+                                <div class="list-icon-grey-item-title">Сроки</div>
+                                <div class="list-icon-grey-item-text">Займы на любые сроки</div>
                             </div>
                             <div class="list-icon-grey-item">
-                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_34.svg)"></div>
-                                <div class="list-icon-grey-item-title mini">Не требуется страхование залога</div>
-                            </div>
-                            <div class="list-icon-grey-item">
-                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_35.svg)"></div>
-                                <div class="list-icon-grey-item-title mini">Авто остается у Вас</div>
-                            </div>
-                            <div class="list-icon-grey-item">
-                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_36.svg)"></div>
-                                <div class="list-icon-grey-item-title mini">Нет скрытых платежей</div>
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_27.png); background-size: 50px"></div>
+                                <div class="list-icon-grey-item-title">Удобство</div>
+                                <div class="list-icon-grey-item-text">Принимаем любую технику</div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="link-button visible-on-tablet visible-on-wade m-b-30">
-                        <a data-toggle="modal" href="#CallPhone-ver-4">Подать заявку <span class="arrow"></span></a>
+                        <div class="link-button">
+                            <a href="#CallPhone-ver-4">Подать заявку <span class="arrow"></span></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <figure class="get-image-interlayer visible-on-wade visible-on-tablet"><img src="images/subaru2.png" alt="subaru" style="margin: 148px 0 0 14px;">
-            </figure>
         </div>
-    </section>
-    <section id="calculate-3-2-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="background-grey">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h3 class="h1">
-                                    <span class="h1-span">Калькулятор кредита</span>
-                                </h3>
-                            </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="calculate-item">
-                                    <h6>Необходимая сумма</h6>
-                                    <div class="calculate-steps">
-                                        <div class="">
-                                            <span class="amount-value" id="amount-thousands-3"></span>
-                                            <span>₽</span>
-                                        </div>
-                                    </div>
-                                    <div class="calculate-steps">
-                                        <div class="steps-left for-thousands">30</div>
-                                        <div class="steps-right for-thousands">3000</div>
-                                    </div>
-                                    <div id="slider-range-thousands-3">
-                                        <span id="current-thousands-3"></span>
-                                    </div>
+</section>
+<section id="calculate-2-3-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="h1">
+                    <span class="h1-span">Калькулятор займа</span>
+                </h3>
+            </div>
+
+            <div id="calculator" class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="calculate-item">
+                            <h6 >Необходимая сумма</h6>
+                            <div class="calculate-steps">
+                                <div class="">
+                                    <span class="amount-value yellow-text" id="amount-thousands"></span>
+                                    <span>₽</span>
+                                    <span>тысяч</span>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="calculate-item">
-                                    <h6>Срок займа</h6>
-                                    <div class="calculate-steps">
-                                        <div class="">
-                                            <span class="amount-value" id="amount-months-3"></span>
-                                            <span>мес.</span>
-                                        </div>
-                                    </div>
-                                    <div class="calculate-steps">
-                                        <div class="steps-left">2</div>
-                                        <div class="steps-right">60</div>
-                                    </div>
-                                    <div id="slider-range-months-3"></div>
+                            <div class="calculate-steps">
+                                <div class="steps-left for-thousands">30</div>
+                                <div class="steps-right for-thousands">3000</div>
+                            </div>
+                            <div id="slider-range-thousands">
+                                <span id="current-thousands">1000</span>
+                            </div>
+                        </div>
+
+                        <div class="calculate-item">
+                            <h6>Срок займа</h6>
+                            <div class="calculate-steps">
+                                <div class="">
+                                    <span class="amount-value yellow-text" id="amount-months"></span>
+                                    <span>месяцев</span>
                                 </div>
                             </div>
+                            <div class="calculate-steps">
+                                <div class="steps-left">2</div>
+                                <div class="steps-right">60</div>
+                            </div>
+                            <div id="slider-range-months"></div>
+                        </div>
 
-                            <div class="col-md-4 col-sm-6">
-                                <div class="result-container">
-                                    <h6>Ежемесячный платеж</h6>
-                                    <form action="thanks.php" method="POST">
+                        <div class="result-container form-group">
+                            <h6>Ежемесячный платеж</h6>
+                            <input id="revenue" type="text" class="form-control calculate-bottom-text-prices revenue"
+                                   name="revenue" value="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <h3 class="yellow-text">Контактные данные клиента</h3>
+                        <form class="ajax_form" method="post" action="#/" onsubmit="">
+                            <input type="hidden" name="_token" value=>
+                            <input type="hidden" value="" name=>
 
-                                        <input id="revenue-3" type="text" class="form-control calculate-bottom-text-prices revenue" name="Ежемесечный платеж" value="">
+                            <div class="form-group">
+                                <label for="CalcName">Ваше имя</label>
+                                <span class="error"></span>
+                                <input id="CalcName" required type="text" class="form-control" name="name"
+                                       placeholder="Как Вас зовут">
+                            </div>
+                            <div class="form-group">
+                                <label for="CalcNumber">Телефон</label>
+                                <span class="error"></span>
+                                <input type="text" required class="form-control type-phone" id="CalcNumber" name="phone"
+                                       placeholder="+7 (ХХХ) ХХХ - ХХ - ХХ">
+                            </div>
+                            <div class="form-group">
+                                <label for="CalcNumber">Местонахождение</label>
+                                <span class="error"></span>
+                                <input type="text" required class="form-control " id="CalcNumber" name="city"
+                                       placeholder="Где Вы живёте">
+                            </div>
+                            <div class="personal-data">Нажимая на кнопку, вы даёте своё согласие на обработку ваших <a
+                                    target="_blank" href="#/storage/uploads/Lf/tw/Lftwg5FibcjG2gcSyPjlHarE.pdf">персональных
+                                данных</a>
+                            </div>
+                            <button type="submit" class="btn btn-danger">Подать заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id=requirements-3>
+        <div class=container>
+            <div class=row>
+                <div class="col-md-11 col-sm-12">
+                    <h3 class=h1><span class=h1-span>Требования для получения </span>займа под ПТС</h3>
 
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <ul class="switcher-3 three-pieces" id=switcher-loan-3>
+                                <li class="for_opening_view selected" data-modal-id=paymentsGrafModal id=express data-show-3=one>
+                                    <div class=title-switch>К автомобилю</div>
+                                </li>
+                                <li class="for_opening_view" data-modal-id=paymentsInfo id=detailed data-show-3=two>
+                                    <div class=title-switch>К заемщику</div>
+                                </li>
+                                <li class="for_opening_view" data-modal-id=paymentsInfo id=detailed data-show-3=three>
+                                    <div class=title-switch>К документам</div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9 col-sm-12">
+                            <div class=switch-js-3>
+                                <div class=opening_view data-switch-3=one>
+                                    <ul class="list-ul">
+                                        <li>Авто в исправном техническом состоянии</li>
+                                        <li>Состоит на учете в ГИБДД</li>
+                                        <li>Не находится в залоге</li>
+                                    </ul>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">Оформить займ</button>
+                                </div>
+
+                                <div class=opening_view data-switch-3=two>
+                                    <ul class="list-ul">
+                                        <li>Гражданство РФ и постоянная регистрация в регионе присутствия компании</li>
+                                        <li>От 18 до 65 полных лет на момент заключения договора</li>
+                                        <li>Кредитная история не требуется</li>
+                                        <li>Можно без трудоустройства</li>
+                                    </ul>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">Оформить займ</button>
+                                </div>
+
+                                <div class=opening_view data-switch-3=three>
+                                    <ul class="list-ul">
+                                        <li>Паспорт гражданина РФ</li>
+                                        <li>Паспорт технического средства (ПТС)</li>
+                                        <li>Свидетельство о регистрации транспортного средства (СРТС)</li>
+                                    </ul>
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">Оформить займ</button>
                                 </div>
                             </div>
-                            <div class="col-md-12 m-t-30">
-                                <h3>Контактные данные клиента</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<section id=specifications-1>
+        <div class=container>
+            <div class=row>
+                <div class=col-md-12>
+                    <div class=application-block>
+                        <div class=row>
+                            <div class="col-md-5 col-sm-12">
+                                <h3 class=h1>Укажите характеристики транспортного средства</h3>
+                                <h6><span class=text-blue-icon></span><span class=text-blue>И мы одобрим Вашу заявку </span>с вероятностью 100%</h6>
+                            </div>
+                            <div class="col-md-7 col-sm-12">
+                                <form class="application-form row" action="https://formsubmit.co/api.carzaem@yandex.ru" method="POST">
+                                <input type=hidden name=_token value=>
 
-                                <input type="hidden" name="_token" value=>
-                                <input type="hidden" value="" name="_token">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="form-group">
-                                            <label for="CalcName1">Ваше имя</label>
-                                            <span class="error"></span>
-                                            <input id="CalcName1" required type="text" class="form-control" name="Name" placeholder="Как вас зовут">
-                                        </div>
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for=request-car_brand>Марка</label>
+                                        <input type=text class=form-control id=request-car_brand name='Марка' required placeholder="">
                                     </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="form-group">
-                                            <label for="CalcNumber">Телефон</label>
-                                            <span class="error"></span>
-                                            <input type="text" required class="form-control type-phone" id="CalcNumber1" name="Phone" placeholder="+7 (ХХХ) ХХХ - ХХ - ХХ">
-                                        </div>
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for=request-car_model>Модель</label>
+                                        <input type=text class=form-control id=request-car_model name='Модель' required placeholder="">
                                     </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="form-group">
-                                            <label for="CalcLive">Где Вы живёте</label>
-                                            <span class="error"></span>
-                                            <input type="text" required class="form-control" id="CalcNumber1" name="City" placeholder="Местонахождениe">
-                                        </div>
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for=request-car_year>Год выпуска</label>
+                                        <input type=text class="form-control type-year" id=request-car_year name='Год-Выпуска' placeholder="">
                                     </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <div class="calc-bottom">
-                                                <button type="submit" class="btn btn-danger">Подать заявку</button>
-                                            </div>
-                                        </div>
-
-                                        <div class="personal-data calc-bottom">Нажимая на кнопку, вы даёте своё согласие на
-                                            обработку ваших <a target="_blank" href="privacy-policy.pdf">персональных
-                                                данных</a>
-                                        </div>
+                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                        <label for=request-car_time>Срок займа</label>
+                                        <input type=text class="form-control type-year" id=request-car_time name='Срок-Займа' required placeholder="">
                                     </div>
-                                </div>
+                                    <div class=col-md-12>
+                                        <button type="submit" class="btn btn-danger">Получить одобрение</button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -312,519 +523,262 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                 </div>
             </div>
         </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 info-index">
-                    <div>
-                        <h3 class="h1">Работаем в рамках закона</h3>
-                        <ul class="list-ul">
-                            <li>Широкая сеть более 100 регионов присутствия </li>
-                            <li>Осуществляем деятельность в рамках ФЗ 353</li>
-                            <li>Процентная ставка регулируется ЦБ РФ</li>
-                        </ul>
-                        <div class="link-button visible-on-tablet visible-on-wade m-b-30">
-                            <a data-toggle="modal" href="#CallPhone-ver-4">Подать заявку <span class="arrow"></span></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-8">
-                    <div class="visible-on-wade visible-on-tablet">
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6 info-index">
-                                <div class="text-info-index">
-                                    <div class="text-info-icon"><img class="newImages" src="images/icon/icon_22.png" alt="Кредит под залог ПТС" /></div>
-                                    <div class="text-info-title">Соответствуем законодательству РФ</div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 info-index">
-                                <div>
-                                    <div class="text-info-index">
-                                        <div class="text-info-icon"><img class="newImages" src="images/icon/icon_21.png" alt="Кредит под залог ПТС" /></div>
-                                        <div class="text-info-title">10 лет успешной работы</div>
-                                    </div>
-                                    <div class="text-info-index">
-                                        <div class="text-info-icon"><img class="newImages" src="images/icon/icon_20.png" alt="Кредит под залог ПТС" /></div>
-                                        <div class="text-info-title">Участник лиги автоломбардов</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 visible-on-mobile">
-                    <div class="owl-carousel owl-theme documents-2">
-                        <div class="text-info-index">
-                            <div class="text-info-icon"><img src="images/icon/icon_22.svg" alt="Кредит под залог ПТС" /></div>
-                            <div class="text-info-title">Соответствуем законодательству РФ</div>
-                        </div>
-                        <div class="text-info-index">
-                            <div class="text-info-icon"><img src="images/icon/icon_21.svg" alt="Кредит под залог ПТС" /></div>
-                            <div class="text-info-title">10 лет успешной работы</div>
-                        </div>
-                        <div class="text-info-index">
-                            <div class="text-info-icon"><img src="images/icon/icon_20.svg" alt="Кредит под залог ПТС" /></div>
-                            <div class="text-info-title">Участник лиги автоломбардов</div>
-                        </div>
-                        <div class="link-button">
-                            <a data-toggle="modal" href="#CallPhone-ver-4">Подать заявку <span class="arrow"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="products-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <h3 class="h1"><span class="h1-span">Принимаем в залог любые </span><span class="yellow-text">транспортные средства</span></h3>
-                    <div class="visible-on-wade visible-on-tablet">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6 product-template">
-                                <div class="element relative" title="займ под птс авто">
-                                    <div class="element-img" style="background-image: url(images/product/sedan3.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Легковые авто</div>
-                                            <div class="element-text">Отечественные авто, иномарки</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 product-template">
-                                <div class="element relative" title="займ под залог грузового автомобиля">
-                                    <div class="element-img" style="background-image: url(images/product/truck3.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Грузовые авто</div>
-                                            <div class="element-text">Газели, тягачи, фуры</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 product-template">
-                                <div class="element relative" title="быстрый займ под залог спецтехники">
-                                    <div class="element-img" style="background-image: url(images/product/tractor2.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Спецтехника</div>
-                                            <div class="element-text">Трактора, бульдозеры, краны</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 product-template">
-                                <div class="element relative" title="займ под залог птс мотоцикла">
-                                    <div class="element-img" style="background-image: url(images/product/motorbike3.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Мототехника</div>
-                                            <div class="element-text">Мотоциклы, квадроциклы</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="visible-on-mobile">
-                        <div class="owl-carousel owl-theme product">
-                            <div class="product-template">
-                                <div class="element relative">
-                                    <div class="element-img" style="background-image: url(images/product/sedan3.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Легковые авто</div>
-                                            <div class="element-text">Отечественные авто, иномарки</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-template">
-                                <div class="element relative">
-                                    <div class="element-img" style="background-image: url(images/product/truck3.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Грузовые авто</div>
-                                            <div class="element-text">Газели, тягачи, фуры</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-template">
-                                <div class="element relative">
-                                    <div class="element-img" style="background-image: url(images/product/tractor2.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Спецтехника</div>
-                                            <div class="element-text">Трактора, бульдозеры, краны</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="product-template">
-                                <div class="element relative">
-                                    <div class="element-img" style="background-image: url(images/product/motorbike3.png);"></div>
-                                    <div class="element-content-wrapper">
-                                        <div class="element-content">
-                                            <div class="element-title">Мототехника</div>
-                                            <div class="element-text">Мотоциклы, квадроциклы</div>
-                                            <div class="element-wrap">
-                                                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#specifications">Оценить
-                                                </button>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id=requirements-3>
-        <div class=container>
-            <div class="row">
-                <div class="col-md-3 col-sm-4">
-                    <div class=image-max-height style="background-image: url(images/bgLight.png); background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
-                </div>
-
-                <div class="col-md-9 col-sm-8">
-                    <h3 class=h1><span class=h1-span>Требования для получения </span>займа под ПТС <span class="titleFirst3"></span></h3>
-
-                    <ul class="switcher-3 gorizontal-pieces" id=switcher-loan-3>
-                        <li class="for_opening_view selected" data-modal-id=paymentsGrafModal id=addClick2 data-show-3=one>
-                            <div class=title-switch>К автомобилю</div>
-                        </li>
-                        <li class="for_opening_view" data-modal-id=paymentsInfo id=detailed data-show-3=two>
-                            <div class=title-switch>К заемщику</div>
-                        </li>
-                        <li class="for_opening_view" data-modal-id=paymentsInfo id=detailed data-show-3=three>
-                            <div class=title-switch>К документам</div>
-                        </li>
-                    </ul>
-                    <div class=switch-js-3>
-                        <div class=opening_view data-switch-3=one>
-                            <ul class="list-ul">
-                                <li>Авто в исправном техническом состоянии</li>
-                                <li>Состоит на учете в ГИБДД</li>
-                                <li>Не находится в залоге</li>
-                            </ul>
-                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">Оформить займ</button>
-                        </div>
-
-                        <div class=opening_view data-switch-3=two>
-                            <ul class="list-ul">
-                                <li>Гражданство РФ и постоянная регистрация в регионе присутствия компании</li>
-                                <li>От 18 до 65 полных лет на момент заключения договора</li>
-                                <li>Кредитная история не требуется</li>
-                                <li>Можно без трудоустройства</li>
-                            </ul>
-                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4" id="ClickListeter1">Оформить займ</button>
-                        </div>
-
-                        <div class=opening_view data-switch-3=three>
-                            <ul class="list-ul">
-                                <li>Паспорт гражданина РФ</li>
-                                <li>Паспорт технического средства (ПТС)</li>
-                                <li>Свидетельство о регистрации транспортного средства (СРТС)</li>
-                            </ul>
-                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">Оформить займ</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <section id="transports-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="h1">Последние оценки</h3>
-                </div>
-                <div class="col-md-9">
-                    <div class="visible-on-wade visible-on-tablet">
-                        <table class="table table-striped">
-                            <tbody>
-                                <tr>
-                                    <td>20:46</td>
-                                    <td>Мария Е., Челябинск</td>
-                                    <td>Nissan Qashqai, 2010</td>
-                                    <td><span class="sum">620 000 ₽</span></td>
-                                    <td>на рассмотрении</td>
-                                </tr>
-                                <tr>
-                                    <td>20:42</td>
-                                    <td>Ася О., Пермь</td>
-                                    <td>Suzuki SX4, 2007</td>
-                                    <td><span class="sum">320 000 ₽</span></td>
-                                    <td>проверка документов</td>
-                                </tr>
-                                <tr>
-                                    <td>20:36</td>
-                                    <td>Филипп Ю., Екатеринбург</td>
-                                    <td>Mazda CX-7, 2008</td>
-                                    <td><span class="sum">440 000 ₽</span></td>
-                                    <td>полная заявка</td>
-                                </tr>
-                                <tr>
-                                    <td>20:31</td>
-                                    <td>Любовь Я., Магнитогорск</td>
-                                    <td>ВАЗ 2114, 2009</td>
-                                    <td><span class="sum">53 000 ₽</span></td>
-                                    <td>на рассмотрении</td>
-                                </tr>
-                                <tr>
-                                    <td>20:46</td>
-                                    <td>Мария Е., Курган</td>
-                                    <td>Nissan Qashqai, 2010</td>
-                                    <td><span class="sum">620 000 ₽</span></td>
-                                    <td>на рассмотрении</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                    <div class="visible-on-mobile request-history">
-                        <div class="panel request-history-item">
-                            <div class="panel-body">
-                                <div class="float-right">20:46</div>
-                                <div class="text-bold">Nissan Qashqai, 2010 г.</div>
-                                <div class="text-bold">620 000 ₽</div>
-                                <div>Мария Е., Санкт-Петербург</div>
-                                <div class="status badge badge-primary"> на рассмотрении</div>
-                            </div>
-                        </div>
-
-                        <div class="panel request-history-item">
-                            <div class="panel-body">
-                                <div class="float-right">20:42</div>
-                                <div class="text-bold">Suzuki SX4, 2007 г.</div>
-                                <div class="text-bold">320 000 ₽</div>
-                                <div>Ася О., Москва</div>
-                                <div class="status badge badge-primary">проверка документов</div>
-                            </div>
-                        </div>
-
-                        <div class="panel request-history-item">
-                            <div class="panel-body">
-                                <div class="float-right">20:36</div>
-                                <div class="text-bold">Mazda CX-7, 2008 г.</div>
-                                <div class="text-bold">440 000 ₽</div>
-                                <div>Филипп Ю., Екатеринбург</div>
-                                <div class="status badge badge-primary">полная заявка</div>
-                            </div>
-                        </div>
-
-                        <div class="panel request-history-item">
-                            <div class="panel-body">
-                                <div class="float-right">20:31</div>
-                                <div class="text-bold">ВАЗ 2114, 2009 г.</div>
-                                <div class="text-bold">53 000 ₽</div>
-                                <div>Любовь Я., Ставрополь</div>
-                                <div class="status badge badge-primary">на рассмотрении</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="bg-grey-none-radius">
-                        <h3>Подайте заявку на получение денежных средств</h3>
-                        <p>Время заполения заявки 5 минут!</p>
-                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">
-                            Подать заявку
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="repay-a-loan-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <h3 class="h1"><span>Погашение</span> <span class="yellow-text">автозайма</span></h3>
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 m-b-30">
-                            <div class="resource-bg-grey icon icon-5">
-                                <div class="resource-title">Наличными средствами</div>
-                                <div class="resource-text">В кассах компании, офисах или магазинах</div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 m-b-30">
-                            <div class="resource-bg-grey icon icon-6">
-                                <div class="resource-title">Электронными кошельками</div>
-                                <div class="resource-text">Через платежные сервисы наших партнеров</div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 m-b-30">
-                            <div class="resource-bg-grey icon icon-7">
-                                <div class="resource-title">Банковской картой</div>
-                                <div class="resource-text">Безналичный перевод в личном кабинете клиента</div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 m-b-30">
-                            <div class="resource-bg-grey icon icon-8">
-                                <div class="resource-title">Через терминалы</div>
-                                <div class="resource-text">Мы сотрудничаем с многими банками</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="faq">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-11 col-sm-12">
-                    <h3 class="h1"><span class="h1-span">Ответы на часто </span>задаваемые вопросы</h3>
-
-                    <div class="accordion" id="accordion-requirments">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script type="text/babel">
-        let data = [
-        [{question: 'question'},
-            {answer: 'answer'},
-            {numId: '0'},
-            {numIdText: 'Zero'}],
-
-        [{question: 'question'},
-            {answer: 'answer'},
-            {numId: '1'},
-            {numIdText: 'One'}],
-
-        [{question: 'question'},
-            {answer: 'answer'},
-            {numId: '2'},
-            {numIdText: 'Two'}],
-
-        [{question: 'question'},
-            {answer: 'answer'},
-            {numId: '3'},
-            {numIdText: 'Three'}],
-
-        [{question: 'question'},
-            {answer: 'answer'},
-            {numId: '4'},
-            {numIdText: 'Four'}],
-    ]
-    ReactDOM.render(
-        <div>
-            {data.map((el,index) => {
-                return (
-                    <div key={index} className="card item">
-                        <a className="collapser" href="#" data-toggle="collapse"
-                           data-target={`#collapse-requirments-${el[2].numId}`} aria-expanded="false"
-                           aria-controls={`collapse${el[3].numIdText}`}>
-                            <div className="card-header question" id={`heading${el[3].numIdText}`}>
-                                <div className="quation-item">{el[0].question}</div>
-                                <div className="arrow down-arrow"></div>
-                            </div>
-                        </a>
-                        <div id={`collapse-requirments-${el[2].numId}`} className="collapse answer"
-                             aria-labelledby={`heading${el[3].numIdText}`}
-                             data-parent="#accordion-requirments">
-                            <div className="card-body">
-                                <p>{el[1].answer}</p>
-                            </div>
-                        </div>
-                    </div>
-                )
-            })}
-        </div>
-        ,
-        document.getElementById('accordion-requirments')
-    )
-</script>
-    <section id="reviews">
-        <div class="container">
-            <div class="reviews-2-bg">
+</section>
+<section id="transports">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <h3 class="h1" style="text-align: center">Что говорят о нас</h3>
+                    <div class="col-md-12">
+                        <div class="car-top-transports">
+                            <h3 class="h1">Последние оценки</h3>
+                            <div class="visible-on-wade visible-on-tablet">
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td>20:46</td>
+                                            <td>Владивосток</td>
+                                            <td>Мария Е.</td>
+                                            <td>Nissan Qashqai</td>
+                                            <td>2010</td>
+                                            <td><span class="sum">620 000 ₽</span></td>
+                                            <td>на рассмотрении</td>
+                                        </tr>
+                                        <tr>
+                                            <td>20:42</td>
+                                            <td>Якутск</td>
+                                            <td>Ася О.</td>
+                                            <td>Suzuki SX4</td>
+                                            <td>2007</td>
+                                            <td><span class="sum">320 000 ₽</span></td>
+                                            <td>проверка документов</td>
+                                        </tr>
+                                        <tr>
+                                            <td>20:36</td>
+                                            <td>Хабаровск</td>
+                                            <td>Филипп Ю.</td>
+                                            <td>Mazda CX-7</td>
+                                            <td>2008</td>
+                                            <td><span class="sum">440 000 ₽</span></td>
+                                            <td>полная заявка</td>
+                                        </tr>
+                                        <tr>
+                                            <td>20:31</td>
+                                            <td>Анадырь</td>
+                                            <td>Любовь Я.</td>
+                                            <td>ВАЗ 2114</td>
+                                            <td>2009</td>
+                                            <td><span class="sum">53 000 ₽</span></td>
+                                            <td>на рассмотрении</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
 
-                        <div class="owl-carousel owl-theme reviews-2 whiteColor">
-                            <article class="review-bg-blue">
+                            <div class="visible-on-mobile request-history">
+                                <div class="m-b-30">
+                                    <img style="max-width: 200px; width: 100%;" src="images/bmw.png" alt="img" />
+                                </div>
+
+                                <div class="panel request-history-item">
+                                    <div class="panel-body">
+                                        <div class="float-right">20:46</div>
+                                        <div class="text-bold">Nissan Qashqai, 2010 г.</div>
+                                        <div class="text-bold">620 000 ₽</div>
+                                        <div>Мария Е., Санкт-Петербург</div>
+                                        <div class="status badge badge-primary"> на рассмотрении</div>
+                                    </div>
+                                </div>
+
+                                <div class="panel request-history-item">
+                                    <div class="panel-body">
+                                        <div class="float-right">20:42</div>
+                                        <div class="text-bold">Suzuki SX4, 2007 г.</div>
+                                        <div class="text-bold">320 000 ₽</div>
+                                        <div>Ася О., Москва</div>
+                                        <div class="status badge badge-primary">проверка документов</div>
+                                    </div>
+                                </div>
+
+                                <div class="panel request-history-item">
+                                    <div class="panel-body">
+                                        <div class="float-right">20:36</div>
+                                        <div class="text-bold">Mazda CX-7, 2008 г.</div>
+                                        <div class="text-bold">440 000 ₽</div>
+                                        <div>Филипп Ю., Екатеринбург</div>
+                                        <div class="status badge badge-primary">полная заявка</div>
+                                    </div>
+                                </div>
+
+                                <div class="panel request-history-item">
+                                    <div class="panel-body">
+                                        <div class="float-right">20:31</div>
+                                        <div class="text-bold">ВАЗ 2114, 2009 г.</div>
+                                        <div class="text-bold">53 000 ₽</div>
+                                        <div>Любовь Я., Ставрополь</div>
+                                        <div class="status badge badge-primary">на рассмотрении</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</section>
+<section id="repay-a-loan-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="h1"><span>Погашение</span> <span class="yellow-text">автозайма</span></h3>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 m-b-30">
+                        <div class="resource-bg-grey icon icon-5">
+                            <div class="resource-title">Наличными средствами</div>
+                            <div class="resource-text">В кассах компании, офисах или магазинах</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 m-b-30">
+                        <div class="resource-bg-grey icon icon-6">
+                            <div class="resource-title">Электронными кошельками</div>
+                            <div class="resource-text">Через платежные сервисы наших партнеров</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 m-b-30">
+                        <div class="resource-bg-grey icon icon-7">
+                            <div class="resource-title">Банковской картой</div>
+                            <div class="resource-text">Безналичный перевод в личном кабинете клиента</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 m-b-30">
+                        <div class="resource-bg-grey icon icon-8">
+                            <div class="resource-title">Через терминалы</div>
+                            <div class="resource-text">Мы сотрудничаем с многими банками</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="questions">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-11 col-sm-12">
+                <h3 class="h1"><span class="h1-span">Ответы на часто </span><span
+                        class="yellow-text">задаваемые вопросы</span></h3>
+
+                <div class="owl-carousel owl-theme questions-block-2">
+                    <div class="question-answer">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="question">question
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="answer">
+                                   answer
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-answer">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="question">question
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="answer">
+                                    answer
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-answer">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="question">question
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="answer">
+                                    answer
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-answer">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="question">question
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="answer">
+                                    answer
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question-answer">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="question">question
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="answer">
+                                    answer
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="interlayer-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="interlayer-4-grey">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-6">
+                            <div class="questions-remain">
+                                <h3 class="h1">Остались вопросы?</h3>
+                                <p>Звоните! Наши менеджеры ответят на все Ваши вопросы</p>
+                            </div>
+                            <div class="interlayer-phone"><a itemrop="telephone" href="tel:<?=$tel ?>"><?=$phone ?></a>
+                            </div>
+                            <button type="button" class="btn btn-danger" data-toggle="modal"
+                                    data-target="#onlajn-zayavka-callback">Обратный звонок
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="reviews">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="h1">Что говорят о нас</h3>
+
+                <div class="visible-on-wade visible-on-tablet">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <article class="review-bg-grey">
                                 <div class="review-text">text
-
                                 </div>
                                 <div class="review-person">
                                     <div class="review-name">name</div>
                                 </div>
                             </article>
-                            <article class="review-bg-blue">
+                            <article class="review-bg-grey">
                                 <div class="review-text">text
-
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">name</div>
-                                </div>
-                            </article>
-                            <article class="review-bg-blue">
-                                <div class="review-text">text
-
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">name</div>
-                                </div>
-                            </article>
-                            <article class="review-bg-blue">
-                                <div class="review-text">text
-
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">name</div>
-                                </div>
-                            </article>
-                            <article class="review-bg-blue">
-                                <div class="review-text">text
-
                                 </div>
                                 <div class="review-person">
                                     <div class="review-name">name</div>
@@ -832,532 +786,285 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                             </article>
 
                         </div>
+                        <div class="col-md-4">
+                            <article class="review-bg-grey">
+                                <div class="review-text">text
+                                </div>
+                                <div class="review-person">
+                                    <div class="review-name">name</div>
+                                </div>
+                            </article>
+                            <article class="review-bg-grey">
+                                <div class="review-text">text
+                                </div>
+                                <div class="review-person">
+                                    <div class="review-name">name</div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-4">
+                            <article class="review-bg-grey">
+                                <div class="review-text">text
+                                </div>
+                                <div class="review-person">
+                                    <div class="review-name">name</div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visible-on-mobile">
+                    <div class="owl-carousel owl-theme reviews-4">
+                        <article class="review-bg-grey">
+                            <div class="review-text">text
+                            </div>
+                            <div class="review-person">
+                                <div class="review-name">name</div>
+                            </div>
+                        </article>
+                        <article class="review-bg-grey">
+                            <div class="review-text">text
+                            </div>
+                            <div class="review-person">
+                                <div class="review-name">name</div>
+                            </div>
+                        </article>
+                        <article class="review-bg-grey">
+                            <div class="review-text">text
+                            </div>
+                            <div class="review-person">
+                                <div class="review-name">name</div>
+                            </div>
+                        </article>
+                        <article class="review-bg-grey">
+                            <div class="review-text">text
+                            </div>
+                            <div class="review-person">
+                                <div class="review-name">name</div>
+                            </div>
+                        </article>
+                        <article class="review-bg-grey">
+                            <div class="review-text">text
+                            </div>
+                            <div class="review-person">
+                                <div class="review-name">name</div>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="section-map">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <h3 class="h1">Адреса и контакты</h3>
+    </div>
+</section>
+<section id="section-map">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="h1">Адреса и контакты</h3>
 
-                    <div id="map" class="ofices visible-on-wade visible-on-tablet">
-                        <form class="map_filter visible-on-wade visible-on-tablet" action="#">
-                            <div id="addresses" class="mapOptions__addresses gradient" itemscope itemtype="http://schema.org/PostalAddress">
-                                <div class="map-text">
-                                    <a href="tel:<?= $tel ?>"><?= $phone ?></a><br>
-                                </div>
-                                <div id="rootMap">
-                                </div>
+                <div class="visible-on-wade visible-on-tablet">
+                    <div class="map_filter adresses-right">
+                        <div id="addresses" class="mapOptions__addresses gradient" itemscope
+                             itemtype="http://schema.org/PostalAddress">
+                            <div class="map-text">
+                                <a href="tel:<?=$tel ?>"><?=$phone ?></a><br>
+
+
                             </div>
-                        </form>
+
+                            <div id="rootMap">
+                            </div>
+                        </div>
                     </div>
                     <script type="text/babel">
-                        const dataLinks = [
-                                         {
-                                          "undefined": "Курган улица Гоголя, 83",
-                                          "Город": "Курган",
-                                          "Адреса": "улица Гоголя, 83",
-                                          "Latitude": 55.441767,
-                                          "Longitude": 65.34356199999999,
-                                          "Index": 640000
-                                         },
-                                         {
-                                          "undefined": "Шадринск Комсомольская улица, 24",
-                                          "Город": "Шадринск",
-                                          "Адреса": "Комсомольская улица, 24",
-                                          "Latitude": 56.08635409999999,
-                                          "Longitude": 63.63078299999999,
-                                          "Index": 641884
-                                         },
-                                         {
-                                          "undefined": "Асбест Советская улица, 22",
-                                          "Город": "Асбест",
-                                          "Адреса": "Советская улица, 22",
-                                          "Latitude": 57.0056278,
-                                          "Longitude": 61.45929439999999,
-                                          "Index": 624269
-                                         },
-                                         {
-                                          "undefined": "Берёзовский улица Красных Героев, 2Д",
-                                          "Город": "Берёзовский",
-                                          "Адреса": "улица Красных Героев, 2Д",
-                                          "Latitude": 56.90941059999999,
-                                          "Longitude": 60.7991878,
-                                          "Index": 623700
-                                         },
-                                         {
-                                          "undefined": "Верхняя Пышма улица Александра Козицына, 8",
-                                          "Город": "Верхняя Пышма",
-                                          "Адреса": "улица Александра Козицына, 8",
-                                          "Latitude": 56.96638340000001,
-                                          "Longitude": 60.582465,
-                                          "Index": 624091
-                                         },
-                                         {
-                                          "undefined": "Верхняя Салда улица Сабурова, 6",
-                                          "Город": "Верхняя Салда",
-                                          "Адреса": "улица Сабурова, 6",
-                                          "Latitude": 58.04744589999999,
-                                          "Longitude": 60.5598767,
-                                          "Index": 624760
-                                         },
-                                         {
-                                          "undefined": "Екатеринбург ул. Вайнера, 10",
-                                          "Город": "Екатеринбург",
-                                          "Адреса": "ул. Вайнера, 10",
-                                          "Latitude": 56.82888879999999,
-                                          "Longitude": 60.59976409999999,
-                                          "Index": 620014
-                                         },
-                                         {
-                                          "undefined": "Каменск-Уральский улица Ленина, 28",
-                                          "Город": "Каменск-Уральский",
-                                          "Адреса": "улица Ленина, 28",
-                                          "Latitude": 56.4151855,
-                                          "Longitude": 61.9202892,
-                                          "Index": 623402
-                                         },
-                                         {
-                                          "undefined": "Качканар улица Свердлова, 7Б",
-                                          "Город": "Качканар",
-                                          "Адреса": "улица Свердлова, 7Б",
-                                          "Latitude": 58.7046295,
-                                          "Longitude": 59.4821164,
-                                          "Index": 624350
-                                         },
-                                         {
-                                          "undefined": "Краснотурьинск улица Ленина, 25",
-                                          "Город": "Краснотурьинск",
-                                          "Адреса": "улица Ленина, 25",
-                                          "Latitude": 59.7640196,
-                                          "Longitude": 60.19643199999999,
-                                          "Index": 624440
-                                         },
-                                         {
-                                          "undefined": "Красноуфимск Советская улица, 28",
-                                          "Город": "Красноуфимск",
-                                          "Адреса": "Советская улица, 28",
-                                          "Latitude": 56.6172025,
-                                          "Longitude": 57.769122,
-                                          "Index": 623300
-                                         },
-                                         {
-                                          "undefined": "Кушва улица Строителей, 13",
-                                          "Город": "Кушва",
-                                          "Адреса": "улица Строителей, 13",
-                                          "Latitude": 58.28282309999999,
-                                          "Longitude": 59.7662353,
-                                          "Index": 624301
-                                         },
-                                         {
-                                          "undefined": "Лесной Коммунистический проспект, 23",
-                                          "Город": "Лесной",
-                                          "Адреса": "Коммунистический проспект, 23",
-                                          "Latitude": 58.63389639999999,
-                                          "Longitude": 59.79000019999999,
-                                          "Index": 624200
-                                         },
-                                         {
-                                          "undefined": "Невьянск Октябрьский проспект, 7",
-                                          "Город": "Невьянск",
-                                          "Адреса": "Октябрьский проспект, 7",
-                                          "Latitude": 57.491843,
-                                          "Longitude": 60.2190403,
-                                          "Index": 624190
-                                         },
-                                         {
-                                          "undefined": "Нижний Тагил проспект Ленина, 40",
-                                          "Город": "Нижний Тагил",
-                                          "Адреса": "проспект Ленина, 40",
-                                          "Latitude": 57.9089,
-                                          "Longitude": 59.974627,
-                                          "Index": 622034
-                                         },
-                                         {
-                                          "undefined": "Нижняя Тура улица Машиностроителей, 9",
-                                          "Город": "Нижняя Тура",
-                                          "Адреса": "улица Машиностроителей, 9",
-                                          "Latitude": 58.63173690000001,
-                                          "Longitude": 59.8572728,
-                                          "Index": 624222
-                                         },
-                                         {
-                                          "undefined": "Новоуральск улица Ленина, 56",
-                                          "Город": "Новоуральск",
-                                          "Адреса": "улица Ленина, 56",
-                                          "Latitude": 57.24695120000001,
-                                          "Longitude": 60.09420900000001,
-                                          "Index": 624130
-                                         },
-                                         {
-                                          "undefined": "Первоуральск улица Ватутина, 38",
-                                          "Город": "Первоуральск",
-                                          "Адреса": "улица Ватутина, 38",
-                                          "Latitude": 56.9037763,
-                                          "Longitude": 59.9424848,
-                                          "Index": 623104
-                                         },
-                                         {
-                                          "undefined": "Полевской Коммунистическая улица, 2",
-                                          "Город": "Полевской",
-                                          "Адреса": "Коммунистическая улица, 2",
-                                          "Latitude": 56.49591419999999,
-                                          "Longitude": 60.2380557,
-                                          "Index": 623388
-                                         },
-                                         {
-                                          "undefined": "Ревда улица Максима Горького, 21",
-                                          "Город": "Ревда",
-                                          "Адреса": "улица Максима Горького, 21",
-                                          "Latitude": 56.799093,
-                                          "Longitude": 59.90828550000001,
-                                          "Index": 623286
-                                         },
-                                         {
-                                          "undefined": "Реж улица Ленина, 7",
-                                          "Город": "Реж",
-                                          "Адреса": "улица Ленина, 7",
-                                          "Latitude": 57.3727025,
-                                          "Longitude": 61.3897264,
-                                          "Index": 623750
-                                         },
-                                         {
-                                          "undefined": "Североуральск Молодёжная улица, 11",
-                                          "Город": "Североуральск",
-                                          "Адреса": "Молодёжная улица, 11",
-                                          "Latitude": 60.1515169,
-                                          "Longitude": 59.9505992,
-                                          "Index": 624480
-                                         },
-                                         {
-                                          "undefined": "Серов улица Заславского, 35",
-                                          "Город": "Серов",
-                                          "Адреса": "улица Заславского, 35",
-                                          "Latitude": 59.609073,
-                                          "Longitude": 60.5741321,
-                                          "Index": 624992
-                                         },
-                                         {
-                                          "undefined": "Ишим улица Карла Маркса, 31",
-                                          "Город": "Ишим",
-                                          "Адреса": "улица Карла Маркса, 31",
-                                          "Latitude": 56.1106415,
-                                          "Longitude": 69.4828845,
-                                          "Index": 627756
-                                         },
-                                         {
-                                          "undefined": "Тобольск Октябрьская улица, 4",
-                                          "Город": "Тобольск",
-                                          "Адреса": "Октябрьская улица, 4",
-                                          "Latitude": 58.2021209,
-                                          "Longitude": 68.2583477,
-                                          "Index": 626152
-                                         },
-                                         {
-                                          "undefined": "Тюмень Первомайская улица, 11",
-                                          "Город": "Тюмень",
-                                          "Адреса": "Первомайская улица, 11",
-                                          "Latitude": 57.15386549999999,
-                                          "Longitude": 65.5368857,
-                                          "Index": 625000
-                                         },
-                                         {
-                                          "undefined": "Ялуторовск улица Ленина, 50",
-                                          "Город": "Ялуторовск",
-                                          "Адреса": "улица Ленина, 50",
-                                          "Latitude": 56.6550583,
-                                          "Longitude": 66.310924,
-                                          "Index": 627014
-                                         },
-                                         {
-                                          "undefined": "Когалым улица Мира, 14",
-                                          "Город": "Когалым",
-                                          "Адреса": "улица Мира, 14",
-                                          "Latitude": 62.26354689999999,
-                                          "Longitude": 74.4840444,
-                                          "Index": 628485
-                                         },
-                                         {
-                                          "undefined": "Лангепас улица Ленина, 20",
-                                          "Город": "Лангепас",
-                                          "Адреса": "улица Ленина, 20",
-                                          "Latitude": 61.2526626,
-                                          "Longitude": 75.1727356,
-                                          "Index": 628671
-                                         },
-                                         {
-                                          "undefined": "Мегион Заречная улица, 15К2",
-                                          "Город": "Мегион",
-                                          "Адреса": "Заречная улица, 15К2",
-                                          "Latitude": 61.03291789999999,
-                                          "Longitude": 76.1002951,
-                                          "Index": 628684
-                                         },
-                                         {
-                                          "undefined": "Нефтеюганск 3-й микрорайон, 19",
-                                          "Город": "Нефтеюганск",
-                                          "Адреса": "3-й микрорайон, 19",
-                                          "Latitude": 61.0898545,
-                                          "Longitude": 72.6161337,
-                                          "Index": 626152
-                                         },
-                                         {
-                                          "undefined": "Нижневартовск улица Ленина, 9к1",
-                                          "Город": "Нижневартовск",
-                                          "Адреса": "улица Ленина, 9к1",
-                                          "Latitude": 60.9394259,
-                                          "Longitude": 76.5425542,
-                                          "Index": 628609
-                                         },
-                                         {
-                                          "undefined": "Нягань 4-й микрорайон, 15А",
-                                          "Город": "Нягань",
-                                          "Адреса": "4-й микрорайон, 15А",
-                                          "Latitude": 62.14091759999999,
-                                          "Longitude": 65.431917,
-                                          "Index": 628107
-                                         },
-                                         {
-                                          "undefined": "Пыть-Ях 2-й микрорайон, 28",
-                                          "Город": "Пыть-Ях",
-                                          "Адреса": "2-й микрорайон, 28",
-                                          "Latitude": 60.7273587,
-                                          "Longitude": 72.8211905,
-                                          "Index": 628107
-                                         },
-                                         {
-                                          "undefined": "Радужный 1-й микрорайон, 45",
-                                          "Город": "Радужный",
-                                          "Адреса": "1-й микрорайон, 45",
-                                          "Latitude": 61.2526626,
-                                          "Longitude": 63.33543169999999,
-                                          "Index": 456300
-                                         },
-                                         {
-                                          "undefined": "Сургут проспект Ленина, 34",
-                                          "Город": "Сургут",
-                                          "Адреса": "проспект Ленина, 34",
-                                          "Latitude": 61.253804,
-                                          "Longitude": 73.3999311,
-                                          "Index": 628417
-                                         },
-                                         {
-                                          "undefined": "Урай 2-й микрорайон, 61",
-                                          "Город": "Урай",
-                                          "Адреса": "2-й микрорайон, 61",
-                                          "Latitude": 60.12543359999999,
-                                          "Longitude": 64.8066207,
-                                          "Index": 456200
-                                         },
-                                         {
-                                          "undefined": "Ханты-Мансийск улица Энгельса, 1",
-                                          "Город": "Ханты-Мансийск",
-                                          "Адреса": "улица Энгельса, 1",
-                                          "Latitude": 61.0030758,
-                                          "Longitude": 69.0176164,
-                                          "Index": 628011
-                                         },
-                                         {
-                                          "undefined": "Югорск улица 40 лет Победы, 6",
-                                          "Город": "Югорск",
-                                          "Адреса": "улица 40 лет Победы, 6",
-                                          "Latitude": 61.3134687,
-                                          "Longitude": 63.33543169999999,
-                                          "Index": 628260
-                                         },
-                                         {
-                                          "undefined": "Верхний Уфалей улица Маяковского, 16",
-                                          "Город": "Верхний Уфалей",
-                                          "Адреса": "улица Маяковского, 16",
-                                          "Latitude": 56.0339426,
-                                          "Longitude": 60.261945,
-                                          "Index": 456804
-                                         },
-                                         {
-                                          "undefined": "Златоуст улица Ленина, 3",
-                                          "Город": "Златоуст",
-                                          "Адреса": "улица Ленина, 3",
-                                          "Latitude": 55.1729462,
-                                          "Longitude": 59.6695916,
-                                          "Index": 456200
-                                         },
-                                         {
-                                          "undefined": "Копейск проспект Славы, 6",
-                                          "Город": "Копейск",
-                                          "Адреса": "проспект Славы, 6",
-                                          "Latitude": 55.11474980000001,
-                                          "Longitude": 61.610398,
-                                          "Index": 456625
-                                         },
-                                         {
-                                          "undefined": "Магнитогорск улица имени Газеты Правда, 16",
-                                          "Город": "Магнитогорск",
-                                          "Адреса": "улица имени Газеты Правда, 16",
-                                          "Latitude": 53.4071882,
-                                          "Longitude": 58.96299339999999,
-                                          "Index": 455026
-                                         },
-                                         {
-                                          "undefined": "Миасс проспект Автозаводцев, 54",
-                                          "Город": "Миасс",
-                                          "Адреса": "проспект Автозаводцев, 54",
-                                          "Latitude": 55.0472467,
-                                          "Longitude": 60.10675339999999,
-                                          "Index": 456300
-                                         },
-                                         {
-                                          "undefined": "Озёрск Уральская улица, 16",
-                                          "Город": "Озёрск",
-                                          "Адреса": "Уральская улица, 16",
-                                          "Latitude": 55.77206200000001,
-                                          "Longitude": 60.7135409,
-                                          "Index": 456780
-                                         },
-                                         {
-                                          "undefined": "Сатка улица Кирова, 12",
-                                          "Город": "Сатка",
-                                          "Адреса": "улица Кирова, 12",
-                                          "Latitude": 55.0471282,
-                                          "Longitude": 58.97119660000001,
-                                          "Index": 456912
-                                         },
-                                         {
-                                          "undefined": "Снежинск улица Ленина, 34",
-                                          "Город": "Снежинск",
-                                          "Адреса": "улица Ленина, 34",
-                                          "Latitude": 56.0855089,
-                                          "Longitude": 60.73088379999999,
-                                          "Index": 456772
-                                         },
-                                         {
-                                          "undefined": "Троицк улица имени В.И. Ленина, 69",
-                                          "Город": "Троицк",
-                                          "Адреса": "улица имени В.И. Ленина, 69",
-                                          "Latitude": 55.4903205,
-                                          "Longitude": 37.3032108,
-                                          "Index": 629735
-                                         },
-                                         {
-                                          "undefined": "Усть-Катав улица Ленина, 43",
-                                          "Город": "Усть-Катав",
-                                          "Адреса": "улица Ленина, 43",
-                                          "Latitude": 54.9301824,
-                                          "Longitude": 58.1725033,
-                                          "Index": 456043
-                                         },
-                                         {
-                                          "undefined": "Челябинск проспект Ленина, 58",
-                                          "Город": "Челябинск",
-                                          "Адреса": "проспект Ленина, 58",
-                                          "Latitude": 55.16039499999999,
-                                          "Longitude": 61.399218,
-                                          "Index": 454009
-                                         },
-                                         {
-                                          "undefined": "Губкинский 5-й микрорайон, 11",
-                                          "Город": "Губкинский",
-                                          "Адреса": "5-й микрорайон, 11",
-                                          "Latitude": 64.4379795,
-                                          "Longitude": 76.488535,
-                                          "Index": 629830
-                                         },
-                                         {
-                                          "undefined": "Надым Заводская улица, 5",
-                                          "Город": "Надым",
-                                          "Адреса": "Заводская улица, 5",
-                                          "Latitude": 65.5283484,
-                                          "Longitude": 72.5469244,
-                                          "Index": 629735
-                                         },
-                                         {
-                                          "undefined": "Новый Уренгой Ленинградский проспект, 9",
-                                          "Город": "Новый Уренгой",
-                                          "Адреса": "Ленинградский проспект, 9",
-                                          "Latitude": 66.0843517,
-                                          "Longitude": 76.67919069999999,
-                                          "Index": 629300
-                                         },
-                                         {
-                                          "undefined": "Ноябрьск улица Ленина, 60",
-                                          "Город": "Ноябрьск",
-                                          "Адреса": "улица Ленина, 60",
-                                          "Latitude": 63.2012811,
-                                          "Longitude": 75.453986,
-                                          "Index": 629807
-                                         },
-                                         {
-                                          "undefined": "Салехард улица Чубынина, 12",
-                                          "Город": "Салехард",
-                                          "Адреса": "улица Чубынина, 12",
-                                          "Latitude": 66.53017969999999,
-                                          "Longitude": 66.615596,
-                                          "Index": 629008
-                                         }
-                                        ]
-
-                        let dataА = dataLinks.filter(el => el['Город'][0] === 'А')
-                        let dataБ = dataLinks.filter(el => el['Город'][0] === 'Б')
-                        let dataВ = dataLinks.filter(el => el['Город'][0] === 'В')
-                        let dataГ = dataLinks.filter(el => el['Город'][0] === 'Г')
-                        let dataЕ = dataLinks.filter(el => el['Город'][0] === 'Е')
-                        let dataЗ = dataLinks.filter(el => el['Город'][0] === 'З')
-                        let dataИ = dataLinks.filter(el => el['Город'][0] === 'И')
-                        let dataК = dataLinks.filter(el => el['Город'][0] === 'К')
-                        let dataЛ = dataLinks.filter(el => el['Город'][0] === 'Л')
-                        let dataМ = dataLinks.filter(el => el['Город'][0] === 'М')
-                        let dataН = dataLinks.filter(el => el['Город'][0] === 'Н')
-                        let dataО = dataLinks.filter(el => el['Город'][0] === 'О')
-                        let dataП = dataLinks.filter(el => el['Город'][0] === 'П')
-                        let dataР = dataLinks.filter(el => el['Город'][0] === 'Р')
-                        let dataС = dataLinks.filter(el => el['Город'][0] === 'С')
-                        let dataТ = dataLinks.filter(el => el['Город'][0] === 'Т')
-                        let dataУ = dataLinks.filter(el => el['Город'][0] === 'У')
-                        let dataХ = dataLinks.filter(el => el['Город'][0] === 'Х')
-                        let dataЧ = dataLinks.filter(el => el['Город'][0] === 'Ч')
-                        let dataШ = dataLinks.filter(el => el['Город'][0] === 'Ш')
-                        let dataЮ = dataLinks.filter(el => el['Город'][0] === 'Ю')
-                        let dataЯ = dataLinks.filter(el => el['Город'][0] === 'Я')
-
-                        ReactDOM.render(
-                            <ul
-                                onClick={() => getTitle(el['undefined'], el['Поддомен'])}
-                                className="cities-ul hoverClass"
-                                aria-label="Close"
-                                itemScope="itemscope"
-                                itemType="http://schema.org/SiteNavigationElement"
-                            >
-                            {dataА.map(el => {
-                                return (
-                                    <li className="cities-li" key={el['Город']}>
-                                        <p className="cities-a" itemProp="url"> {el['Город']}</p>
-                                    </li>
-                                )
-                            })}
-                            </ul>,
-                            document.getElementById('rootА')
-                        );
-
+                        const dateMap = [{
+                          "undefined": "Белогорск улица Кирова, 84",
+                          "Longitude": "50.921639",
+                          "Latitude": "128.471752",
+                          "Index": "676803",
+                          "Город": "Белогорск",
+                          "Адреса": "улица Кирова, 84"
+                        },
+                        {
+                          "undefined": "Благовещенск улица Ленина, 139",
+                          "Longitude": "50.2584691",
+                          "Latitude": "127.531987",
+                          "Index": "675000",
+                          "Город": "Благовещенск",
+                          "Адреса": "улица Ленина, 139"
+                        },
+                        {
+                          "undefined": "Свободный улица Карла Маркса, 16",
+                          "Longitude": "51.3755483",
+                          "Latitude": "128.133658",
+                          "Index": "676434",
+                          "Город": "Свободный",
+                          "Адреса": "улица Карла Маркса, 16"
+                        },
+                        {
+                          "undefined": "Тында улица Красная Пресня, 27/1",
+                          "Longitude": "55.1504124",
+                          "Latitude": "124.736125",
+                          "Index": "676290",
+                          "Город": "Тында",
+                          "Адреса": "улица Красная Пресня, 27/1"
+                        },
+                        {
+                          "undefined": "Чита улица Бутина, 37",
+                          "Longitude": "52.033703",
+                          "Latitude": "113.498462",
+                          "Index": "672000",
+                          "Город": "Чита",
+                          "Адреса": "улица Бутина, 37"
+                        },
+                        {
+                          "undefined": "Петропавловск-Камчатский Советская улица, 14",
+                          "Longitude": "53.0148668",
+                          "Latitude": "158.6509471",
+                          "Index": "683001",
+                          "Город": "Петропавловск-Камчатский",
+                          "Адреса": "Советская улица, 14"
+                        },
+                        {
+                          "undefined": "Магадан улица Пушкина, 1",
+                          "Longitude": "59.5662997",
+                          "Latitude": "150.8047012",
+                          "Index": "685000",
+                          "Город": "Магадан",
+                          "Адреса": "улица Пушкина, 1"
+                        },
+                        {
+                          "undefined": "Арсеньев Калининская улица, 14",
+                          "Longitude": "44.160373",
+                          "Latitude": "133.2673709",
+                          "Index": "692342",
+                          "Город": "Арсеньев",
+                          "Адреса": "Калининская улица, 14"
+                        },
+                        {
+                          "undefined": "Артём улица Фрунзе, 73",
+                          "Longitude": "43.3534229",
+                          "Latitude": "132.1790386",
+                          "Index": "692760",
+                          "Город": "Артём",
+                          "Адреса": "улица Фрунзе, 73"
+                        },
+                        {
+                          "undefined": "Владивосток Светланская улица, 31",
+                          "Longitude": "43.1158",
+                          "Latitude": "131.8868806",
+                          "Index": "690091",
+                          "Город": "Владивосток",
+                          "Адреса": "Светланская улица, 31"
+                        },
+                        {
+                          "undefined": "Дальнегорск проспект 50 лет Октября, 73",
+                          "Longitude": "44.5542271",
+                          "Latitude": "135.5680533",
+                          "Index": "692446",
+                          "Город": "Дальнегорск",
+                          "Адреса": "проспект 50 лет Октября, 73"
+                        },
+                        {
+                          "undefined": "Находка Находкинский проспект, 11",
+                          "Longitude": "42.8234935",
+                          "Latitude": "132.8920046",
+                          "Index": "692904",
+                          "Город": "Находка",
+                          "Адреса": "Находкинский проспект, 11"
+                        },
+                        {
+                          "undefined": "Уссурийск улица Плеханова, 61",
+                          "Longitude": "43.7983498",
+                          "Latitude": "131.9525691",
+                          "Index": "692525",
+                          "Город": "Уссурийск",
+                          "Адреса": "улица Плеханова, 61"
+                        },
+                        {
+                          "undefined": "Северобайкальск Ленинградский проспект, 6",
+                          "Longitude": "55.6356378",
+                          "Latitude": "109.3370817",
+                          "Index": "671700",
+                          "Город": "Северобайкальск",
+                          "Адреса": "Ленинградский проспект, 6"
+                        },
+                        {
+                          "undefined": "Улан-Удэ улица Ленина, 52",
+                          "Longitude": "51.8328793",
+                          "Latitude": "107.5843955",
+                          "Index": "670000",
+                          "Город": "Улан-Удэ",
+                          "Адреса": "улица Ленина, 52"
+                        },
+                        {
+                          "undefined": "Нерюнгри проспект Дружбы Народов, 25",
+                          "Longitude": "56.6580121",
+                          "Latitude": "124.7145058",
+                          "Index": "678960",
+                          "Город": "Нерюнгри",
+                          "Адреса": "проспект Дружбы Народов, 25"
+                        },
+                        {
+                          "undefined": "Якутск улица Аммосова, 6",
+                          "Longitude": "62.0272417",
+                          "Latitude": "129.7353906",
+                          "Index": "677018",
+                          "Город": "Якутск",
+                          "Адреса": "улица Аммосова, 6"
+                        },
+                        {
+                          "undefined": "Южно-Сахалинск улица Карла Маркса, 51Б",
+                          "Longitude": "46.9568476",
+                          "Latitude": "142.7269244",
+                          "Index": "693961",
+                          "Город": "Южно-Сахалинск",
+                          "Адреса": "улица Карла Маркса, 51Б"
+                        },
+                        {
+                          "undefined": "Амурск улица Ленина, 279",
+                          "Longitude": "50.2266509",
+                          "Latitude": "136.895263",
+                          "Index": "682643",
+                          "Город": "Амурск",
+                          "Адреса": "улица Ленина, 279"
+                        },
+                        {
+                          "undefined": "Комсомольск-на-Амуре проспект Ленина, 19",
+                          "Longitude": "50.5508145",
+                          "Latitude": "137.0099291",
+                          "Index": "681013",
+                          "Город": "Комсомольск-на-Амуре",
+                          "Адреса": "проспект Ленина, 19"
+                        },
+                        {
+                          "undefined": "Хабаровск улица Пушкина, 54",
+                          "Longitude": "48.481108",
+                          "Latitude": "135.073341",
+                          "Index": "680000",
+                          "Город": "Хабаровск",
+                          "Адреса": "улица Пушкина, 54"
+                        }
+                        ]
                         ReactDOM.render(
                             <div>
-                                {dataLinks.map((obj, index) => {
+                                {dateMap.map((obj, index) => {
                                     return (
-                                        <a
-                                            key={index}
-                                            id={obj['Город']}
-                                            itemProp="address" itemScope itemType="http://schema.org/PostalAddress"
-                                            href="#"
-                                            data-coordinate={obj['Longitude'] + ',' + obj['Latitude']}
-                                            data-address={obj['Index'] + ' ' + obj['Город'] + ', ' + obj['Адреса']}
-                                            data-name={obj['Адреса']}
-                                            data-content="режим работы: 9:00-19:00"
-                                            title=""
-                                            className="mapOptions__addresses_a"
-                                        >
-                                            <span itemProp="postalCode" className="addresses-text-bold">{obj['Index']}, г. {obj['Город']}</span><br/>
-                                            <span itemProp="streetAddress" className="addresses-text-bold"> {obj['Адреса']}</span><br/>
+                                        <a key={index}
+                                           id={obj['Город']}
+                                           itemProp="address" itemScope itemType="http://schema.org/PostalAddress"
+                                           href="#"
+                                           data-coordinate={obj['Latitude'] + ',' + obj['Longitude']}
+                                           data-address={obj['Index'] + ' ' + obj['Город'] + ', ' + obj['Адреса']}
+                                           data-name={obj['Адреса']}
+                                           data-content="режим работы: 9:00-19:00"
+                                           title=""
+                                           className="mapOptions__addresses_a">
+                                        <span itemProp="postalCode"
+                                              className="addresses-text-bold">{obj['Index']}, г. {obj['Город']}</span><br/>
+                                            <span itemProp="streetAddress"
+                                                  className="addresses-text-bold"> {obj['Адреса']}</span><br/>
                                             режим работы: 9:00-19:00
                                         </a>
                                     )
@@ -1367,61 +1074,32 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                         )
                     </script>
                     <script>
-                        let adressTitle = localStorage.getItem("city")
-
-                        let newLinkAnother
-                        let newAdress
-
-                        function getTitle(city, newLink, adress) {
-                            console.log(adress)
-                            newAdress = adress
-                            adressTitle = city
-
-                            newLinkAnother = newLink
-                            console.log(city, newLink)
-                            document.querySelector('.titleFirst1').innerHTML = `${city}`
-                            document.querySelector('.titleFirst2').innerHTML = `${city}`
-                            document.querySelector('.titleFirst3').innerHTML = `${city}`
-                            localStorage.setItem('city', city);
-                            //work
-                            var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + `?${newLink}`;
-                            window.history.pushState({
-                                path: newurl
-                            }, '', newurl);
-                            //work
-
-                            localStorage.setItem('link', newLink ? newLink : '')
-
-                            window.location.reload()
-                            localStorage.setItem('adress', newAdress ? newAdress : 'улица Ленинская Слобода, 19, 3 этаж, офис 3,034 (БЦ Омега Плаза)')
-
-                            document.querySelector('.cities-wrapper').style.display = 'none'
-                        }
-                    </script>
-                    <script>
                         setTimeout(() => {
-                            const clickChelbinsk = document.querySelector("#Челябинск")
-                            clickChelbinsk.click()
-                        }, 1500)
+                            document.querySelector('#Хабаровск').click()
+                        }, 2000)
                     </script>
-                    <div class="visible-on-mobile">
-                        <div class="region_address">
-                            <div class="row all_address">
-                                <div class="col-md-12">
-                                    <div class="city-wrapper city-wrapper-main">
-                                        <p>Для отображения адресов офисов выберете регион</p>
-                                        <div class="city-text btn btn-danger"> Краснодар</div>
-                                    </div>
+                    <div id="map" class="ofices map-left visible-on-wade visible-on-tablet"></div>
+                </div>
+
+                <div class="visible-on-mobile">
+                    <div class="region_address">
+                        <div class="row all_address">
+                            <div class="col-md-12">
+                                <div class="city-wrapper city-wrapper-main">
+                                    <p>Для отображения адресов офисов выберете регион</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
+    </div>
 
-        <input id="init-map-subdomain" type="hidden" value="37.484137,55.642164" name="_token">
-    </section>
+    <input id="init-map-subdomain" type="hidden" value="37.484137,55.642164">
+</section>
+
 
     <footer id="footer-3">
         <div class="container">
@@ -1458,18 +1136,17 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
 
                         <div class="col-md-4 col-sm-6">
                             <ul class="footer-li bold">
-                                <li><a href="kredit-pod-pts.php">Кредит под ПТС</a></li>
-                                <li><a href="pod-gruzovie-avtomobili.php">Грузовые авто</a></li>
-                                <li><a href="pod-spectehniku.php">Спецтехника</a></li>
+                                <li><a href="pod-gruzovogo-avtomobilia.php">Грузовые авто</a></li>
+                                <li><a href="pod-specztekhniku.php">Спецтехника</a></li>
 
 
                             </ul>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <ul class="footer-li bold">
-                                <li><a href="pod-moto.php">Мототехника</a></li>
-                                <li><a href="dlja-biznesa.php">Юр. Лица</a></li>
-                                <li><a href="zaim-pod-pts.html">Займ</a></li>
+                                <li><a href="dengi-pod-motoczikl.php">Мототехника</a></li>
+                                <li><a href="dlja-ip-pod-avto.php">Юр. Лица</a></li>
+                                <li><a href="pod-pts.php">Займ</a></li>
                             </ul>
                         </div>
 
@@ -1477,7 +1154,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                 </div>
                 <div class="col-md-12">
                     <div class="footer-bottom">
-                        <p>«Drive Credit» не является финансовым учреждением, банком или МФО. Сайт
+                        <p>«Залог Престиж» не является финансовым учреждением, банком или МФО. Сайт
                             предоставляет
                             информационную помощь для получения кредитов и займов в аккредитованных организациях,
                             имеющих
@@ -1825,11 +1502,11 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                             <h2 style="position:relative;margin-left: 52px;">
                             </h2>
                             <ul class="off-canvas-li">
-                                <li><a href="kredit-pod-pts.php">Кредит под ПТС</a></li>
-                                <li><a href="pod-pts-gruzovogo-avtomobilya.php">Грузовые авто</a></li>
-                                <li><a href="pod-pts-spectehniki.php">Спецтехника</a></li>
-                                <li><a href="pod-pts-motozikla.php">Мототехника</a></li>
-                                <li><a href="pod-pts-dlja-biznesa.php">Юр. Лица</a></li>
+                                <li><a href="pod-gruzovogo-avtomobilia.php">Грузовые авто</a></li>
+                                <li><a href="pod-specztekhniku.php">Спецтехника</a></li>
+                                <li><a href="dengi-pod-motoczikl.php">Мототехника</a></li>
+                                <li><a href="dlja-ip-pod-avto.php">Юр. Лица</a></li>
+                                <li><a href="pod-pts.php">Займ</a></li>
                             </ul>
                             <button type="button" class="btn btn-danger inline-btn" data-toggle="modal" data-target="#CallPhone-ver-4" id="deleteBodyClass">Оформить займ
                             </button>
@@ -1864,11 +1541,11 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="row">
                         <div class="col-md-12">
                             <ul class="off-canvas-li">
-                                <li><a href="kredit-pod-pts.php">Кредит под ПТС</a></li>
-                                <li><a href="pod-pts-gruzovogo-avtomobilya.php">Грузовые авто</a></li>
-                                <li><a href="pod-pts-spectehniki.php">Спецтехника</a></li>
-                                <li><a href="pod-pts-motozikla.php">Мототехника</a></li>
-                                <li><a href="pod-pts-dlja-biznesa.php">Юр. Лица</a></li>
+                                <li><a href="pod-gruzovogo-avtomobilia.php">Грузовые авто</a></li>
+                                <li><a href="pod-specztekhniku.php">Спецтехника</a></li>
+                                <li><a href="dengi-pod-motoczikl.php">Мототехника</a></li>
+                                <li><a href="dlja-ip-pod-avto.php">Юр. Лица</a></li>
+                                <li><a href="pod-pts.php">Займ</a></li>
                             </ul>
                             <button type="button" class="btn btn-danger m-t-30" data-toggle="modal" data-target="#CallPhone-ver-4" id="closeMenu">Оформить займ
                             </button>
@@ -1962,7 +1639,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
             <div class="modal-content">
                 <div class="modal-header">
                     <h2>Получите решение по займу</h2>
-                    <p>Для п��лучения результата оставьте контактные данные</p>
+                    <p>Для получения результата оставьте контактные данные</p>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"></span>
                     </button>
@@ -2184,20 +1861,11 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="letter">В</div>
                     <div id="rootВ"></div>
 
-                    <div class="letter">Г</div>
-                    <div id="rootГ"></div>
-
                 </div>
                 <div class="col-sm-12 col-md-3">
 
-                    <div class="letter">И</div>
-                    <div id="rootИ"></div>
-
                     <div class="letter">К</div>
                     <div id="rootК"></div>
-
-                    <div class="letter">Л</div>
-                    <div id="rootЛ"></div>
 
                 </div>
 
@@ -2206,14 +1874,9 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div id="rootМ"></div>
                     <div class="letter">Н</div>
                     <div id="rootН"></div>
-                    <div class="letter">О</div>
-                    <div id="rootО"></div>
 
                     <div class="letter">П</div>
                     <div id="rootП"></div>
-
-                    <div class="letter">Р</div>
-                    <div id="rootР"></div>
 
                 </div>
                 <div class="col-sm-12 col-md-3">
@@ -2226,12 +1889,17 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="letter">У</div>
                     <div id="rootУ"></div>
 
+                    <div class="letter">Х</div>
+                    <div id="rootХ"></div>
+
                     <div class="letter">Ч</div>
                     <div id="rootЧ"></div>
 
-                    <div class="letter">Ш</div>
-                    <div id="rootШ"></div>
+                    <div class="letter">Ю</div>
+                    <div id="rootЮ"></div>
 
+                    <div class="letter">Я</div>
+                    <div id="rootЯ"></div>
                 </div>
             </div>
         </div>
