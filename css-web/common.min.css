@@ -2249,16 +2249,16 @@ html{
     color: white
 }
 
-/* #FAD400 */
+/* #FFCF48 */
 .btn-danger {
     color: #fff;
-    background:  #FAD400;
+    background:  #FFCF48;
 }
 .btn-danger:hover {
     color: #fff;
-    background-color:  #FAD400;
-    border-color:  #FAD400;
-    box-shadow: 0 4px 20px #FAD400;
+    background-color:  #FFCF48;
+    border-color:  #FFCF48;
+    box-shadow: 0 4px 20px #FFCF48;
 }
 .btn-danger.focus, .btn-danger:focus {
     box-shadow: 0 4px 20px #0C3000;
@@ -2297,14 +2297,14 @@ html{
 .btn-line-red {
     color:  #0C3000;
     background: transparent;
-    border-color:  #FAD400;
+    border-color:  #FFCF48;
     text-decoration: none !important;
 }
 .btn-line-red:hover {
-    color:  #FAD400;
+    color:  #FFCF48;
     background-color: #ffffff1a;
-    border-color:  #FAD400;
-    box-shadow: 0 4px 20px #FAD400;
+    border-color:  #FFCF48;
+    box-shadow: 0 4px 20px #FFCF48;
 }
 .btn-line-red.focus, .btn-line-red:focus {
     box-shadow: 0 4px 20px #0C3000;
@@ -13444,7 +13444,7 @@ fieldset.mapOptions__region span {
 }
 .mapOptions__addresses.gradient {
     color: #fff;
-    background-color: #FAD400;
+    background-color: #FFCF48;
 }
 .mapOptions__addresses p {
     padding: 10px;
@@ -13824,7 +13824,7 @@ span.days {
     font-size: 18px;
     line-height: 33px;
     text-decoration-line: underline;
-    color: #FAD400;
+    color: #FFCF48;
     display: block;
     padding-right: 50px;
     background: url(../images/icon/p4255/arrow.png);
@@ -15071,7 +15071,7 @@ a.police-item-link {
     width: auto;
     max-width: 180px;
     background: transparent;
-    color: #FAD400;
+    color: #FFCF48;
     border-radius: 0;
     padding: 15px 0 20px;
     margin-right: 30px;
@@ -16858,17 +16858,18 @@ body main.manager-page {
     position: relative;
     margin-top: 60px;
 }
-.car-top-transports:after{
+.car-top-transports1{
     background-size: 100%;
     content: '';
     position: absolute;
-    background-image: url(../images/bmw.png);
+/*    background-image: url(../images/bmw.png);*/
     height: 93px;
     width: 280px;
     top: -40px;
     right: 0;
     background-repeat: no-repeat;
 }
+
 .showcase-template-bg{
     background: #F7F7F7;
     border-radius: 25px;
