@@ -11,7 +11,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="yandex-verification" content="71149ceae4e3a8a8" />
-    <title>Займы под залог авто <?= $in_city ?></title>
+    <title>Займы под залог мототехники <?= $in_city ?></title>
     <meta name="description" content="Автоломбард под залог ПТС   <?= $in_city ?>" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -77,7 +77,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="row">
                         <div class="col-md-6 col-sm-7">
                             <div class="header-form-block">
-                                <h1 class="h1"><span class="h1-span">Займы под залог авто <br><?= $in_city ?></span></h1>
+                                <h1 class="h1"><span class="h1-span">Займы под залог мототехники <br><?= $in_city ?></span></h1>
 
                                 <div class="row">
                                     <div class="col-md-4 introduction">
@@ -121,106 +121,83 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
             </section>
     </div>
 
-<section id="products-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <h3 class="h1"><span class="h1-span">Принимаем в залог любые </span>транспортные средства</h3>
-                        <div class="visible-on-wade visible-on-tablet">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="product-template-bg">
-                                        <div title="взять кредит в залог автомобиля в Нижнем Новгороде"
-                                             class="element-img grey"
-                                             style="background-size: contain;background-image: url(images/product/sedan3.jpg);"></div>
-                                        <div class="element-title">Легковые авто</div>
-                                        <div class="element-text">Отечественные авто, иномарки</div>
-                                        <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                     data-target="#specifications">Оценка ТС</a>
+<section id=products-3>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12 col-sm-12">
+                          <h3 class=h1><span class="h1-span">Принимаем в залог любую  </span>мототехнику</h3>
+                          <div class="visible-on-wade visible-on-tablet">
+                              <div class="row">
+                                  <div class="col-md-3 col-sm-6 col-xs-12">
+                                      <div class="product-template-bg">
+                                          <div title="взять кредит в залог мотоцикла  в Новороссийске" class="element-img grey" style="   background-image: url(images/product/motorbike5.jpg);background-position-y: -21px;"></div>
+                                          <div class="element-title">Мотоцикл</div>
+ <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
+                                                                     data-target="#specifications">Оценить ТС</a>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="product-template-bg">
-                                        <div title="кредит под залог грузового автомобиля в Нижнем Новгороде"
-                                             class="element-img grey"
-                                             style="    background-size: contain;background-image: url(images/product/truck3.jpg);"></div>
-                                        <div class="element-title">Грузовые авто</div>
-                                        <div class="element-text">Газели, тягачи, фуры</div>
-                                        <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                     data-target="#specifications">Оценка ТС</a>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3 col-sm-6 col-xs-12">
+                                      <div class="product-template-bg">
+                                          <div title="кредит под залог грузового мотороллера  в Новороссийске" class="element-img grey" style="    background-size: contain;background-image: url(images/product/skuter.jpg);"></div>
+                                          <div class="element-title">Мотороллер</div>
+ <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
+                                                                     data-target="#specifications">Оценить ТС</a>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="product-template-bg">
-                                        <div title="кредит под залог птс спецтехники в Нижнем Новгороде"
-                                             class="element-img grey"
-                                             style="    background-size: contain;background-image: url(images/product/tractor3.jpg);"></div>
-                                        <div class="element-title">Спецтехника</div>
-                                        <div class="element-text">Трактора, погрузчики, краны</div>
-                                        <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                     data-target="#specifications">Оценка ТС</a>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3 col-sm-6 col-xs-12">
+                                      <div class="product-template-bg">
+                                          <div title="кредит под залог птс чоппера  в Новороссийске" class="element-img grey" style="    background-size: contain;background-image: url(images/product/chooper1.jpg);"></div>
+                                          <div class="element-title">Чоппер</div>
+ <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
+                                                                     data-target="#specifications">Оценить ТС</a>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="product-template-bg">
-                                        <div title="кредит под залог птс в Нижнем Новгороде" class="element-img grey"
-                                             style="    background-size: contain;background-image: url(images/product/motorbike3.jpg); background-position-y: 0px;"></div>
-                                        <div class="element-title">Мототехника</div>
-                                        <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
-                                        <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                     data-target="#specifications">Оценка ТС</a>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3 col-sm-6 col-xs-12">
+                                      <div class="product-template-bg">
+                                          <div title="кредит под залог мопеда  в Новороссийске" class="element-img grey" style="    background-size: contain;background-image: url(images/product/motorbike4.jpg); background-position-y: 0px;"></div>
+                                          <div class="element-title">Мопед</div>
+ <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
+                                                                     data-target="#specifications">Оценить ТС</a>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
 
-                        <div class="visible-on-mobile">
-                            <div class="owl-carousel owl-theme product">
-                                <div class="product-template-bg">
-                                    <div class="element-img grey"
-                                         style="    background-size: contain;background-image: url(images/product/sedan3.jpg);"></div>
-                                    <div class="element-title">Легковые авто</div>
-                                    <div class="element-text">Отечественные авто, иномарки</div>
-                                    <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                 data-target="#specifications">Оценка ТС</a></div>
-                                </div>
+                          <div class="visible-on-mobile">
+                              <div class="owl-carousel owl-theme product">
+                                  <div class="product-template-bg">
+                                      <div class="element-img grey" style=" background-image: url(images/product/motorbike5.jpg);background-position-y: -21px;"></div>
+                                      <div class="element-title">Мотоцикл</div>
 
-                                <div class="product-template-bg">
-                                    <div class="element-img grey"
-                                         style="    background-size: contain;background-image: url(images/product/truck3.jpg);"></div>
-                                    <div class="element-title">Грузовые авто</div>
-                                    <div class="element-text">Газели, тягачи, фуры</div>
-                                    <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                 data-target="#specifications">Оценка ТС</a></div>
-                                </div>
+                                  </div>
 
-                                <div class="product-template-bg">
-                                    <div class="element-img grey"
-                                         style="    background-size: contain;background-image: url(images/product/tractor3.jpg);"></div>
-                                    <div class="element-title">Спецтехника</div>
-                                    <div class="element-text">Трактора, погрузчики, краны</div>
-                                    <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                 data-target="#specifications">Оценка ТС</a></div>
-                                </div>
+                                  <div class="product-template-bg">
+                                      <div class="element-img grey" style="    background-size: contain;background-image: url(images/product/skuter.jpg);"></div>
+                                      <div class="element-title">Мотороллер</div>
 
-                                <div class="product-template-bg">
-                                    <div class="element-img grey"
-                                         style="    background-size: contain;background-image: url(images/product/motorbike3.jpg); background-position-y: 0px;"></div>
-                                    <div class="element-title">Мототехника</div>
-                                    <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
-                                    <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                 data-target="#specifications">Оценка ТС</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-</section>
+                                  </div>
+
+                                  <div class="product-template-bg">
+                                      <div class="element-img grey" style="    background-size: contain;background-image: url(images/product/chooper1.jpg);"></div>
+                                      <div class="element-title">Чоппер</div>
+
+                                  </div>
+
+                                  <div class="product-template-bg">
+                                      <div class="element-img grey" style="    background-size: contain;background-image: url(images/product/motorbike4.jpg); background-position-y: 0px;"></div>
+                                      <div class="element-title">Мопед</div>
+
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
 <section id="calculate-3-2-1">
         <div class="container">
             <div class="row">
@@ -416,10 +393,10 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                 <div class="row">
                     <div class="col-md-12 col-sm-6">
                         <h3 class="h1 m-t-image"><span class="h1-span"><span class="h1-span">Получение денег </span></span> <span class="yellow-text">под
-                            залог авто</span></h3>
+                            залог мототехники</span></h3>
                     </div>
                     <div class="col-md-12 col-sm-6">
-                        <img class="m-t-image" src="images/p4298/audi_1.png" alt="займы"/>
+                        <img class="m-t-image" src="images/p4298/mot.png" alt="займы"/>
                     </div>
                 </div>
             </div>
@@ -629,7 +606,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
         <div class=container>
             <div class=row>
                 <div class="col-md-11 col-sm-12">
-                    <h3 class=h1><span class=h1-span>Требования для получения </span>денежных средств под залог авто</h3>
+                    <h3 class=h1><span class=h1-span>Требования для получения </span>денежных средств под залог мототехники</h3>
 
                     <div class="row">
                         <div class="col-md-3 col-sm-12">
@@ -690,7 +667,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                 <div class="owl-carousel owl-theme example-loan">
                     <div class="example-car right">
                         <div class="example-car-img"
-                             style="background-image: url(images/example-loan/mazda_2.png);"></div>
+                             style="background-image: url(images/example-loan/mot.png);"></div>
                         <div class="example-car-content">
                             <h2>Mazda CX5, 2019</h2>
                             <div class="example-car-text">
@@ -878,16 +855,13 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="question-answer">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="question">Как получить займ под ПТС в автоломбарде?
+                                <div class="question">Могу ли я вернуть деньги за свой мотоцикл раньше условленного срока?
                                 </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="answer">
-                                   Для того чтобы оформить займ под залог ПТС необходимо:
-                                    оставить заявку на сайте автоломбарда;
-                                    далее с вами свяжется менеджер и уточнит нюансы (какие документы нужны, как оформляется процедура и др.);
-                                    дождаться решения.
-                                    Получить займ под ПТС могут совершеннолетние граждане РФ. Процедура занимает около часа времени.
+                                   Получая займ в автоломбарде под залог мотоцикла, вернуть деньги раньше оговоренного срока можно! Процедура не влечет за собой никакой пени и последствий.
+                                   Автоломбард под залог ПТС мотоцикла предлагает своим заемщикам только выгодные условия. 
                                 </div>
                             </div>
                         </div>
@@ -895,12 +869,12 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="question-answer">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="question">Займ выдается наличными или на карту?
+                                <div class="question">Можете ли вы переоформить мой мотоцикл на ваш автоломбард?
                                 </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="answer">
-                                    Займ под ПТС очень удобная услуга, для тех, кому нужна приличная сумма быстро. Получить деньги можно после подачи заявки на оформление.  После того, как заявка на получение займа под залог ПТС будет одобрена, можно  взять деньги, как наличными, так и на карту. Автоломбард перечисляет деньги мгновенно после одобрения займа.
+                                    Это категорически запрещено! Компания дает возможность только кредитования. Получить займ под залог ПТС мотоцикла можно в онлайн режиме, заполнив заявку и дождавшись решения. Процесс занимает до 40 минут. Наличие мобильного телефона ускорит процесс сделки при прохождении регистрационной процедуры и активации договора в онлайн-режиме.
                                 </div>
                             </div>
                         </div>
@@ -908,47 +882,16 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="question-answer">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="question">Автомобиль остается у вас? 
+                                <div class="question">На какой срок можно получить займ под залог мототехники?
                                 </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="answer">
-                                    Получение денег под залог ПТС в Сочи - распространенная и востребованная услуга. После оформления займа, одобрения, клиент может получить деньги в свое распоряжение. Остается ли автомобиль у владельца? ДА. Транспорт полностью остается у хозяина.
+                                    Автоломбард  выдает займ под ПТС мототехники на срок от 1 до 5 лет. Вы сами решаете, как долго вы готовы вернуть деньги. Этот момент согласовывается в процессе регистрации. При принятии решения ориентируйтесь на сумму кредита, общую ежемесячную финансовую нагрузку на бюджет и размер выручки. 
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="question-answer">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="question">Можно ли взять кредит в автоломбарде по генеральной доверенности?
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="answer">
-                                    Займ под ПТС авто становится одной из самых популярных форм кредитования. Это объясняется скоростью получения кредита и простотой его оформления. Генеральная доверенность — это заверяемый у нотариуса документ, предоставляемый стороннему лицу, не являющемуся прямым владельцем машины, распоряжаться транспортным средством по своему усмотрению. На вопрос можно ли взять займ по доверенности, ответ да!
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="question-answer">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="question">Что нужно для получения кредита под ПТС?
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <div class="answer">
-                                    Практика использования личного автомобиля в качестве залогового имущества обширно распространена. Получить займ под залог ПТС автомобиля можно по предоставлению таких документов:
-паспорт;
-СТС;
-ПТС.
-Взять кредит под залог ПТС-авто выгодно и целесообразно в автоломбарде.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
 
                 </div>
             </div>
@@ -965,43 +908,31 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="row">
                         <div class="col-md-4">
                             <article class="review-bg-grey">
-                                <div class="review-text">Уже не первый раз обращаюсь в автоломбард, здесь можно взять деньги под залог ПТС, даже если с кредитной историей проблемы. Сервис надежный, меня не раз выручали, при необходимости всегда прихожу сюда, 1 час и деньги у меня.
+                                <div class="review-text">Уже не первый раз беру деньги под залог ПТС мототехники. Очень доволен, все быстро, сотрудники помогут, ответят на все вопросы, условия приемлемые. Если нужны деньги здесь и сейчас, то это отличный вариант.
                                 </div>
                                 <div class="review-person">
-                                    <div class="review-name">Константин </div>
+                                    <div class="review-name">Николай</div>
                                 </div>
                             </article>
-                            <article class="review-bg-grey">
-                                <div class="review-text">Я официально не работаю, поэтому получить кредит в банке для меня – невозможно. Но если срочно нужны деньги, то можно взять займ под залог ПТС в Сочи в автоломбарде. Здесь очень выгодные условия и минимальные проценты.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Леонид</div>
-                                </div>
-                            </article>
+                            
 
                         </div>
                         <div class="col-md-4">
                             <article class="review-bg-grey">
-                                <div class="review-text">Быстрый займ под залог ПТС я беру в атоломбарде. Уже не первый раз обращаюсь к этим ребятам. Всегда проходит всё быстро и по максимально низкой процентной ставке. Если срочно нужны деньги, то можно приезжать сюда, условия отличные, без обмана, и все что нужно.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Андрей</div>
-                                </div>
+                                <div class="review-text">Если мне срочно необходимы деньги, то я всегда обращаюсь в автоломбард, здесь можно взять деньги под залог ПТС мототехники, это очень быстро и удобно, условия выгоднее чем в МФО, всем советую.
+                            </div>
+                            <div class="review-person">
+                                <div class="review-name">Артем</div>
+                            </div>
                             </article>
-                            <article class="review-bg-grey">
-                                <div class="review-text">Я уже не первый раз беру займ под залог ПТС онлайн, оформить его можно не выходя из дома, достаточно заполнить заявку и получить решение. Для меня это намного удобнее, чем брать деньги в банке, так как через считанные часы деньги уже у меня на карте. Всем рекомендую.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Екатерина</div>
-                                </div>
-                            </article>
+                            
                         </div>
                         <div class="col-md-4">
                             <article class="review-bg-grey">
-                                <div class="review-text">Взять деньги под залог ПТС без выходных можно в автоломбарде, это очень удобно, так как большинство банков не работают в выходные. Один раз я столкнулась с такой ситуацией, и подруга посоветовала мне этот автоломбард. Я сомневалась, но зря, я получила самые выгодные для себя условия.
+                                <div class="review-text">Несколько раз обращался в этот автоломбард, здесь можно взять деньги под залог ПТС мототехники, очень удобно, что не нужно ждать и нужную сумму можно получить прямо здесь и сейчас, для этого всего лишь необходимо оставить в залог ПТС.
                                 </div>
                                 <div class="review-person">
-                                    <div class="review-name">Аксинья</div>
+                                    <div class="review-name">Никита</div>
                                 </div>
                             </article>
                         </div>
@@ -1011,40 +942,27 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                 <div class="visible-on-mobile">
                     <div class="owl-carousel owl-theme reviews-4">
                         <article class="review-bg-grey">
-                            <div class="review-text">Уже не первый раз обращаюсь в автоломбард, здесь можно взять деньги под залог ПТС, даже если с кредитной историей проблемы. Сервис надежный, меня не раз выручали, при необходимости всегда прихожу сюда, 1 час и деньги у меня.
+                            <div class="review-text">Уже не первый раз беру деньги под залог ПТС мототехники. Очень доволен, все быстро, сотрудники помогут, ответят на все вопросы, условия приемлемые. Если нужны деньги здесь и сейчас, то это отличный вариант.
                                 </div>
                                 <div class="review-person">
-                                    <div class="review-name">Константин </div>
+                                    <div class="review-name">Николай</div>
                                 </div>
                         </article>
                         <article class="review-bg-grey">
-                            <div class="review-text">Я официально не работаю, поэтому получить кредит в банке для меня – невозможно. Но если срочно нужны деньги, то можно взять займ под залог ПТС в Сочи в автоломбарде. Здесь очень выгодные условия и минимальные проценты.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Леонид</div>
-                                </div>
+                            <div class="review-text">Если мне срочно необходимы деньги, то я всегда обращаюсь в автоломбард, здесь можно взять деньги под залог ПТС мототехники, это очень быстро и удобно, условия выгоднее чем в МФО, всем советую.
+                            </div>
+                            <div class="review-person">
+                                <div class="review-name">Артем</div>
+                            </div>
                         </article>
                         <article class="review-bg-grey">
-                            <div class="review-text">Быстрый займ под залог ПТС я беру в атоломбарде. Уже не первый раз обращаюсь к этим ребятам. Всегда проходит всё быстро и по максимально низкой процентной ставке. Если срочно нужны деньги, то можно приезжать сюда, условия отличные, без обмана, и все что нужно.
+                            <div class="review-text">Несколько раз обращался в этот автоломбард, здесь можно взять деньги под залог ПТС мототехники, очень удобно, что не нужно ждать и нужную сумму можно получить прямо здесь и сейчас, для этого всего лишь необходимо оставить в залог ПТС.
                                 </div>
                                 <div class="review-person">
-                                    <div class="review-name">Андрей</div>
+                                    <div class="review-name">Никита</div>
                                 </div>
                         </article>
-                        <article class="review-bg-grey">
-                            <div class="review-text">Я уже не первый раз беру займ под залог ПТС онлайн, оформить его можно не выходя из дома, достаточно заполнить заявку и получить решение. Для меня это намного удобнее, чем брать деньги в банке, так как через считанные часы деньги уже у меня на карте. Всем рекомендую.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Екатерина</div>
-                                </div>
-                        </article>
-                        <article class="review-bg-grey">
-                           <div class="review-text">Взять деньги под залог ПТС без выходных можно в автоломбарде, это очень удобно, так как большинство банков не работают в выходные. Один раз я столкнулась с такой ситуацией, и подруга посоветовала мне этот автоломбард. Я сомневалась, но зря, я получила самые выгодные для себя условия.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Аксинья</div>
-                                </div>
-                        </article>
+                        
                     </div>
                 </div>
             </div>
