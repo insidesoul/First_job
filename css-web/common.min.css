@@ -2249,16 +2249,16 @@ html{
     color: white
 }
 
-/* #ED4255 */
+/* #72A2AC */
 .btn-danger {
     color: #fff;
-    background:  #ED4255;
+    background:  #72A2AC;
 }
 .btn-danger:hover {
     color: #fff;
-    background-color:  #ED4255;
-    border-color:  #ED4255;
-    box-shadow: 0 4px 20px #ED4255;
+    background-color:  #72A2AC;
+    border-color:  #72A2AC;
+    box-shadow: 0 4px 20px #72A2AC;
 }
 .btn-danger.focus, .btn-danger:focus {
     box-shadow: 0 4px 20px #0C3000;
@@ -2297,14 +2297,14 @@ html{
 .btn-line-red {
     color:  #0C3000;
     background: transparent;
-    border-color:  #ED4255;
+    border-color:  #72A2AC;
     text-decoration: none !important;
 }
 .btn-line-red:hover {
-    color:  #ED4255;
+    color:  #72A2AC;
     background-color: #ffffff1a;
-    border-color:  #ED4255;
-    box-shadow: 0 4px 20px #ED4255;
+    border-color:  #72A2AC;
+    box-shadow: 0 4px 20px #72A2AC;
 }
 .btn-line-red.focus, .btn-line-red:focus {
     box-shadow: 0 4px 20px #0C3000;
@@ -4253,7 +4253,7 @@ ul.switcher li a,ul.switcher-2 li a, ul.switcher-3 li a, ul.switcher-4 li a  {
     color: #ffff;
 }
 ul.switcher li.selected, ul.switcher li:hover,ul.switcher-2 li.selected, ul.switcher-2 li:hover, ul.switcher-3 li.selected, ul.switcher-3 li:hover, ul.switcher-4 li.selected, ul.switcher-4 li:hover {
-    background:  #ED4255;
+    background:  #72A2AC;
     color: #fff;
 }
 
@@ -8849,7 +8849,7 @@ h1>a:focus, h1>a:hover, h2>a:focus, h2>a:hover, h3>a:focus, h3>a:hover, h4>a:foc
     display: block;
 }
 .h1-span-red {
-    color: #F4D75E;
+    color: #72A2AC;
 }
 .h1-span-orangee {
     color:  #0C3000;
@@ -13444,7 +13444,7 @@ fieldset.mapOptions__region span {
 }
 .mapOptions__addresses.gradient {
     color: #fff;
-    background-color: #ED4255;
+    background-color: #72A2AC;
 }
 .mapOptions__addresses p {
     padding: 10px;
@@ -13824,7 +13824,7 @@ span.days {
     font-size: 18px;
     line-height: 33px;
     text-decoration-line: underline;
-    color: #ED4255;
+    color: #72A2AC;
     display: block;
     padding-right: 50px;
     background: url(../images/icon/p4255/arrow.png);
@@ -15071,7 +15071,7 @@ a.police-item-link {
     width: auto;
     max-width: 180px;
     background: transparent;
-    color: #ED4255;
+    color: #72A2AC;
     border-radius: 0;
     padding: 15px 0 20px;
     margin-right: 30px;
@@ -16400,7 +16400,7 @@ body main.manager-page {
 .interlayer-loan-item-number{
     font-family: MontserratB;
     font-size: 30px;
-    color:  #F4D75E;
+    color:  #72A2AC;
     margin-bottom: 20px;
 }
 .interlayer-loan-item-title{
