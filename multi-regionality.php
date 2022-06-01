@@ -180,15 +180,15 @@ if ($is_exists && $domain_dots_count > 1) {
         $in_city = $subdomains[$subdomain]['inCity'];
         $address = $subdomains[$subdomain]['address'];
     } else {
-        $city = 'Сочи';
-        $in_city = 'в Сочи';
-        $address = 'ул. Советская, 40';
+        $city = 'Ставрополь';
+        $in_city = 'в Ставрополе';
+        $address = 'ул. Доваторцев, 47Б';
     }
 }
 else {
-    $city = 'Сочи';
-    $in_city = 'в Сочи';
-    $address = 'ул. Советская, 40';
+    $city = 'Ставрополь';
+    $in_city = 'в Ставрополе';
+    $address = 'ул. Доваторцев, 47Б';
 }
 /* END Setup city variables */
 

@@ -10932,7 +10932,7 @@ body.off-canvas-sidebar-open:after {
 }
 
 .off-canvas-car-dark-grey{
-    background-image: url(../images/p4298/bgcarr.jpg);
+    background-image: url(../images/bgcar3.jpg);
     opacity: 0.2;
 }
 .off-canvas-car-white {
@@ -14764,6 +14764,43 @@ a.police-item-link {
     padding: 0 20px;
     /* width: 185px; */
 }
+.dropbtn {
+  background-color: #fff;
+  color: black;
+/*  padding: 16px;*/
+  font-size: 14px;
+  border: none;
+  width: ;
+  padding: 5px 17px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/*.dropdown:hover .dropbtn {background-color: #3e8e41;}*/
+
 .mapOptions__addresses.gradient .city-text {
     color: #fff;
     cursor: pointer;

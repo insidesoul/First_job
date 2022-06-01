@@ -1,5 +1,5 @@
 <?php
-$phone = '8 (961) 331-39-48';
+$phone = '8 (961) 331-39-51';
 $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
 ?>
 <?php include_once __DIR__ . '/multi-regionality.php'; ?>
@@ -11,7 +11,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="yandex-verification" content="71149ceae4e3a8a8" />
-    <title>Займы под залог авто <?= $in_city ?></title>
+    <title>Заём под залог ПТС <?= $in_city ?></title>
     <meta name="description" content="Автоломбард под залог ПТС   <?= $in_city ?>" />
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -46,9 +46,16 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="inner-navigation visible-on-wade">
                         <div class="inner-nav">
                             <div class="inner-block">
-                                <div class="city-wrapper city-wrapper-main">
-                                    <div class="city-text">Выбрать регион</div>
-                                </div>
+
+                                    <div class="dropdown">
+                                      <button class="dropbtn">Выбрать регион</button>
+                                      <div class="dropdown-content">
+                                        <a href="krasnodar.carzaem.com">Краснодар</a>
+                                        <a href="/">Ставрополь</a>
+                                        <a href="novorossiysk.carzaem.com">Новороссийск</a>
+                                      </div>
+                                    </div>
+
                                 <div class="header-phone"><a href="tel:<?= $tel ?>"><?= $phone ?></a><br /></div>
 
                                 <button type="button" class="btn btn-line-red" data-toggle="modal" data-target="#CallPhone-ver-2">
@@ -77,7 +84,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="row">
                         <div class="col-md-6 col-sm-7">
                             <div class="header-form-block">
-                                <h1 class="h1"><span class="h1-span">Займы под залог авто <br><?= $in_city ?></span></h1>
+                                <h1 class="h1"><span class="h1-span">Заём под залог ПТС <br><?= $in_city ?></span></h1>
 
                                 <div class="row">
                                     <div class="col-md-4 introduction">
@@ -120,294 +127,169 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                 </div>
             </section>
     </div>
-
 <section id="products-3">
-            <div class="container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h3 class="h1"><span class="h1-span">Принимаем в залог любые </span>транспортные средства</h3>
+                <div class="visible-on-wade visible-on-tablet">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="product-template-bg">
+                                <div title="взять кредит в залог автомобиля" class="element-img grey"
+                                     style="background-image: url(images/product/sedan2.jpg);"></div>
+                                <div class="element-title">Легковые авто</div>
+                                <div class="element-text">Отечественные авто, иномарки</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="product-template-bg">
+                                <div title="кредит под залог грузового автомобиля в банке" class="element-img grey"
+                                     style="background-image: url(images/product/truck2.jpg);"></div>
+                                <div class="element-title">Грузовые авто</div>
+                                <div class="element-text">Газели, тягачи, фуры</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="product-template-bg">
+                                <div title="кредит под залог птс спецтехники москва" class="element-img grey"
+                                     style="background-image: url(images/product/tractor2.jpg);"></div>
+                                <div class="element-title">Спецтехника</div>
+                                <div class="element-text">Трактора, бульдозеры, погрузчики, краны</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="product-template-bg">
+                                <div title="кредит под залог птс" class="element-img grey"
+                                     style="background-image: url(images/product/motorbike5.jpg); background-position-y: 0px;    background-size: 90%;"></div>
+                                <div class="element-title">Мототехника</div>
+                                <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visible-on-mobile">
+                    <div class="owl-carousel owl-theme product">
+                        <div class="product-template-bg">
+                            <div class="element-img grey"
+                                 style="background-image: url(images/product/sedan2.jpg);"></div>
+                            <div class="element-title">Легковые авто</div>
+                            <div class="element-text">Отечественные авто, иномарки</div>
+                        </div>
+
+                        <div class="product-template-bg">
+                            <div class="element-img grey"
+                                 style="background-image: url(images/product/truck2.jpg);"></div>
+                            <div class="element-title">Грузовые авто</div>
+                            <div class="element-text">Газели, тягачи, фуры</div>
+                        </div>
+
+                        <div class="product-template-bg">
+                            <div class="element-img grey"
+                                 style="background-image: url(images/product/tractor2.jpg);"></div>
+                            <div class="element-title">Спецтехника</div>
+                            <div class="element-text">Трактора, бульдозеры, погрузчики, краны</div>
+                        </div>
+
+                        <div class="product-template-bg">
+                            <div class="element-img grey"
+                                 style="background-image: url(images/product/motorbike5.jpg); background-position-y: 0px;    background-size: 90%;"></div>
+                            <div class="element-title">Мототехника</div>
+                            <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="calculate-2-3-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="h1">
+                    <span class="h1-span">Калькулятор займа</span>
+                </h3>
+            </div>
+
+            <div id="calculator" class="col-md-12">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <h3 class="h1"><span class="h1-span">Принимаем в залог любые </span>транспортные средства</h3>
-                        <div class="visible-on-wade visible-on-tablet">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="product-template-bg">
-                                        <div title="взять кредит в залог автомобиля в Нижнем Новгороде"
-                                             class="element-img grey"
-                                             style="background-size: contain;background-image: url(images/product/sedan3.jpg);"></div>
-                                        <div class="element-title">Легковые авто</div>
-                                        <div class="element-text">Отечественные авто, иномарки</div>
-                                        <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                     data-target="#specifications">Оценка ТС</a>
-                                        </div>
-                                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="calculate-item">
+                            <h6 >Необходимая сумма</h6>
+                            <div class="calculate-steps">
+                                <div class="">
+                                    <span class="amount-value yellow-text" id="amount-thousands"></span>
+                                    <span>₽</span>
+                                    <span>тысяч</span>
                                 </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="product-template-bg">
-                                        <div title="кредит под залог грузового автомобиля в Нижнем Новгороде"
-                                             class="element-img grey"
-                                             style="    background-size: contain;background-image: url(images/product/truck3.jpg);"></div>
-                                        <div class="element-title">Грузовые авто</div>
-                                        <div class="element-text">Газели, тягачи, фуры</div>
-                                        <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                     data-target="#specifications">Оценка ТС</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="product-template-bg">
-                                        <div title="кредит под залог птс спецтехники в Нижнем Новгороде"
-                                             class="element-img grey"
-                                             style="    background-size: contain;background-image: url(images/product/tractor3.jpg);"></div>
-                                        <div class="element-title">Спецтехника</div>
-                                        <div class="element-text">Трактора, погрузчики, краны</div>
-                                        <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                     data-target="#specifications">Оценка ТС</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="product-template-bg">
-                                        <div title="кредит под залог птс в Нижнем Новгороде" class="element-img grey"
-                                             style="    background-size: contain;background-image: url(images/product/motorbike3.jpg); background-position-y: 0px;"></div>
-                                        <div class="element-title">Мототехника</div>
-                                        <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
-                                        <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                     data-target="#specifications">Оценка ТС</a>
-                                        </div>
-                                    </div>
-                                </div>
+                            </div>
+                            <div class="calculate-steps">
+                                <div class="steps-left for-thousands">30</div>
+                                <div class="steps-right for-thousands">3000</div>
+                            </div>
+                            <div id="slider-range-thousands">
+                                <span id="current-thousands">1000</span>
                             </div>
                         </div>
 
-                        <div class="visible-on-mobile">
-                            <div class="owl-carousel owl-theme product">
-                                <div class="product-template-bg">
-                                    <div class="element-img grey"
-                                         style="    background-size: contain;background-image: url(images/product/sedan3.jpg);"></div>
-                                    <div class="element-title">Легковые авто</div>
-                                    <div class="element-text">Отечественные авто, иномарки</div>
-                                    <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                 data-target="#specifications">Оценка ТС</a></div>
-                                </div>
-
-                                <div class="product-template-bg">
-                                    <div class="element-img grey"
-                                         style="    background-size: contain;background-image: url(images/product/truck3.jpg);"></div>
-                                    <div class="element-title">Грузовые авто</div>
-                                    <div class="element-text">Газели, тягачи, фуры</div>
-                                    <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                 data-target="#specifications">Оценка ТС</a></div>
-                                </div>
-
-                                <div class="product-template-bg">
-                                    <div class="element-img grey"
-                                         style="    background-size: contain;background-image: url(images/product/tractor3.jpg);"></div>
-                                    <div class="element-title">Спецтехника</div>
-                                    <div class="element-text">Трактора, погрузчики, краны</div>
-                                    <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                 data-target="#specifications">Оценка ТС</a></div>
-                                </div>
-
-                                <div class="product-template-bg">
-                                    <div class="element-img grey"
-                                         style="    background-size: contain;background-image: url(images/product/motorbike3.jpg); background-position-y: 0px;"></div>
-                                    <div class="element-title">Мототехника</div>
-                                    <div class="element-text">Мотоциклы, квадроциклы, скутеры</div>
-                                    <div class="element-wrap"><a href="#" class="btn btn-danger" data-toggle="modal"
-                                                                 data-target="#specifications">Оценка ТС</a></div>
+                        <div class="calculate-item">
+                            <h6>Срок займа</h6>
+                            <div class="calculate-steps">
+                                <div class="">
+                                    <span class="amount-value yellow-text" id="amount-months"></span>
+                                    <span>месяцев</span>
                                 </div>
                             </div>
+                            <div class="calculate-steps">
+                                <div class="steps-left">2</div>
+                                <div class="steps-right">60</div>
+                            </div>
+                            <div id="slider-range-months"></div>
+                        </div>
+
+                        <div class="result-container form-group">
+                            <h6>Ежемесячный платеж</h6>
+                            <input id="revenue" type="text" class="form-control calculate-bottom-text-prices revenue"
+                                   name="revenue" value="">
                         </div>
                     </div>
-                </div>
-            </div>
-</section>
-<section id="calculate-3-2-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="h1">
-                        <span class="h1-span">Калькулятор займа</span>
-                    </h3>
-                </div>
+                    <div class="col-md-6 col-sm-6">
+                        <h3 class="yellow-text">Контактные данные клиента</h3>
+                        <form class="ajax_form" method="post" action="#/" onsubmit="">
+                            <input type="hidden" name="_token" value=>
+                            <input type="hidden" value="" name=>
 
-                <div id="calculator" class="col-md-12">
-                    <form action="thanks.php" method="POST">
-
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="calculate-item">
-                                    <h6>Необходимая сумма</h6>
-                                    <div class="calculate-steps">
-                                        <div class="">
-                                            <span class="amount-value" id="amount-thousands"></span>
-                                            <span>₽</span>
-
-                                        </div>
-                                    </div>
-                                    <div class="calculate-steps">
-                                        <div class="steps-left for-thousands">30</div>
-                                        <div class="steps-right for-thousands">3000</div>
-                                    </div>
-                                    <div id="slider-range-thousands">
-                                        <span id="current-thousands">1000</span>
-                                    </div>
-                                </div>
+                            <div class="form-group">
+                                <label for="CalcName">Ваше имя</label>
+                                <span class="error"></span>
+                                <input id="CalcName" required type="text" class="form-control" name="name"
+                                       placeholder="Как Вас зовут">
                             </div>
-                            <div class="col-md-4 col-sm-6">
-                                <div class="calculate-item">
-                                    <h6>Срок займа</h6>
-                                    <div class="calculate-steps">
-                                        <div class="">
-                                            <span class="amount-value" id="amount-months"></span>
-                                            <span>мес.</span>
-                                        </div>
-                                    </div>
-                                    <div class="calculate-steps">
-                                        <div class="steps-left">2</div>
-                                        <div class="steps-right">60</div>
-                                    </div>
-                                    <div id="slider-range-months"></div>
-                                </div>
+                            <div class="form-group">
+                                <label for="CalcNumber">Телефон</label>
+                                <span class="error"></span>
+                                <input type="text" required class="form-control type-phone" id="CalcNumber" name="phone"
+                                       placeholder="+7 (ХХХ) ХХХ - ХХ - ХХ">
                             </div>
-
-                            <div class="col-md-4 col-sm-6">
-                                <div class="result-container">
-                                    <h6>Ежемесячный платеж</h6>
-                                    <input id="revenue" type="text"
-                                           class="form-control calculate-bottom-text-prices revenue" name="revenue"
-                                           value="">
-                                </div>
+                            <div class="form-group">
+                                <label for="CalcNumber">Местонахождение</label>
+                                <span class="error"></span>
+                                <input type="text" required class="form-control " id="CalcNumber" name="city"
+                                       placeholder="Где Вы живёте">
                             </div>
-                            <div class="col-md-12 m-t-30">
-                                <h3>Контактные данные клиента</h3>
-
-                                <input type="hidden" name="_token" value=>
-                                <input type="hidden" value="" name=>
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="form-group">
-                                            <label for="CalcName">Ваше имя</label>
-                                            <span class="error"></span>
-                                            <input id="CalcName" required type="text" class="form-control" name="name"
-                                                   placeholder="Как Вас зовут">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="form-group">
-                                            <label for="CalcNumber">Телефон</label>
-                                            <span class="error"></span>
-                                            <input type="text" required class="form-control type-phone" id="CalcNumber"
-                                                   name="phone" placeholder="+7 (ХХХ) ХХХ - ХХ - ХХ">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <div class="form-group">
-                                            <label for="CalcNumber">Где Вы живёте</label>
-                                            <span class="error"></span>
-                                            <input type="text" required class="form-control type-phone" id="CalcNumber"
-                                                   name="phone" placeholder="Местонахождение">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <div class="calc-bottom">
-                                                <button type="submit" class="btn btn-danger">Подать заявку</button>
-                                            </div>
-                                        </div>
-
-                                        <div class="personal-data calc-bottom">Нажимая на кнопку, вы даёте своё согласие
-                                            на
-                                            обработку ваших <a target="_blank" href="privacy-policy.pdf">персональных
-                                                данных</a>
-                                        </div>
-                                    </div>
-                                </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-</section>
-<section id=advantages-4>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-11">
-                    <h3 class="h1"><span class="h1-span">Лучшее обслуживание </span>для каждого клиента</h3>
-                </div>
-                <div class="col-md-4">
-                    <p>Деньги под залог авто помогут решить временные финансовые трудности, клиенты продолжают пользоваться своим транспортным средством</p>
-
-                    <div class="link-button visible-on-wade visible-on-tablet">
-                        <a href="#" data-toggle="modal" data-target="#CallPhone-ver-4">Подать заявку <span class="arrow"></span></a>
-                    </div>
-                </div>
-
-                <div class="col-md-8">
-                    <div class="visible-on-wade visible-on-tablet">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-3">
-                                <div class="list-icon-grey-item">
-                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/withoutPeniRed.png); background-size: 50px"></div>
-                                    <div class="list-icon-grey-item-title">Выгода</div>
-                                    <div class="list-icon-grey-item-text">Наличные под залог авто. Выдача до 80%</div>
-                                </div>
+                            <div class="personal-data">Нажимая на кнопку, вы даёте своё согласие на обработку ваших <a
+                                    target="_blank" href="#/storage/uploads/Lf/tw/Lftwg5FibcjG2gcSyPjlHarE.pdf">персональных
+                                данных</a>
                             </div>
-                            <div class="col-md-3 col-sm-3">
-                                <div class="list-icon-grey-item">
-                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_24.png); background-size: 50px"></div>
-                                    <div class="list-icon-grey-item-title">Скорость</div>
-                                    <div class="list-icon-grey-item-text">Работаем 24/7. Выдача за пол часа</div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-3">
-                                <div class="list-icon-grey-item">
-                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/calendar.png); background-size: 50px"></div>
-                                    <div class="list-icon-grey-item-title">Сроки</div>
-                                    <div class="list-icon-grey-item-text">Займы на любые сроки</div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-3">
-                                <div class="list-icon-grey-item">
-                                    <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/electric-car.png); background-size: 50px"></div>
-                                    <div class="list-icon-grey-item-title">Удобство</div>
-                                    <div class="list-icon-grey-item-text">Принимаем любую технику</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="visible-on-mobile">
-                        <div class="owl-carousel owl-theme advantages-2">
-                            <div class="list-icon-grey-item">
-                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_23.png); background-size: 50px"></div>
-                                <div class="list-icon-grey-item-title">Выгода</div>
-                                <div class="list-icon-grey-item-text">Наличные под залог авто. Выдача до 80%</div>
-                            </div>
-                            <div class="list-icon-grey-item">
-                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_24.png); background-size: 50px"></div>
-                                <div class="list-icon-grey-item-title">Скорость</div>
-                                <div class="list-icon-grey-item-text">Работаем 24/7. Выдача за пол часа</div>
-                            </div>
-                            <div class="list-icon-grey-item">
-                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_25.png); background-size: 50px"></div>
-                                <div class="list-icon-grey-item-title">Сроки</div>
-                                <div class="list-icon-grey-item-text">Займы на любые сроки</div>
-                            </div>
-                            <div class="list-icon-grey-item">
-                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/icon_27.png); background-size: 50px"></div>
-                                <div class="list-icon-grey-item-title">Удобство</div>
-                                <div class="list-icon-grey-item-text">Принимаем любую технику</div>
-                            </div>
-                        </div>
-
-                        <div class="link-button">
-                            <a href="#CallPhone-ver-4">Подать заявку <span class="arrow"></span></a>
-                        </div>
+                            <button type="submit" class="btn btn-danger">Подать заявку</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </section>
 <section id="receipt-of-money-2">
     <div class="container">
@@ -548,6 +430,211 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
 
     </div>
 </section>
+<section id=interlayer-7>
+    <div class="container">
+        <div class="interlayer-loan">
+            <div class="visible-on-wade visible-on-tablet">
+                <div class="row z-index">
+                    <div class="col-md-3 col-sm-6 interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>1.</div>
+                        <div class=interlayer-loan-item-title>Займ под залог ПТС</div>
+                        <div class=interlayer-loan-item-text>Для этого необходимо посетить один из офисов лично или воспользоваться онлайн-заявкой</div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>2.</div>
+                        <div class=interlayer-loan-item-title>Займ под залог спецтехники</div>
+                        <div class=interlayer-loan-item-text>Вам следует подготовить личные документы: паспорт, СТС, ПТС или ПСМ (паспорт самоходной машины)</div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>3.</div>
+                        <div class=interlayer-loan-item-title>Займ под залог мототехники</div>
+                        <div class=interlayer-loan-item-text>Компания принимает в качестве залога мототехнику разных марок и моделей</div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>4.</div>
+                        <div class=interlayer-loan-item-title>Автоломбард</div>
+                        <div class=interlayer-loan-item-text>Заключая сделку с нами, вы эксплуатируете транспорт в прежнем режиме</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="visible-on-mobile z-index">
+                <div class="owl-carousel owl-theme interlayer-7">
+                    <div class="interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>1.</div>
+                        <div class=interlayer-loan-item-title>Займ под залог ПТС</div>
+                        <div class=interlayer-loan-item-text>Для этого необходимо посетить один из офисов лично или воспользоваться онлайн-заявкой</div>
+                    </div>
+                    <div class="interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>2.</div>
+                        <div class=interlayer-loan-item-title>Займ под залог спецтехники</div>
+                        <div class=interlayer-loan-item-text>Вам следует подготовить личные документы: паспорт, СТС, ПТС или ПСМ (паспорт самоходной машины)</div>
+                    </div>
+                    <div class="interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>3.</div>
+                        <div class=interlayer-loan-item-title>Займ под залог мототехники</div>
+                        <div class=interlayer-loan-item-text>Компания принимает в качестве залога мототехнику разных марок и моделей</div>
+                    </div>
+                    <div class="interlayer-loan-item">
+                        <div class=interlayer-loan-item-number>4.</div>
+                        <div class=interlayer-loan-item-title>Автоломбард</div>
+                        <div class=interlayer-loan-item-text>Заключая сделку с нами, вы эксплуатируете транспорт в прежнем режиме</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id=advantages-2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-11">
+                <h3 class="h1"><span class="h1-span">Лучшее обслуживание </span>для каждого клиента</h3>
+
+                <p>Деньги под залог авто помогут решить временные финансовые трудности, клиенты продолжают пользоваться своим транспортным средством</p>
+            </div>
+            <div class="col-md-12">
+                <div class="visible-on-wade visible-on-tablet">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="list-icon-grey-item">
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/withoutPeniRed.png); background-size: 50px 50px"></div>
+                                <div class="list-icon-grey-item-title">Выгода</div>
+                                <div class="list-icon-grey-item-text">Наличные под залог авто. Выдача до 95%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="list-icon-grey-item">
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_24.png); background-size: 50px 50px"></div>
+                                <div class="list-icon-grey-item-title">Скорость</div>
+                                <div class="list-icon-grey-item-text">Работаем 24/7. Выдача за пол часа</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="list-icon-grey-item">
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/calendarRed.png); background-size: 50px 50px"></div>
+                                <div class="list-icon-grey-item-title">Сроки</div>
+                                <div class="list-icon-grey-item-text">Займы на любые сроки</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="list-icon-grey-item">
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_26.png); background-size: 50px 50px"></div>
+                                <div class="list-icon-grey-item-title">Безопасность</div>
+                                <div class="list-icon-grey-item-text">Охраняемая автостоянка</div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="list-icon-grey-item">
+                                <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_27.png); background-size: 50px 50px"></div>
+                                <div class="list-icon-grey-item-title">Удобство</div>
+                                <div class="list-icon-grey-item-text">Принимаем любую технику</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visible-on-mobile">
+                    <div class="owl-carousel owl-theme advantages-2">
+                        <div class="list-icon-grey-item">
+                            <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_23.png)"></div>
+                            <div class="list-icon-grey-item-title">Выгода</div>
+                            <div class="list-icon-grey-item-text">Наличные под залог авто. Выдача до 95%</div>
+                        </div>
+                        <div class="list-icon-grey-item">
+                            <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_24.png)"></div>
+                            <div class="list-icon-grey-item-title">Скорость</div>
+                            <div class="list-icon-grey-item-text">Работаем 24/7. Выдача за пол часа</div>
+                        </div>
+                        <div class="list-icon-grey-item">
+                            <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_25.png)"></div>
+                            <div class="list-icon-grey-item-title">Сроки</div>
+                            <div class="list-icon-grey-item-text">Займы на любые сроки</div>
+                        </div>
+                        <div class="list-icon-grey-item">
+                            <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_26.png)"></div>
+                            <div class="list-icon-grey-item-title">Безопасность</div>
+                            <div class="list-icon-grey-item-text">Охраняемая автостоянка</div>
+                        </div>
+                        <div class="list-icon-grey-item">
+                            <div class="list-icon-grey-item-img" style="background-image: url(images/icon/p4298/icon_27.png)"></div>
+                            <div class="list-icon-grey-item-title">Удобство</div>
+                            <div class="list-icon-grey-item-text">Принимаем любую технику</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="link-button">
+                    <a href="#" data-toggle="modal" data-target="#CallPhone-ver-4">Подать заявку   <span class="arrow"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="requirements-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-4">
+                <div class="image-max-height"
+                     style="background-image: url('images/carr2.jpg'); background-size: cover; background-repeat: no-repeat"></div>
+            </div>
+
+            <div class="col-md-9 col-sm-8">
+                <h3 class="h1"><span class="h1-span">Требования для получения кредита  </span>под залог ПТС <span
+                        class="titleFirst3"></span></h3>
+
+                <ul class="switcher-3 gorizontal-pieces" id="switcher-loan-3">
+                    <li class="for_opening_view selected" data-modal-id="paymentsGrafModal" id="addClick2"
+                        data-show-3="one">
+                        <div class="title-switch">К автомобилю</div>
+                    </li>
+                    <li class="for_opening_view" data-modal-id="paymentsInfo" id="detailed" data-show-3="two">
+                        <div class="title-switch">К заемщику</div>
+                    </li>
+                    <li class="for_opening_view" data-modal-id="paymentsInfo" id="detailed" data-show-3="three">
+                        <div class="title-switch">К документам</div>
+                    </li>
+                </ul>
+                <div class="switch-js-3">
+                    <div class="opening_view" data-switch-3="one">
+                        <ul class="list-ul">
+                            <li>Авто в исправном техническом состоянии</li>
+                            <li>Состоит на учете в ГИБДД</li>
+                            <li>Не находится в залоге</li>
+                        </ul>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">
+                            Оформить займ
+                        </button>
+                    </div>
+
+                    <div class="opening_view" data-switch-3="two">
+                        <ul class="list-ul">
+                            <li>Гражданство РФ и постоянная регистрация в регионе присутствия компании</li>
+                            <li>От 18 до 65 полных лет на момент заключения договора</li>
+                            <li>Кредитная история не требуется</li>
+                            <li>Можно без трудоустройства</li>
+                        </ul>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4"
+                                id="ClickListeter1">Оформить займ
+                        </button>
+                    </div>
+
+                    <div class="opening_view" data-switch-3="three">
+                        <ul class="list-ul">
+                            <li>Паспорт гражданина РФ</li>
+                            <li>Паспорт технического средства (ПТС)</li>
+                            <li>Свидетельство о регистрации транспортного средства (СРТС)</li>
+                        </ul>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">
+                            Оформить займ
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
 <section id="documents-1">
     <div class="container">
         <div class="row">
@@ -625,269 +712,77 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
         </div>
     </div>
 </section>
-<section id=requirements-3>
-        <div class=container>
-            <div class=row>
-                <div class="col-md-11 col-sm-12">
-                    <h3 class=h1><span class=h1-span>Требования для получения </span>денежных средств под залог авто</h3>
+<section id="reviews">
+        <div class="container">
+            <div class="reviews-2-bg">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <h3 class="h1" style="text-align: center">Что говорят о нас</h3>
 
-                    <div class="row">
-                        <div class="col-md-3 col-sm-12">
-                            <ul class="switcher-3 three-pieces" id=switcher-loan-3>
-                                <li class="for_opening_view selected" data-modal-id=paymentsGrafModal id=express data-show-3=one>
-                                    <div class=title-switch>К автомобилю</div>
-                                </li>
-                                <li class="for_opening_view" data-modal-id=paymentsInfo id=detailed data-show-3=two>
-                                    <div class=title-switch>К заемщику</div>
-                                </li>
-                                <li class="for_opening_view" data-modal-id=paymentsInfo id=detailed data-show-3=three>
-                                    <div class=title-switch>К документам</div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-9 col-sm-12">
-                            <div class=switch-js-3>
-                                <div class=opening_view data-switch-3=one>
-                                    <ul class="list-ul">
-                                        <li>Авто в исправном техническом состоянии</li>
-                                        <li>Состоит на учете в ГИБДД</li>
-                                        <li>Не находится в залоге</li>
-                                    </ul>
-                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">Оформить займ</button>
-                                </div>
+                        <div class="owl-carousel owl-theme reviews-2 whiteColor">
+                            <article class="review-bg-blue">
+                                <div class="review-text">Обратился в компанию по банальной причине – очень срочно нужна была крупная сумма на руки. Оказалось, что заем под залог ПТС в Ставрополе круглосуточно можно оформить всего за 40 минут. Быстро получил положительное решение, могу рекомендовать кредитодателя как ответственную компанию.
 
-                                <div class=opening_view data-switch-3=two>
-                                    <ul class="list-ul">
-                                        <li>Гражданство РФ и постоянная регистрация в регионе присутствия компании</li>
-                                        <li>От 18 до 65 полных лет на момент заключения договора</li>
-                                        <li>Кредитная история не требуется</li>
-                                        <li>Можно без трудоустройства</li>
-                                    </ul>
-                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">Оформить займ</button>
                                 </div>
+                                <div class="review-person">
+                                    <div class="review-name">Валентин</div>
+                                </div>
+                            </article>
+                            <article class="review-bg-blue">
+                                <div class="review-text">Достаточно долго искал компанию, которая готова предложить быстрый займ онлайн под залог ПТС на карту на лояльных условиях. Обратился сюда и не пожалел. Самое главное, что на время пользования кредитными деньгами автомобилем можно продолжать пользоваться. Деньги мне выплатили через насколько часов после обращения.
+                                </div>
+                                <div class="review-person">
+                                    <div class="review-name">Богдан</div>
+                                </div>
+                            </article>
+                            <article class="review-bg-blue">
+                                <div class="review-text">Оказался в сложной жизненной ситуации, в рамках которой понадобилась внушительная сумма в срочном порядке. Отдал предпочтение атозайму под ПТС автомобиля в этой компании. Специалисты вошли в мое положение и предложили очень выгодные условия. Договор был оформлен на сайте, а средства выплатили на карту банка сразу после одобрения.
+                                </div>
+                                <div class="review-person">
+                                    <div class="review-name">Михаил</div>
+                                </div>
+                            </article>
+                            <article class="review-bg-blue">
+                                <div class="review-text">Раньше думала, что грамотные люди никогда не берут кредитов, пока не оказалась в ситуации, требующей денег, которых у меня не было. Товарищ порекомендовал компанию и я взяла заём под залог ПТС. Благодаря этому, смогла решить проблему с бизнесом и вернуться к прежней жизни. Средства вернула раньше срока. Теперь буду иметь ввиду услугу оформления займа под залог транспорта.
 
-                                <div class=opening_view data-switch-3=three>
-                                    <ul class="list-ul">
-                                        <li>Паспорт гражданина РФ</li>
-                                        <li>Паспорт технического средства (ПТС)</li>
-                                        <li>Свидетельство о регистрации транспортного средства (СРТС)</li>
-                                    </ul>
-                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#CallPhone-ver-4">Оформить займ</button>
                                 </div>
-                            </div>
+                                <div class="review-person">
+                                    <div class="review-name">Евгения</div>
+                                </div>
+                            </article>
+                            <article class="review-bg-blue">
+                                <div class="review-text">Быстрый заем под залог ПТС стал для моей семьи спасательным кругом. Порадовало, что для оформления не нужно ехать офис - все можно за пару минут сделать на сайте компании. Менеджеры подробно рассказали об условиях договора, быстро приняли решение и я получила нужную сумму. Очень довольна сотрудничеством!
+                                </div>
+                                <div class="review-person">
+                                    <div class="review-name">Екатерина</div>
+                                </div>
+                            </article>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-</section>
-<section id="example-loan-2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <h3 class="h1"><span class="h1-span">Примеры выданных </span>займов</h3>
-
-                <div class="owl-carousel owl-theme example-loan">
-                    <div class="example-car right">
-                        <div class="example-car-img"
-                             style="background-image: url(images/example-loan/mazda_2.png);"></div>
-                        <div class="example-car-content">
-                            <h2>Mazda CX5, 2019</h2>
-                            <div class="example-car-text">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>2 700 000 ₽</span></div>
-                                        Рыночная стоимость
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>1 598 000 ₽</span></div>
-                                        Одобренная сумма
-                                    </div>
-                                    <div class="col-md-4 col-sm-4">
-                                        <div class="text-bold"><span>36 086 ₽</span></div>
-                                        Платеж в месяц
-                                    </div>
-                                    <div class="col-md-12">
-                                        <hr>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>36 мес</span></div>
-                                        Срок займа
-                                    </div>
-                                    <div class="col-md-4 col-sm-4">
-                                        <div class="text-bold"><span>2.5%</span></div>
-                                        Ставка в месяц
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="example-car right">
-                        <div class="example-car-img"
-                             style="background-image: url(images/example-loan/audi_2.png);"></div>
-                        <div class="example-car-content">
-                            <h2>Audi Q8, 2019</h2>
-                            <div class="example-car-text">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>2 700 000 ₽</span></div>
-                                        Рыночная стоимость
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>1 598 000 ₽</span></div>
-                                        Одобренная сумма
-                                    </div>
-                                    <div class="col-md-4 col-sm-4">
-                                        <div class="text-bold"><span>36 086 ₽</span></div>
-                                        Платеж в месяц
-                                    </div>
-                                    <div class="col-md-12">
-                                        <hr>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>36 мес</span></div>
-                                        Срок займа
-                                    </div>
-                                    <div class="col-md-4 col-sm-4">
-                                        <div class="text-bold"><span>2.5%</span></div>
-                                        Ставка в месяц
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="example-car right">
-                        <div class="example-car-img"
-                             style="background-image: url(images/example-loan/hyundai_2.png);"></div>
-                        <div class="example-car-content">
-                            <h2>Hyundai Solaris, 2019</h2>
-                            <div class="example-car-text">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>2 700 000 ₽</span></div>
-                                        Рыночная стоимость
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>1 598 000 ₽</span></div>
-                                        Одобренная сумма
-                                    </div>
-                                    <div class="col-md-4 col-sm-4">
-                                        <div class="text-bold"><span>36 086 ₽</span></div>
-                                        Платеж в месяц
-                                    </div>
-                                    <div class="col-md-12">
-                                        <hr>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>36 мес</span></div>
-                                        Срок займа
-                                    </div>
-                                    <div class="col-md-4 col-sm-4">
-                                        <div class="text-bold"><span>2.5%</span></div>
-                                        Ставка в месяц
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="example-car right">
-                        <div class="example-car-img"
-                             style="background-image: url(images/example-loan/mercedes_2.png);"></div>
-                        <div class="example-car-content">
-                            <h2>Mercedes-Benz S-Класс, 2019</h2>
-                            <div class="example-car-text">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>2 700 000 ₽</span></div>
-                                        Рыночная стоимость
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>1 598 000 ₽</span></div>
-                                        Одобренная сумма
-                                    </div>
-                                    <div class="col-md-4 col-sm-4">
-                                        <div class="text-bold"><span>36 086 ₽</span></div>
-                                        Платеж в месяц
-                                    </div>
-                                    <div class="col-md-12">
-                                        <hr>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>36 мес</span></div>
-                                        Срок займа
-                                    </div>
-                                    <div class="col-md-4 col-sm-4">
-                                        <div class="text-bold"><span>2.5%</span></div>
-                                        Ставка в месяц
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="example-car right">
-                        <div class="example-car-img"
-                             style="background-image: url(images/example-loan/renault_2.png);"></div>
-                        <div class="example-car-content">
-                            <h2>Renault Duster, 2019</h2>
-                            <div class="example-car-text">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>2 700 000 ₽</span></div>
-                                        Рыночная стоимость
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>1 598 000 ₽</span></div>
-                                        Одобренная сумма
-                                    </div>
-                                    <div class="col-md-4 col-sm-4">
-                                        <div class="text-bold"><span>36 086 ₽</span></div>
-                                        Платеж в месяц
-                                    </div>
-                                    <div class="col-md-12">
-                                        <hr>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 param-string">
-                                        <div class="text-bold"><span>36 мес</span></div>
-                                        Срок займа
-                                    </div>
-                                    <div class="col-md-4 col-sm-4">
-                                        <div class="text-bold"><span>2.5%</span></div>
-                                        Ставка в месяц
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 <section id="questions">
     <div class="container">
         <div class="row">
             <div class="col-md-11 col-sm-12">
-                <h3 class="h1"><span class="h1-span">Ответы на часто </span><span
-                        class="yellow-text">задаваемые вопросы</span></h3>
+                <h3 class="h1"><span class="h1-span">Ответы на ваши </span><span
+                        class="yellow-text">вопросы</span></h3>
 
                 <div class="owl-carousel owl-theme questions-block-2">
                     <div class="question-answer">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="question">Как получить займ под ПТС в автоломбарде?
+                                <div class="question">Как получить деньги под залог ПТС в автоломбарде?
                                 </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="answer">
-                                   Для того чтобы оформить займ под залог ПТС необходимо:
-                                    оставить заявку на сайте автоломбарда;
-                                    далее с вами свяжется менеджер и уточнит нюансы (какие документы нужны, как оформляется процедура и др.);
-                                    дождаться решения.
-                                    Получить займ под ПТС могут совершеннолетние граждане РФ. Процедура занимает около часа времени.
+                                   Оставить заявку у нас на сайте.
+Ответить на звонок нашего менеджера и его вопросы, а также сообщить те данные, которые нужны для того чтобы оформить заём под залог ПТС.
+Дождаться решения по заявке – в 90% случаев оно оказывается положительным.
                                 </div>
                             </div>
                         </div>
@@ -900,7 +795,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                             </div>
                             <div class="col-md-8">
                                 <div class="answer">
-                                    Займ под ПТС очень удобная услуга, для тех, кому нужна приличная сумма быстро. Получить деньги можно после подачи заявки на оформление.  После того, как заявка на получение займа под залог ПТС будет одобрена, можно  взять деньги, как наличными, так и на карту. Автоломбард перечисляет деньги мгновенно после одобрения займа.
+                                    Это зависит от личных предпочтений. Мы оформляем займ под ПТС 24/7, и можем выдать деньги как непосредственно в руки, так и перевести их на банковскую карту. Есть только одно различие – за наличными деньгами потребуется заехать в офис нашей компании.
                                 </div>
                             </div>
                         </div>
@@ -908,12 +803,12 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="question-answer">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="question">Автомобиль остается у вас? 
+                                <div class="question">Автомобиль останется у меня? 
                                 </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="answer">
-                                    Получение денег под залог ПТС в Сочи - распространенная и востребованная услуга. После оформления займа, одобрения, клиент может получить деньги в свое распоряжение. Остается ли автомобиль у владельца? ДА. Транспорт полностью остается у хозяина.
+                                    Да, это одно из преимуществ, которыми обладает автоломбард под залог ПТС автомобиля – мы не забираем само транспортное средство. Достаточно оставить его паспорт, и деньги по займу будут выданы. Благодаря этому качество Вашей жизни никак не ухудшится.
                                 </div>
                             </div>
                         </div>
@@ -921,12 +816,12 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="question-answer">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="question">Можно ли взять кредит в автоломбарде по генеральной доверенности?
+                                <div class="question">Можно ли взять займ в автоломбарде по генеральной доверенности?
                                 </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="answer">
-                                    Займ под ПТС авто становится одной из самых популярных форм кредитования. Это объясняется скоростью получения кредита и простотой его оформления. Генеральная доверенность — это заверяемый у нотариуса документ, предоставляемый стороннему лицу, не являющемуся прямым владельцем машины, распоряжаться транспортным средством по своему усмотрению. На вопрос можно ли взять займ по доверенности, ответ да!
+                                    Да, чтобы получить деньги, не обязательно быть собственником транспортного средства. Вы можете обратиться в наш круглосуточный автоломбард под залог ПТС, даже если у Вас есть генеральная доверенность на него или подписанный договор его купли-продажи.
                                 </div>
                             </div>
                         </div>
@@ -934,118 +829,18 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="question-answer">
                         <div class="row">
                             <div class="col-md-4">
-                                <div class="question">Что нужно для получения кредита под ПТС?
+                                <div class="question">Что нужно для получения займа под ПТС автомобиля?
                                 </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="answer">
-                                    Практика использования личного автомобиля в качестве залогового имущества обширно распространена. Получить займ под залог ПТС автомобиля можно по предоставлению таких документов:
-паспорт;
-СТС;
-ПТС.
-Взять кредит под залог ПТС-авто выгодно и целесообразно в автоломбарде.
+                                    Чтобы получить срочный заем под ПТС в Ставрополе, нужно иметь паспорт, либо другой документ, подтверждающий личность (например, на тот случай, если паспорт находится в процессе замены), а также сам ПТС и свидетельство о прохождении регистрации (СТС).
                                 </div>
                             </div>
                         </div>
                     </div>
 
 
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="reviews">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <h3 class="h1">Что говорят о нас</h3>
-
-                <div class="visible-on-wade visible-on-tablet">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <article class="review-bg-grey">
-                                <div class="review-text">Уже не первый раз обращаюсь в автоломбард, здесь можно взять деньги под залог ПТС, даже если с кредитной историей проблемы. Сервис надежный, меня не раз выручали, при необходимости всегда прихожу сюда, 1 час и деньги у меня.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Константин </div>
-                                </div>
-                            </article>
-                            <article class="review-bg-grey">
-                                <div class="review-text">Я официально не работаю, поэтому получить кредит в банке для меня – невозможно. Но если срочно нужны деньги, то можно взять займ под залог ПТС в Сочи в автоломбарде. Здесь очень выгодные условия и минимальные проценты.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Леонид</div>
-                                </div>
-                            </article>
-
-                        </div>
-                        <div class="col-md-4">
-                            <article class="review-bg-grey">
-                                <div class="review-text">Быстрый займ под залог ПТС я беру в атоломбарде. Уже не первый раз обращаюсь к этим ребятам. Всегда проходит всё быстро и по максимально низкой процентной ставке. Если срочно нужны деньги, то можно приезжать сюда, условия отличные, без обмана, и все что нужно.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Андрей</div>
-                                </div>
-                            </article>
-                            <article class="review-bg-grey">
-                                <div class="review-text">Я уже не первый раз беру займ под залог ПТС онлайн, оформить его можно не выходя из дома, достаточно заполнить заявку и получить решение. Для меня это намного удобнее, чем брать деньги в банке, так как через считанные часы деньги уже у меня на карте. Всем рекомендую.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Екатерина</div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-4">
-                            <article class="review-bg-grey">
-                                <div class="review-text">Взять деньги под залог ПТС без выходных можно в автоломбарде, это очень удобно, так как большинство банков не работают в выходные. Один раз я столкнулась с такой ситуацией, и подруга посоветовала мне этот автоломбард. Я сомневалась, но зря, я получила самые выгодные для себя условия.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Аксинья</div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="visible-on-mobile">
-                    <div class="owl-carousel owl-theme reviews-4">
-                        <article class="review-bg-grey">
-                            <div class="review-text">Уже не первый раз обращаюсь в автоломбард, здесь можно взять деньги под залог ПТС, даже если с кредитной историей проблемы. Сервис надежный, меня не раз выручали, при необходимости всегда прихожу сюда, 1 час и деньги у меня.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Константин </div>
-                                </div>
-                        </article>
-                        <article class="review-bg-grey">
-                            <div class="review-text">Я официально не работаю, поэтому получить кредит в банке для меня – невозможно. Но если срочно нужны деньги, то можно взять займ под залог ПТС в Сочи в автоломбарде. Здесь очень выгодные условия и минимальные проценты.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Леонид</div>
-                                </div>
-                        </article>
-                        <article class="review-bg-grey">
-                            <div class="review-text">Быстрый займ под залог ПТС я беру в атоломбарде. Уже не первый раз обращаюсь к этим ребятам. Всегда проходит всё быстро и по максимально низкой процентной ставке. Если срочно нужны деньги, то можно приезжать сюда, условия отличные, без обмана, и все что нужно.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Андрей</div>
-                                </div>
-                        </article>
-                        <article class="review-bg-grey">
-                            <div class="review-text">Я уже не первый раз беру займ под залог ПТС онлайн, оформить его можно не выходя из дома, достаточно заполнить заявку и получить решение. Для меня это намного удобнее, чем брать деньги в банке, так как через считанные часы деньги уже у меня на карте. Всем рекомендую.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Екатерина</div>
-                                </div>
-                        </article>
-                        <article class="review-bg-grey">
-                           <div class="review-text">Взять деньги под залог ПТС без выходных можно в автоломбарде, это очень удобно, так как большинство банков не работают в выходные. Один раз я столкнулась с такой ситуацией, и подруга посоветовала мне этот автоломбард. Я сомневалась, но зря, я получила самые выгодные для себя условия.
-                                </div>
-                                <div class="review-person">
-                                    <div class="review-name">Аксинья</div>
-                                </div>
-                        </article>
-                    </div>
                 </div>
             </div>
         </div>
@@ -1060,7 +855,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                 <div class="visible-on-wade visible-on-tablet" action="#">
                     <div class="map_filter adresses-left" action="#">
                         <div id="addresses"
-                             style="background-color: #3f0d12; background-image: linear-gradient(315deg, #3f0d12 0%, #ED4255 74%); "
+                             style="background-color: #3f0d12; background-image: linear-gradient(315deg, #3f0d12 0%, #72A2AC 74%); "
                              class="mapOptions__addresses white">
                             <div class="map-text">
                                 <a style="color: ghostwhite" href="tel:<?=$tel ?>"><?=$phone ?></a><br>
@@ -1076,283 +871,31 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
 
                         const dateMap = [
                             {
-                                "undefined": "Астрахань ул. Богдана Хмельницкого, 36",
-                                "Aдресa": "ул. Богдана Хмельницкого, 36",
-                                "Город": "Астрахань",
-                                "Longitude": "46.335739",
-                                "Latitude": "48.0233103",
-                                "Column5": "Astrakhan",
-                                "Index": "414024"
-                            },
-                            {
-                                "undefined": "Ахтубинск ул. Сталинградская, 17",
-                                "Aдресa": "ул. Сталинградская, 17",
-                                "Город": "Ахтубинск",
-                                "Longitude": "48.2844688",
-                                "Latitude": "46.1645515",
-                                "Column5": "Akhtubinsk",
-                                "Index": "416501"
-                            },
-                            {
-                                "undefined": "Волгоград ул. Чехова, 18",
-                                "Aдресa": "ул. Чехова, 18",
-                                "Город": "Волгоград",
-                                "Longitude": "48.59373",
-                                "Latitude": "44.413441",
-                                "Column5": "Volgograd",
-                                "Index": "400023"
-                            },
-                            {
-                                "undefined": "Волжский ул. Энгельса, 1",
-                                "Aдресa": "ул. Энгельса, 1",
-                                "Город": "Волжский",
-                                "Longitude": "48.7868144",
-                                "Latitude": "44.7523488",
-                                "Column5": "Volzhskiy",
-                                "Index": "404111"
-                            },
-                            {
-                                "undefined": "Камышин пл. Павших Борцов, 5",
-                                "Aдресa": "пл. Павших Борцов, 5",
-                                "Город": "Камышин",
-                                "Longitude": "50.0848238",
-                                "Latitude": "45.4016776",
-                                "Column5": "Kamyshin",
-                                "Index": "403883"
-                            },
-                            {
-                                "undefined": "Михайловка ул. Коммуны, 105",
-                                "Aдресa": "ул. Коммуны, 105",
-                                "Город": "Михайловка",
-                                "Longitude": "50.071353",
-                                "Latitude": "43.2389556",
-                                "Column5": "Mikhaylovka",
-                                "Index": "403343"
-                            },
-                            {
-                                "undefined": "Урюпинск ул. Островского, 20",
-                                "Aдресa": "ул. Островского, 20",
-                                "Город": "Урюпинск",
-                                "Longitude": "50.7974183",
-                                "Latitude": "42.0056002",
-                                "Column5": "Uryupinsk",
-                                "Index": "353380"
-                            },
-                            {
-                                "undefined": "Краснодар ул. Северная, 490",
-                                "Aдресa": "ул. Северная, 490",
+                                "undefined": "Краснодар ул. Северная, 489",
+                                "Aдресa": "ул. Северная, 489",
                                 "Город": "Краснодар",
-                                "Longitude": "45.0366061",
-                                "Latitude": "38.9963804",
+                                "Longitude": "45.03588547954619",
+                                "Latitude": "39.005386325133216",
                                 "Column5": "Krasnodar",
-                                "Index": "350002"
+                                "Index": "350038"
                             },
                             {
-                                "undefined": "Анапа ул. Крымская, 99",
-                                "Aдресa": "ул. Крымская, 99",
-                                "Город": "Анапа",
-                                "Longitude": "44.8944446",
-                                "Latitude": "37.316682",
-                                "Column5": "Anapa",
-                                "Index": "353440"
-                            },
-                            {
-                                "undefined": "Армавир ул. Кирова, 56",
-                                "Aдресa": "ул. Кирова, 56",
-                                "Город": "Армавир",
-                                "Longitude": "44.997696",
-                                "Latitude": "41.128756",
-                                "Column5": "Armavir",
-                                "Index": "352900"
-                            },
-                            {
-                                "undefined": "Белореченск ул. Ленина, 64",
-                                "Aдресa": "ул. Ленина, 64",
-                                "Город": "Белореченск",
-                                "Longitude": "44.7613363",
-                                "Latitude": "39.8719736",
-                                "Column5": "Belorechensk",
-                                "Index": "352631"
-                            },
-                            {
-                                "undefined": "Геленджик ул. Ленина, 1",
-                                "Aдресa": "ул. Ленина, 1",
-                                "Город": "Геленджик",
-                                "Longitude": "44.5616258",
-                                "Latitude": "38.0771748",
-                                "Column5": "Gelendzhik",
-                                "Index": "353460"
-                            },
-                            {
-                                "undefined": "Ейск ул. Свердлова, 73",
-                                "Aдресa": "ул. Свердлова, 73",
-                                "Город": "Ейск",
-                                "Longitude": "46.7120455",
-                                "Latitude": "38.2721788",
-                                "Column5": "Yeysk",
-                                "Index": "353680"
-                            },
-                            {
-                                "undefined": "Кропоткин ул. Красная, 54",
-                                "Aдресa": "ул. Красная, 54",
-                                "Город": "Кропоткин",
-                                "Longitude": "45.4346665",
-                                "Latitude": "40.5764735",
-                                "Column5": "Kropotkin",
-                                "Index": "352380"
-                            },
-                            {
-                                "undefined": "Крымск ул. Карла Либкнехта, 38",
-                                "Aдресa": "ул. Карла Либкнехта, 38",
-                                "Город": "Крымск",
-                                "Longitude": "44.935287",
-                                "Latitude": "37.988358",
-                                "Column5": "Krymsk",
-                                "Index": "353380"
-                            },
-                            {
-                                "undefined": "Новороссийск ул. Советов, 11",
-                                "Aдресa": "ул. Советов, 11",
+                                "undefined": "Новороссийск  пр. Дзержинского, 185",
+                                "Aдресa": "пр. Дзержинского, 185",
                                 "Город": "Новороссийск",
-                                "Longitude": "44.7226188",
-                                "Latitude": "37.7693026",
+                                "Longitude": "44.69397908934171",
+                                "Latitude": "37.77989776931275",
                                 "Column5": "Novorossiysk",
-                                "Index": "353916"
+                                "Index": "353923"
                             },
                             {
-                                "undefined": "Славянск-на-Кубани ул. Красная, 7А",
-                                "Aдресa": "ул. Красная, 7А",
-                                "Город": "Славянск-на-Кубани",
-                                "Longitude": "45.2599901",
-                                "Latitude": "38.1292567",
-                                "Column5": "Slavyansk-na-Kubani",
-                                "Index": "353560"
-                            },
-                            {
-                                "undefined": "Сочи ул. Советская, 40",
-                                "Aдресa": "ул. Советская, 40",
-                                "Город": "Сочи",
-                                "Longitude": "43.586215",
-                                "Latitude": "39.724113",
-                                "Column5": "Sochi",
-                                "Index": "354000"
-                            },
-                            {
-                                "undefined": "Тимашевск ул. Красная, 102",
-                                "Aдресa": "ул. Красная, 102",
-                                "Город": "Тимашевск",
-                                "Longitude": "45.6145591",
-                                "Latitude": "38.9335181",
-                                "Column5": "Timashevsk",
-                                "Index": "352700"
-                            },
-                            {
-                                "undefined": "Тихорецк ул. Меньшикова, 82",
-                                "Aдресa": "ул. Меньшикова, 82",
-                                "Город": "Тихорецк",
-                                "Longitude": "45.8527758",
-                                "Latitude": "40.1236231",
-                                "Column5": "Tikhoretsk",
-                                "Index": "352120"
-                            },
-                            {
-                                "undefined": "Туапсе ул. Октябрьской Революции, 2А",
-                                "Aдресa": "ул. Октябрьской Революции, 2А",
-                                "Город": "Туапсе",
-                                "Longitude": "44.0976288",
-                                "Latitude": "39.0738502",
-                                "Column5": "Tuapse",
-                                "Index": "352800"
-                            },
-                            {
-                                "undefined": "Майкоп ул. Краснооктябрьская, 50",
-                                "Aдресa": "ул. Краснооктябрьская, 50",
-                                "Город": "Майкоп",
-                                "Longitude": "44.6149876",
-                                "Latitude": "40.1066554",
-                                "Column5": "Maykop",
-                                "Index": "385000"
-                            },
-                            {
-                                "undefined": "Элиста ул. А. Сусеева, 4",
-                                "Aдресa": "ул. А. Сусеева, 4",
-                                "Город": "Элиста",
-                                "Longitude": "46.3049537",
-                                "Latitude": "44.2694469",
-                                "Column5": "Elista",
-                                "Index": "358000"
-                            },
-                            {
-                                "undefined": "Ростов-на-Дону ул. Еременко 89Б",
-                                "Aдресa": "ул. Еременко 89Б",
-                                "Город": "Ростов-на-Дону",
-                                "Longitude": "47.232746",
-                                "Latitude": "39.612163",
-                                "Column5": "Rostov",
-                                "Index": "344056"
-                            },
-                            {
-                                "undefined": "Азов ул. Московская, 19",
-                                "Aдресa": "ул. Московская, 19",
-                                "Город": "Азов",
-                                "Longitude": "47.112616",
-                                "Latitude": "39.4233369",
-                                "Column5": "Azov",
-                                "Index": "346780"
-                            },
-                            {
-                                "undefined": "Белая Калитва ул. Энгельса, 106",
-                                "Aдресa": "ул. Энгельса, 106",
-                                "Город": "Белая Калитва",
-                                "Longitude": "48.1770036",
-                                "Latitude": "40.801737",
-                                "Column5": "Belaya Kalitva",
-                                "Index": "347042"
-                            },
-                            {
-                                "undefined": "Волгодонск пр. Курчатова, 18",
-                                "Aдресa": "пр. Курчатова, 18",
-                                "Город": "Волгодонск",
-                                "Longitude": "47.5191535",
-                                "Latitude": "42.2075225",
-                                "Column5": "Volgodonsk",
-                                "Index": "347380"
-                            },
-                            {
-                                "undefined": "Каменск-Шахтинский ул. Щаденко, 60",
-                                "Aдресa": "ул. Щаденко, 60",
-                                "Город": "Каменск-Шахтинский",
-                                "Longitude": "48.3203251",
-                                "Latitude": "40.2683207",
-                                "Column5": "Kamensk-Shakhtinsky",
-                                "Index": "347810"
-                            },
-                            {
-                                "undefined": "Новочеркасск ул. Московская, 69",
-                                "Aдресa": "ул. Московская, 69",
-                                "Город": "Новочеркасск",
-                                "Longitude": "47.4209654",
-                                "Latitude": "40.0930165",
-                                "Column5": "Novocherkassk",
-                                "Index": "346428"
-                            },
-                            {
-                                "undefined": "Таганрог ул. Октябрьская, 31",
-                                "Aдресa": "ул. Октябрьская, 31",
-                                "Город": "Таганрог",
-                                "Longitude": "47.2192874",
-                                "Latitude": "38.9139487",
-                                "Column5": "Taganrog",
-                                "Index": "347904"
-                            },
-                            {
-                                "undefined": "Шахты ул. Советская, 136",
-                                "Aдресa": "ул. Советская, 136",
-                                "Город": "Шахты",
-                                "Longitude": "47.7086029",
-                                "Latitude": "40.2164689",
-                                "Column5": "Shakhty",
-                                "Index": "346500"
+                                "undefined": "Ставрополь ул. Доваторцев, 47Б",
+                                "Aдресa": "ул. Доваторцев, 47Б",
+                                "Город": "Ставрополь",
+                                "Longitude": "45.01182219579695",
+                                "Latitude": "41.92916021534363",
+                                "Column5": "Stavropol",
+                                "Index": "355042"
                             }
 
                         ]
@@ -1387,7 +930,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     
                     <script>
                         setTimeout(() => {
-                            document.querySelector('#Сочи').click()
+                            document.querySelector('#Ставрополь').click()
                         }, 2000)
                     </script>
 
@@ -1446,16 +989,16 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
 
                         <div class="col-md-4 col-sm-6">
                             <ul class="footer-li bold">
-                                <li><a href="credit-pod-gruzovogoi.php">Грузовые авто</a></li>
-                                <li><a href="credit-pod-spectech.php">Спецтехника</a></li>
-                                <li><a href="credit-avtolombard.php">Автоломбард</a></li>
+                                <li><a href="gryzovye.php">Грузовые авто</a></li>
+                                <li><a href="spectechnika.php">Спецтехника</a></li>
+                                <li><a href="avtolombard.php">Автоломбард</a></li>
 
                             </ul>
                         </div>
                         <div class="col-md-4 col-sm-6">
                             <ul class="footer-li bold">
-                                <li><a href="credit-pod-pts-motozikla.php">Мототехника</a></li>
-                                <li><a href="credit-pts-auto.php">Кредит</a></li>
+                                <li><a href="mototechnika.php">Мототехника</a></li>
+                                <li><a href="credit.php">Кредит</a></li>
                                 
                             </ul>
                         </div>
@@ -1464,7 +1007,7 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                 </div>
                 <div class="col-md-12">
                     <div class="footer-bottom">
-                        <p>«Авто Займ Сервис» не является финансовым учреждением, банком или МФО. Сайт
+                        <p>«Автозайм-Юг» не является финансовым учреждением, банком или МФО. Сайт
                             предоставляет
                             информационную помощь для получения кредитов и займов в аккредитованных организациях,
                             имеющих
@@ -1812,12 +1355,12 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                             <h2 style="position:relative;margin-left: 52px;">
                             </h2>
                             <ul class="off-canvas-li">
-                                <li><a href="credit-pod-gruzovogoi.php">Грузовые авто</a></li>
-                                <li><a href="credit-pod-spectech.php">Спецтехника</a></li>
-                                <li><a href="credit-pod-pts-motozikla.php">Мототехника</a></li>
-                                <li><a href="credit-pts-auto.php">Кредит</a></li>
+                                <li><a href="gryzovye.php">Грузовые авто</a></li>
+                                <li><a href="spectechnika.php">Спецтехника</a></li>
+                                <li><a href="mototechnika.php">Мототехника</a></li>
+                                <li><a href="credit.php">Кредит</a></li>
                                 
-                                <li><a href="credit-avtolombard.php">Автоломбард</a></li>
+                                <li><a href="avtolombard.php">Автоломбард</a></li>
                             </ul>
                             <button type="button" class="btn btn-danger inline-btn" data-toggle="modal" data-target="#CallPhone-ver-4" id="deleteBodyClass">Оформить займ
                             </button>
@@ -1851,12 +1394,12 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                     <div class="row">
                         <div class="col-md-12">
                             <ul class="off-canvas-li">
-                                <li><a href="credit-pod-gruzovogoi.php">Грузовые авто</a></li>
-                                <li><a href="credit-pod-spectech.php">Спецтехника</a></li>
-                                <li><a href="credit-pod-pts-motozikla.php">Мототехника</a></li>
-                                <li><a href="credit-pts-auto.php">Кредит</a></li>
+                                <li><a href="gryzovye.php">Грузовые авто</a></li>
+                                <li><a href="spectechnika.php">Спецтехника</a></li>
+                                <li><a href="mototechnika.php">Мототехника</a></li>
+                                <li><a href="credit.php">Кредит</a></li>
                                
-                                <li><a href="credit-avtolombard.php">Автоломбард</a></li>
+                                <li><a href="avtolombard.php">Автоломбард</a></li>
                             </ul>
                             <button type="button" class="btn btn-danger m-t-30" data-toggle="modal" data-target="#CallPhone-ver-4" id="closeMenu">Оформить займ
                             </button>
@@ -2162,24 +1705,10 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
             <div class="cities-header city-text">Выбор региона</div>
 
             <div class="row">
-                <div class="col-sm-12 col-md-3">
-                    <div class="letter">А</div>
-                    <div id="rootА"></div>
 
-                    <div class="letter">Б</div>
-                    <div id="rootБ"></div>
-
-                    <div class="letter">В</div>
-                    <div id="rootВ"></div>
-
-                    <div class="letter">Г</div>
-                    <div id="rootГ"></div>
-
-                </div>
                 <div class="col-sm-12 col-md-3">
 
-                    <div class="letter">Е</div>
-                    <div id="rootЕ"></div>
+
 
                     <div class="letter">К</div>
                     <div id="rootК"></div>
@@ -2187,30 +1716,17 @@ $tel = preg_replace(['/\D/', '/^[78]/'], ['', '+7'], $phone);
                 </div>
 
                 <div class="col-sm-12 col-md-3">
-                    <div class="letter">М</div>
-                    <div id="rootМ"></div>
+
                     <div class="letter">Н</div>
                     <div id="rootН"></div>
 
-                    <div class="letter">Р</div>
-                    <div id="rootР"></div>
 
                 </div>
                 <div class="col-sm-12 col-md-3">
 
                     <div class="letter">С</div>
                     <div id="rootС"></div>
-                    <div class="letter">Т</div>
-                    <div id="rootТ"></div>
 
-                    <div class="letter">У</div>
-                    <div id="rootУ"></div>
-
-                    <div class="letter">Ш</div>
-                    <div id="rootШ"></div>
-
-                    <div class="letter">Э</div>
-                    <div id="rootЭ"></div>
                 </div>
             </div>
         </div>
